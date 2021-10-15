@@ -15,13 +15,17 @@ CREATE TABLE unit_changes2 AS
     FROM data_officerhistory, data_officer
     WHERE data_officerhistory.id = data_officer.id
     GROUP BY officer_id;
+```
 
-/* Find number of allegations on the 90 percentile */
+Then execute this code to find number of allegations on the 90 percentile:
+```
 SELECT DISTINCT
     PERCENTILE_Cont(0.9) WITHIN GROUP (ORDER BY sum_allegations)
 FROM unit_changes2;
+```
 
-/* Find average of transitions from unit for the 90 percentile */
+Then execute this code to find the average of transitions from unit for the 90 percentile with more allegations:
+```
 SELECT
     AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 64;
     
