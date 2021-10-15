@@ -2,7 +2,21 @@
 
 
 
-1. What is the correlation factor between the rank of an officer and the number of unsustained allegations that a police officer has ( normalised by number of years in the force of an officer)? 
+1. What is the correlation factor between the number of years in the force of an officer and the number of unsustained allegations that a police officer has? 
+
+```
+SELECT id, appointed_date,resignation_date, unsustained_count
+from data_officer
+```
+
+We are getting the correlation factor and we are using the current date of the active officer - the appointed date and then we made the unsustainted_count 0 counts null. We did this amongst all active officers:
+```
+SELECT CORR(diff, usc) FROM (
+SELECT (CURRENT_DATE::date - appointed_date::date)/365 AS DIFF, COALESCE(unsustained_count, 0) as usc
+FROM data_officer
+WHERE active = 'Yes') as temp;
+
+```
 
 
 
