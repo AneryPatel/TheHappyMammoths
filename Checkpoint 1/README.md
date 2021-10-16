@@ -24,26 +24,39 @@ WHERE active = 'Yes') as temp;
 
 ```
 CREATE TABLE unit_changes2 AS
-    SELECT count(data_officerhistory.unit_id) as unit_count, data_officerhistory.officer_id as off_id,
+    SELECT count(data_officerhistory.unit_id) as unit_count, data_officerhistory.officer_id,
             sum(data_officer.allegation_count) as sum_allegations
     FROM data_officerhistory, data_officer
     WHERE data_officerhistory.id = data_officer.id
     GROUP BY officer_id;
 ```
 
-Then execute this code to find number of allegations on the 90 percentile:
+Then execute this code to find number of allegations on the 75 percentile:
 ```
 SELECT DISTINCT
-    PERCENTILE_Cont(0.9) WITHIN GROUP (ORDER BY sum_allegations)
+    PERCENTILE_Cont(0.75) WITHIN GROUP (ORDER BY sum_allegations)
 FROM unit_changes2;
 ```
 
-Then execute this code to find the average of transitions from unit for the 90 percentile with more allegations:
+Then execute this code to find the average of transitions from unit for the 75 percentile with more allegations:
 ```
 SELECT
-    AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 64;
-    
+    AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 36;
 ```
+
+Then execute this code to find number of allegations on the 50 percentile:
+```
+SELECT DISTINCT
+    PERCENTILE_Cont(0.5) WITHIN GROUP (ORDER BY sum_allegations)
+FROM unit_changes2;
+```
+
+Then execute this code to find the average of transitions from unit between 50 and 75 percentile with more allegations:
+```
+SELECT
+    AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 15 and sum_allegations < 36;
+```
+
 
 3. Which are the top 5 neighborhoods with the most number of civilian complaints that have been unsustained? What percentage of unsustained complaints have each one from the total?
 
