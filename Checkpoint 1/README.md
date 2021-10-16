@@ -82,7 +82,7 @@ ON capita.area_id = complaints.area_id
 ORDER BY (complaintcount*1000/capitacount) DESC) as sub --6655
 ```
 
-Then we calculate the weight of each area to see which ones concentrate the most unsustained allegations and select the top 5:
+Then we calculate the weight of each area to see which ones concentrate the most unsustained allegations:
 ```
 SELECT sub.normalised_count/66.55 --this is the total count of the column derived in the above query
 FROM(
