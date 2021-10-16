@@ -15,7 +15,7 @@ ON civilian_complaints.allegation_id = data_officerallegation.allegation_id
 WHERE final_finding = 'UN' OR final_finding = 'EX' OR final_finding = 'NS'
 GROUP BY area_id) complaints
 ON capita.area_id = complaints.area_id
-ORDER BY (complaintcount*1000/capitacount) DESC) as sub --6655
+ORDER BY (complaintcount*1000/capitacount) DESC) as sub; --6655
 
 SELECT sub.normalised_count/66.55 --this is the total count of the column derived in the above query
 FROM(
@@ -34,4 +34,4 @@ ON civilian_complaints.allegation_id = data_officerallegation.allegation_id
 WHERE final_finding = 'UN' OR final_finding = 'EX' OR final_finding = 'NS'
 GROUP BY area_id) complaints
 ON capita.area_id = complaints.area_id
-ORDER BY (complaintcount*1000/capitacount) DESC) as sub
+ORDER BY (complaintcount*1000/capitacount) DESC) as sub;
