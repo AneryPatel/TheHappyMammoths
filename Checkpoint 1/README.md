@@ -23,9 +23,9 @@ WHERE active = 'Yes') as temp;
 2. What is the average number of times a frequently accused police officer changes the police department unit to another district?
 
 ```
-CREATE TABLE unit_changes2 AS
+CREATE TABLE unit_changes3 AS
     SELECT count(data_officerhistory.unit_id) as unit_count, data_officerhistory.officer_id,
-            sum(data_officer.allegation_count) as sum_allegations
+            sum(data_officer.unsustained_count) as sum_allegations
     FROM data_officerhistory, data_officer
     WHERE data_officerhistory.id = data_officer.id
     GROUP BY officer_id;
@@ -35,26 +35,26 @@ Then execute this code to find number of allegations on the 75 percentile:
 ```
 SELECT DISTINCT
     PERCENTILE_Cont(0.75) WITHIN GROUP (ORDER BY sum_allegations)
-FROM unit_changes2;
+FROM unit_changes3;
 ```
 
 Then execute this code to find the average of transitions from unit for the 75 percentile with more allegations:
 ```
 SELECT
-    AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 36;
+    AVG(unit_count) FROM unit_changes3 WHERE sum_allegations >= 16;
 ```
 
 Then execute this code to find number of allegations on the 50 percentile:
 ```
 SELECT DISTINCT
     PERCENTILE_Cont(0.5) WITHIN GROUP (ORDER BY sum_allegations)
-FROM unit_changes2;
+FROM unit_changes3;
 ```
 
 Then execute this code to find the average of transitions from unit between 50 and 75 percentile with more allegations:
 ```
 SELECT
-    AVG(unit_count) FROM unit_changes2 WHERE sum_allegations > 15 and sum_allegations < 36;
+    AVG(unit_count) FROM unit_changes3 WHERE sum_allegations >= 6 and sum_allegations < 16;
 ```
 
 
