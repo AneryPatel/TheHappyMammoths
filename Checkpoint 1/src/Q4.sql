@@ -5,4 +5,4 @@ FROM data_officerallegation
 JOIN data_award
 ON data_award.officer_id = data_officerallegation.officer_id
 WHERE final_finding = 'UN' OR final_finding = 'EX' OR final_finding = 'NS'
-GROUP BY data_officerallegation.officer_id) AS SUB
+GROUP BY data_officerallegation.officer_id) AS SUB;
