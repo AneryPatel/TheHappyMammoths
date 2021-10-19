@@ -3,7 +3,9 @@
 
 ## Pre-requisites
 
-For this checkpoint we will be using Tableu, a software that is necessary to have installed to be able to open the .twb files. When a .twb file is opened, you will need to connect to the cdpd database with the credentials:
+For this checkpoint we will be using Tableu, a software that is necessary to have installed to be able to open the .twb files. You can download it from the website: https://www.tableau.com/products/desktop/download
+
+When a .twb file is opened, you will need to connect to the cdpd database with the credentials:
 
 user: cpdbstudent
 pw: DataSci4AI
