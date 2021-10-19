@@ -1,1 +1,23 @@
 
+# Checkpoint 2
+
+## Pre-requisites
+
+For this checkpoint we will be using Tableu, a software that is necessary to have installed to be able to open the .twb files. When a .twb file is opened, you will need to connect to the cdpd database with the credentials:
+
+user: cpdbstudent
+pw: DataSci4AI
+
+
+### 1. Bar graph of civilian unsustained allegations in terms of years in the force of police officer
+
+The visualization for this question can be found in src file as XX.twb
+
+
+### 2. Heat map of neighborhoods that represent concentration of civilian unsustained allegations per capita when viewed in tandem with the median income of that area
+
+The visualization for this question can be found in src file, where you will see two files. The heatmap of unsustained allegations per capita pero neighborhood is in XX.twb and the heatmap of median income per neighborhood is in XX.twb
+
+
+
+
