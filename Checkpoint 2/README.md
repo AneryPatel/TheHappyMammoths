@@ -16,7 +16,7 @@ The visualization for this question can be found in src file as XX.twb
 
 ### 2. Heat map of neighborhoods that represent concentration of civilian unsustained allegations per capita when viewed in tandem with the median income of that area
 
-The visualization for this question can be found in src file, where you will see two files. The heatmap of unsustained allegations per capita pero neighborhood is in XX.twb and the heatmap of median income per neighborhood is in XX.twb
+The visualization for this question can be found in src file, where you will see two files. The heatmap of unsustained allegations per capita pero neighborhood is in Unsustained_allegations_percapita_heatmap.twb and the heatmap of median income per neighborhood is in Median_income_heatmap.twb
 
 
 
