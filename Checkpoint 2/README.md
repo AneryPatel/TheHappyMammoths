@@ -10,6 +10,8 @@ When a .twb file is opened, you will need to connect to the cdpd database with t
 user: cpdbstudent
 pw: DataSci4AI
 
+## Visualization
+
 
 ### 1. Bar graph of civilian unsustained allegations in terms of years in the force of police officer
 
