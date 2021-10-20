@@ -22,7 +22,7 @@ The visualization for this question can be found in src file as XX.twb
 
 The visualization for this question can be found in src file, where you will see two files. 
 
-To read the heatmap of unsustained allegations per capita pero neighborhood you have to open the file ```Unsustained_allegations_percapita_heatmap.twb```, is also neccesary to create a table in the database with the code in the file ``` Unsustained_percapita_table.sql ```
+To read the heatmap of unsustained allegations per capita per neighborhood you have to open the file ```Unsustained_allegations_percapita_heatmap.twb```, is also neccesary to create a table in the database with the code in the file ``` Unsustained_percapita_table.sql ```
 
 The heatmap of median income per neighborhood is in ```Median_income_heatmap.twb```
 
