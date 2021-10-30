@@ -23,3 +23,21 @@ FROM unit_changes3;
 /* Find average of transitions from unit for the percentile between 50 and 75 */
 SELECT
     AVG(unit_count) FROM unit_changes3 WHERE sum_allegations >= 6 and sum_allegations < 16;
+
+/* Find number of allegations on the 25 percentile */
+SELECT DISTINCT
+    PERCENTILE_Cont(0.25) WITHIN GROUP (ORDER BY sum_allegations)
+FROM unit_changes3;
+
+/* Find average of transitions from unit for the percentile between 25 and 50 */
+SELECT
+    AVG(unit_count) FROM unit_changes3 WHERE sum_allegations >= 1 and sum_allegations < 6;
+
+/* Find number of allegations on the 0 percentile */
+SELECT DISTINCT
+    PERCENTILE_Cont(0) WITHIN GROUP (ORDER BY sum_allegations)
+FROM unit_changes3;
+
+/* Find average of transitions from unit for the percentile between 0 and 25 */
+SELECT
+    AVG(unit_count) FROM unit_changes3 WHERE sum_allegations >= 0 and sum_allegations < 1;
