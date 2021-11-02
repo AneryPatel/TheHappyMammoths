@@ -92,13 +92,9 @@ def type_correction():
         if type(value) == pd._libs.tslibs.timestamps.Timestamp:
             df_trr_trrstatus_refresh.at[i, 'officer_appointed_date'] = value.strftime('%Y-%m-%d')
             #df_trr_trrstatus_refresh.at[i, 'officer_appointed_date'] = pd.to_datetime(value.strftime('%Y-%m-%d'), format='%Y-%m-%d')
-            print(type(df_trr_trrstatus_refresh.at[i, 'officer_appointed_date']))
+            #print(type(df_trr_trrstatus_refresh.at[i, 'officer_appointed_date']))
 
     #print(df_trr_refresh.dtypes)
 
     print(df_trr_trrstatus_refresh['officer_appointed_date'])
-
-
-
-
 
