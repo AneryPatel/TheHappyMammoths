@@ -53,4 +53,4 @@ def convert_date(dataframe, table):
         if type(value) == pd._libs.tslibs.timestamps.Timestamp:
             dataframe.at[i, table] = value.strftime('%Y-%m-%d')
 
-    print(dataframe[table])
+    return(dataframe[table])
