@@ -42,7 +42,7 @@ timestamp_status = type_correction2.convert_timestamp(df_trr_trrstatus_refresh,'
 date_trr_app_date = type_correction2.convert_date(df_trr_refresh,'officer_appointed_date')
 date_trr_status_app_date = type_correction2.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
 
-print(date_trr_app_date)
+print(timestamp_created)
 
 
 
