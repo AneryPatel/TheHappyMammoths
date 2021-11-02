@@ -1,14 +1,4 @@
-import psycopg2
-from sqlalchemy import create_engine
-import numpy as np
 import pandas as pd
-import datetime
-
-conn = psycopg2.connect(
-    host="codd01.research.northwestern.edu",
-    database="postgres",
-    user="cpdbstudent",
-    password="DataSci4AI")
 
 def convert_boolean(dataframe, table):
     for i, row in dataframe.iterrows():
