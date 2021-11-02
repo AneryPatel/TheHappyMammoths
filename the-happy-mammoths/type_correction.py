@@ -17,6 +17,7 @@ def type_correction():
     df_trr_trrstatus_refresh = pd.read_sql_query('select * from trr_trrstatus_refresh', con=conn)
     df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 
+
     #Convert Booleans
     trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 'subject_armed','subject_injured', 'subject_alleged_injury',
                       'notify_oemc','notify_district_sergeant', 'notify_op_command','notify_det_division']
@@ -67,7 +68,7 @@ def type_correction():
 
 
     #Convert dates
-    for i,row in df_trr_trrstatus_refresh.iterrows():
+    for i, row in df_trr_trrstatus_refresh.iterrows():
         value = row['officer_appointed_date']
 
         if len(value) > 8:
@@ -75,7 +76,7 @@ def type_correction():
         else:
             df_trr_trrstatus_refresh.at[i,'officer_appointed_date'] = pd.to_datetime(value, format='%m-%d-%y', errors='coerce')
 
-    for i,row in df_trr_refresh.iterrows():
+    for i, row in df_trr_refresh.iterrows():
         value = row['officer_appointed_date']
         if len(value) > 8:
             df_trr_refresh.at[i,'officer_appointed_date'] = pd.to_datetime(value, format='%Y-%b-%d', errors='coerce')
@@ -86,6 +87,7 @@ def type_correction():
         value = row['officer_appointed_date']
         if type(value) == pd._libs.tslibs.timestamps.Timestamp:
             df_trr_refresh.at[i, 'officer_appointed_date'] = value.strftime('%Y-%m-%d')
+            print(type(df_trr_refresh.at[i, 'officer_appointed_date']))
 
     for i, row in df_trr_trrstatus_refresh.iterrows():
         value = row['officer_appointed_date']
@@ -94,7 +96,11 @@ def type_correction():
             #df_trr_trrstatus_refresh.at[i, 'officer_appointed_date'] = pd.to_datetime(value.strftime('%Y-%m-%d'), format='%Y-%m-%d')
             #print(type(df_trr_trrstatus_refresh.at[i, 'officer_appointed_date']))
 
-    #print(df_trr_refresh.dtypes)
+    print(df_trr_refresh['officer_appointed_date'])
 
-    print(df_trr_trrstatus_refresh['officer_appointed_date'])
+    print(df_trr_refresh.dtypes)
+
+
+
+#conn.close()
 
