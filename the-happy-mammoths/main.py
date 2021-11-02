@@ -15,7 +15,13 @@ df_trr_weapondischarge_refresh = pd.read_sql_query('select * from trr_weapondisc
 df_trr_trrstatus_refresh = pd.read_sql_query('select * from trr_trrstatus_refresh', con=conn)
 df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 
-# List with tables by type
+# Replace 'Redacted' values to None
+df_trr_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_weapondischarge_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_trr.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_trrstatus_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+
+# List with columns by type
 trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 'subject_armed','subject_injured', 'subject_alleged_injury',
                       'notify_oemc','notify_district_sergeant', 'notify_op_command','notify_det_division']
 trr_boolean_weapon_tables =['firearm_reloaded','sight_used']
