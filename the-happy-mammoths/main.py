@@ -1,5 +1,4 @@
 import psycopg2
-from sqlalchemy import create_engine
 import numpy as np
 import pandas as pd
 import type_correction2
@@ -27,7 +26,7 @@ trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 
 trr_boolean_weapon_tables =['firearm_reloaded','sight_used']
 trr_integer_tables =['officer_age', 'beat', 'subject_birth_year', 'subject_age', 'officer_birth_year']
 
-
+"************** TYPE CORRECTION **************"
 #Convert booleans
 for table in trr_boolean_tables:
     type_correction2.convert_boolean(df_trr_refresh,table)
@@ -48,8 +47,10 @@ timestamp_status = type_correction2.convert_timestamp(df_trr_trrstatus_refresh,'
 date_trr_app_date = type_correction2.convert_date(df_trr_refresh,'officer_appointed_date')
 date_trr_status_app_date = type_correction2.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
 
-print(timestamp_created)
 
+"************** RECONCILIATION **************"
+
+# ADD RECONCILIATION FUNCTIONS HERE
 
 
 

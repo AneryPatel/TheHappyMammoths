@@ -24,20 +24,31 @@ def reconcile_subject_race(dataframe, table):
     dataframe[table].replace(to_replace='AMER INDIAN / ALASKAN NATIVE', value='NATIVE AMERICAN/ALASKAN NATIVE', inplace=True)
     return(dataframe[table])
 
-# Reconciliation subject_gender
-def reconcile_subject_gender(dataframe, table):
+# Reconciliation officer_race
+def reconcile_officer_race(dataframe, table):
+    dataframe[table] = dataframe[table].str.lower()
+    dataframe[table] = dataframe[table].str.title()
+    dataframe[table].replace(to_replace='Amer Ind/Alaskan Native', value='Native American/Alaskan Native', inplace=True)
+    dataframe[table].replace(to_replace='Black Hispanic', value='Black', inplace=True)
+    dataframe[table].replace(to_replace='White Hispanic', value='White', inplace=True)
+    dataframe[table].replace(to_replace='Asian/Pacific Islander', value='Asian/Pacific', inplace=True)
+    return(dataframe[table])
+
+# Reconciliation gender
+def reconcile_gender(dataframe, table):
     dataframe[table].replace(to_replace='FEMALE', value='F', inplace=True)
     dataframe[table].replace(to_replace='MALE', value='M', inplace=True)
     return (dataframe[table])
 
-# Reconciliation subject_birth_year
+# Reconciliation birth_year (subject, officer and status)
 def reconcile_birth_year(dataframe,table):
     for i, row in dataframe.iterrows():
         value = row[table]
-        value = float(value)
-        dataframe.at[i, table] = value
-        if value < 100 and value > 9:
-            dataframe.at[i,table] = 1900+value
+        if value != None:
+            value = float(value)
+            dataframe.at[i, table] = value
+            if value < 100 and value > 9:
+                dataframe.at[i,table] = 1900+value
     return(dataframe[table])
 
 #Reconcilation first name
@@ -56,10 +67,11 @@ def reconcile_last_name(dataframe,table):
 
 
 
-reconcile_birth_year(df_trr_refresh,'officer_birth_year')
+reconcile_first_name(df_trr_trrstatus_refresh,'officer_first_name')
 
-set_original = set(df_data_officer['birth_year'])
-set_difference = set(df_trr_refresh['officer_birth_year'])-set(df_data_officer['birth_year'])
+set_original = set(df_data_officer['first_name'])
+set_difference = set(df_trr_trrstatus_refresh['officer_first_name'])-set(df_data_officer['first_name'])
 
 print(set_difference)
+#print(set_original)
 
