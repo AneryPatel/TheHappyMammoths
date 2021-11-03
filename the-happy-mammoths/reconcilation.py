@@ -64,8 +64,15 @@ def reconcile_first_name(dataframe,table):
 def reconcile_last_name(dataframe,table):
     dataframe[table] = dataframe[table].str.lower()
     dataframe[table] = dataframe[table].str.title()
-    # Suffix
-    suffix_list = ['Jr','Sr','I',"Ii",'Iii','Iv','V']
+    dataframe[table] = dataframe[table].str.replace(' Jr', '',regex=True)
+    dataframe[table] = dataframe[table].str.replace(' Jr.', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' Sr', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' I', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' Ii', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' Iv', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' V', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace('. ', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace('.', '', regex=True)
     return(dataframe[table])
 
 # Reconciliation streets
@@ -101,10 +108,10 @@ def reconcile_street(dataframe,table):
     dataframe[table].replace(to_replace='Roosevelt', value='Roosevelt Dr', inplace=True)
     return (dataframe[table])
 
-reconcile_street(df_trr_refresh,'street')
+reconcile_last_name(df_trr_trrstatus_refresh,'officer_last_name')
 
-set_original = set(df_trr_trr['street'])
-set_difference = set(df_trr_refresh['street'])-set(df_trr_trr['street'])
+set_original = set(df_data_officer['last_name'])
+set_difference = set(df_trr_trrstatus_refresh['officer_last_name'])-set(df_data_officer['last_name'])
 
 #print(set(df_trr_refresh['officer_appointed_date']))
 print(set_difference)
