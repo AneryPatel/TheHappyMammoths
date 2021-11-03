@@ -79,12 +79,15 @@ rec.reconcile_last_name(df_trr_trrstatus_refresh,'officer_last_name')
 rec.reconcile_street(df_trr_refresh,'street')
 
 # Reconciliation locations
+rec.reconcile_location(df_trr_refresh, 'location')
 
 # Reconciliation indoor_or_outdoor
+df_trr_refresh.indoor_or_outdoor.replace(to_replace = 'OUTDOOR', value = 'Outdoor', inplace = True)
+df_trr_refresh.indoor_or_outdoor.replace(to_replace = 'INDOOR', value = 'Indoor', inplace = True)
 
-# Reconciliation party_fired_first
+# Reconciliation party_fired_first [No change]
 
-# Reconciliation subject weapon
+# Reconciliation subject weapon [No change]
 
 
 # Data Integration

@@ -77,6 +77,57 @@ def reconcile_last_name(dataframe,table):
     dataframe[table] = dataframe[table].str.replace('.', '', regex=True)
     return(dataframe[table])
 
+
+# Reconciliation locations
+def reconcile_location(dataframe, table):
+    dataframe['table'] = dataframe['table'].str.lower()
+    dataframe['table'] = dataframe['table'].str.title()
+    dataframe['table'] = dataframe['table'].str.replace(' / ', '/')
+
+    # 'Airport Terminal Mezzanine - Non-Secure Area', 'Airport Parking Lot' added
+
+    dataframe['table'].replace(to_replace='College/University Grounds', value='College/University - Grounds',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Other (Specify)', value='Other', inplace=True)
+    dataframe['table'].replace(to_replace='School - Public Grounds', value='School, Public, Grounds',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='School - Private Grounds', value='School, Private, Grounds',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='School - Private Building', value='School, Private, Building',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='School - Public Building', value='School, Public, Building',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Vehicle - Other Ride Share Service (Lyft, Uber, Etc.)',
+                                       value='Vehicle - Other Ride Service', inplace=True)
+    dataframe['table'].replace(to_replace='Residence - Porch/Hallway', value='Residence Porch/Hallway',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Residence - Yard (Front/Back)',
+                                       value='Residential Yard (Front/Back)', inplace=True)
+    dataframe['table'].replace(to_replace='Residence - Garage', value='Residence-Garage', inplace=True)
+    dataframe['table'].replace(to_replace='Cta Parking Lot/Garage/Other Property',
+                                       value='Cta Garage / Other Property', inplace=True)
+    dataframe['table'].replace(to_replace='Jail/Lock-Up Facility', value='Jail / Lock-Up Facility',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Nursing/Retirement Home', value='Nursing Home/Retirement Home',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Parking Lot/Garage (Non Residential)',
+                                       value='Parking Lot/Garage(Non.Resid.)', inplace=True)
+    dataframe['table'].replace(to_replace='Police Facility/Vehicle Parking Lot',
+                                       value='Police Facility/Veh Parking Lot', inplace=True)
+    dataframe['table'].replace(to_replace='Vehicle - Commercial', value='Vehicle-Commercial', inplace=True)
+    dataframe['table'].replace(to_replace='Other Railroad Property/Train Depot',
+                                       value='Other Railroad Prop / Train Depot', inplace=True)
+    dataframe['table'].replace(to_replace='Other Railroad Prop/Train Depot',
+                                       value='Other Railroad Prop / Train Depot', inplace=True)
+    dataframe['table'].replace(to_replace='College/University - Grounds', value='College/University Grounds',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Cta Garage/Other Property', value='Cta Garage / Other Property',
+                                       inplace=True)
+    dataframe['table'].replace(to_replace='Commercial/Business Office', value='Commercial / Business Office',
+                                       inplace=True)
+    return dataframe[table]
+
+
 # Reconciliation streets
 def reconcile_street(dataframe,table):
     dataframe[table] = dataframe[table].str.lower()
