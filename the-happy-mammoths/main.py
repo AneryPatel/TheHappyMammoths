@@ -100,44 +100,53 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 left = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year']
 right = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year']
 
-# Merge both tables
+# Merge both tables trying to match de 8 fields
 merged_df_refresh = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 merged_df_status = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 
 match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
 match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
 
-print(merged_df_refresh['id_y'].isna().sum())
-print(len(merged_df_refresh))
-print(match_rate_refresh, " Refresh match rate")
-print(merged_df_refresh.shape)
-print(match_rate_status, " Status match rate")
-print(merged_df_status.shape)
+print(match_rate_refresh, " Refresh match initial rate")
+print(match_rate_status, " Status match initial rate")
 
-# Change name of the column for officer ID
-#merged_df.rename(columns={"id_y": "officer_id"})
-#print(merged_df['officer_id'])
+# Make a subset with the officer_id = NULL and not NULL
+subset_merged_remaining = merged_df_refresh[merged_df_refresh['id_y'].isna()]
+subset_merged_matched = merged_df_refresh[merged_df_refresh['id_y'].notna()]
 
-# Try to find values for NULLS cells and increase matching rate
+# We remove the birth year and middle initial
+left_2 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
+right_2 = ['first_name','last_name', 'gender', 'race', 'appointed_date']
 
-# Delete rows: first_name, middle_initial, last_name, suffix_name (if applicable), gender, race, appointed_date, birth year
+# Merge again trying to match 5 fields
+merged_df_refresh_2 = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left_2, right_on = right_2)
+match_rate_refresh_2 = (len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum())/len(merged_df_refresh_2)
 
-# Save the new merged table in a CSV
-merged_df_refresh.to_csv('Integration_trr_refresh_result.csv', header=True, index= False, sep=',')
-merged_df_status.to_csv('Integration_trr_status_result.csv', header=True, index= False, sep=',')
+merged_df_status_2 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left_2, right_on = right_2)
+match_rate_status_2 = (len(merged_df_status_2) - merged_df_status_2['id'].isna().sum())/len(merged_df_status_2)
 
-# print(merged_df.columns)
-# print(merged_df['officer_last_name'])
-# print(merged_df['last_name'])
+print(match_rate_refresh_2, " Refresh match rate v2")
+print(match_rate_status_2, " Status match rate v2")
+print((len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum()))
 
-#print(merged_df['id_y'].isna().sum())
-# print(merged_df['id_y'])
+# We combine the first and the second tables with the matches
+for i, row in merged_df_refresh_2.iterrows():
+    value_id_x = row["id_x"]
+    value_id_y = row["id_y"]
+    if merged_df_refresh["id_y"][i] != None:
+        merged_df_refresh_2.iloc[i] = merged_df_refresh.iloc[i]
 
-# Cleaning: first name, last name, gender, race, appointed_date, unit
-#merged_df = merged_df.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
-#trr_drop = df_trr_trr.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
+for i, row in merged_df_status_2.iterrows():
+    if merged_df_status_2["id"][i] != None:
+        merged_df_status_2.iloc[i] = merged_df_status.iloc[i]
 
+# Delete rows: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
+merged_df_refresh_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'])
+merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'])
 
+# Save the final merged table in a CSV
+merged_df_refresh_2.to_csv('Integration_trr_refresh.csv', header=True, index= False, sep=',')
+merged_df_status_2.to_csv('Integration_trr_status.csv', header=True, index= False, sep=',')
 
 
 "************** LINK POLICE UNITS ID **************"
