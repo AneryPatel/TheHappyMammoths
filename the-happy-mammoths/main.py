@@ -1,7 +1,8 @@
 import psycopg2
 import numpy as np
 import pandas as pd
-import type_correction2
+import type_correction as tc
+import reconcilation as rec
 
 conn = psycopg2.connect(
     host="codd01.research.northwestern.edu",
@@ -29,30 +30,60 @@ trr_integer_tables =['officer_age', 'beat', 'subject_birth_year', 'subject_age',
 "************** TYPE CORRECTION **************"
 #Convert booleans
 for table in trr_boolean_tables:
-    type_correction2.convert_boolean(df_trr_refresh,table)
+    tc.convert_boolean(df_trr_refresh,table)
 
 for table in trr_boolean_weapon_tables:
-    type_correction2.convert_boolean(df_trr_weapondischarge_refresh,table)
+    tc.convert_boolean(df_trr_weapondischarge_refresh,table)
 
 #Convert integers
 for table in trr_integer_tables:
-    type_correction2.convert_integer(df_trr_refresh,table)
+    tc.convert_integer(df_trr_refresh,table)
 
 #Convert timestamp
-timestamp_created = type_correction2.convert_timestamp(df_trr_refresh,'trr_created')
-timestamp_datetime = type_correction2.convert_timestamp(df_trr_refresh,'trr_datetime')
-timestamp_status = type_correction2.convert_timestamp(df_trr_trrstatus_refresh,'status_datetime')
+timestamp_created = tc.convert_timestamp(df_trr_refresh,'trr_created')
+timestamp_datetime = tc.convert_timestamp(df_trr_refresh,'trr_datetime')
+timestamp_status = tc.convert_timestamp(df_trr_trrstatus_refresh,'status_datetime')
 
 #Convert dates
-date_trr_app_date = type_correction2.convert_date(df_trr_refresh,'officer_appointed_date')
-date_trr_status_app_date = type_correction2.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
+date_trr_app_date = tc.convert_date(df_trr_refresh,'officer_appointed_date')
+date_trr_status_app_date = tc.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
 
 
 "************** RECONCILIATION **************"
 
-# ADD RECONCILIATION FUNCTIONS HERE
+# Reconciliation race
+rec.reconcile_subject_race(df_trr_refresh,'subject_race')
+rec.reconcile_officer_race(df_trr_refresh,'officer_race')
+rec.reconcile_officer_race(df_trr_trrstatus_refresh,'officer_race')
 
+# Reconciliation gender
+rec.reconcile_gender(df_trr_refresh,'subject_gender')
+rec.reconcile_gender(df_trr_refresh,'officer_gender')
+rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_gender')
 
+# Reconciliation birth_year
+rec.reconcile_birth_year(df_trr_refresh,'subject_birth_year')
+rec.reconcile_birth_year(df_trr_refresh,'officer_birth_year')
+rec.reconcile_birth_year(df_trr_trrstatus_refresh,'officer_birth_year')
+
+# Reconciliation first name
+rec.reconcile_gender(df_trr_refresh,'officer_first_name')
+rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_first_name')
+
+# Reconciliation last name (PENDING)
+#rec.reconcile_gender(df_trr_refresh,'officer_last_name')
+#rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_last_name')
+
+# Reconciliation streets
+rec.reconcile_street(df_trr_refresh,'street')
+
+# Reconciliation locations
+
+# Reconciliation indoor_or_outdoor
+
+# Reconciliation party_fired_first
+
+# Reconciliation subject weapon
 
 
 
