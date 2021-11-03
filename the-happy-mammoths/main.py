@@ -82,8 +82,7 @@ rec.reconcile_street(df_trr_refresh,'street')
 rec.reconcile_location(df_trr_refresh, 'location')
 
 # Reconciliation indoor_or_outdoor
-df_trr_refresh.indoor_or_outdoor.replace(to_replace = 'OUTDOOR', value = 'Outdoor', inplace = True)
-df_trr_refresh.indoor_or_outdoor.replace(to_replace = 'INDOOR', value = 'Indoor', inplace = True)
+rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 
 # Reconciliation party_fired_first [No change]
 
@@ -110,7 +109,7 @@ print(merged_df.shape)
 
 # Cleaning: first name, last name, gender, race, appointed_date, unit
 merged_df = merged_df.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
-trr_drop = df_trr_trr.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
+#trr_drop = df_trr_trr.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
 
 print(merged_df.shape)
 print(df_data_officer.shape)
