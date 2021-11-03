@@ -70,7 +70,7 @@ rec.reconcile_birth_year(df_trr_trrstatus_refresh,'officer_birth_year')
 rec.reconcile_gender(df_trr_refresh,'officer_first_name')
 rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_first_name')
 
-# Reconciliation last name (PENDING)
+# Reconciliation last name
 rec.reconcile_gender(df_trr_refresh,'officer_last_name')
 rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_last_name')
 

@@ -69,6 +69,8 @@ def reconcile_last_name(dataframe,table):
     dataframe[table] = dataframe[table].str.replace(' Sr', '', regex=True)
     dataframe[table] = dataframe[table].str.replace(' I', '', regex=True)
     dataframe[table] = dataframe[table].str.replace(' Ii', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace('ii', '', regex=True)
+    dataframe[table] = dataframe[table].str.replace(' Iii', '', regex=True)
     dataframe[table] = dataframe[table].str.replace(' Iv', '', regex=True)
     dataframe[table] = dataframe[table].str.replace(' V', '', regex=True)
     dataframe[table] = dataframe[table].str.replace('. ', '', regex=True)
