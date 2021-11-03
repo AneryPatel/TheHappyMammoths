@@ -71,8 +71,8 @@ rec.reconcile_gender(df_trr_refresh,'officer_first_name')
 rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_first_name')
 
 # Reconciliation last name (PENDING)
-#rec.reconcile_gender(df_trr_refresh,'officer_last_name')
-#rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_last_name')
+rec.reconcile_gender(df_trr_refresh,'officer_last_name')
+rec.reconcile_gender(df_trr_trrstatus_refresh,'officer_last_name')
 
 # Reconciliation streets
 rec.reconcile_street(df_trr_refresh,'street')
