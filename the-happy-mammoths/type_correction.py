@@ -32,8 +32,6 @@ def convert_integer(dataframe, table):
         value = row[table]
         if value != None:
             dataframe.at[i, table] = int(value)
-        else:
-            dataframe.at[i, table] = None
     return(dataframe[table])
 
 def convert_timestamp(dataframe, table):

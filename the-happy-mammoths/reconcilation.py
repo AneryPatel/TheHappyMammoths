@@ -52,6 +52,8 @@ def reconcile_birth_year(dataframe,table):
                 dataframe.at[i,table] = 1900+value
             if value <= 10:
                 dataframe.at[i, table] = 2000 + value
+        else:
+            dataframe.at[i, table] = float(0)
     return(dataframe[table])
 
 # Reconciliation first name

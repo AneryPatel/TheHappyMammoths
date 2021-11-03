@@ -88,28 +88,39 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 
 # Reconciliation subject weapon [No change]
 
+#print(df_trr_refresh['officer_birth_year'])
+#print(df_data_officer['birth_year'])
+#print(df_trr_refresh['officer_birth_year'].isna().sum(), " Number of nulls")
+#print(df_trr_refresh['officer_birth_year'].count()," Total columns of refresh birthday")
+#print(df_data_officer['birth_year'].count(), " Total columns of officer birthday")
 
 "************** LINK OFFICER ID **************"
 
 # Define the columns we want to match from each table
-left = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
-right = ['first_name','last_name', 'gender', 'race', 'appointed_date']
+left = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year']
+right = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year']
 
 # Merge both tables
 merged_df_refresh = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 merged_df_status = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 
-match_rate_refresh = (merged_df_refresh['id_y'].sum() - merged_df_refresh['id_y'].isna().sum())/merged_df_refresh['id_y'].sum()
-match_rate_status = (merged_df_status['id'].sum() - merged_df_status['id'].isna().sum())/merged_df_status['id'].sum()
+match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
+match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
 
+print(merged_df_refresh['id_y'].isna().sum())
+print(len(merged_df_refresh))
 print(match_rate_refresh, " Refresh match rate")
+print(merged_df_refresh.shape)
 print(match_rate_status, " Status match rate")
+print(merged_df_status.shape)
 
 # Change name of the column for officer ID
 #merged_df.rename(columns={"id_y": "officer_id"})
 #print(merged_df['officer_id'])
 
-# Try to find values for NULLS cells
+# Try to find values for NULLS cells and increase matching rate
+
+# Delete rows: first_name, middle_initial, last_name, suffix_name (if applicable), gender, race, appointed_date, birth year
 
 # Save the new merged table in a CSV
 merged_df_refresh.to_csv('Integration_trr_refresh_result.csv', header=True, index= False, sep=',')
