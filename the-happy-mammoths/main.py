@@ -89,18 +89,33 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 # Reconciliation subject weapon [No change]
 
 
-# Data Integration
-#print(df_trr_refresh['officer_birth_year'])
-#print(df_data_officer['birth_year'])
+"************** LINK OFFICER ID **************"
 
-#print(df_trr_refresh.dtypes)
-#print(df_data_officer.dtypes)
+# Define the columns we want to match from each table
 left = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
 right = ['first_name','last_name', 'gender', 'race', 'appointed_date']
-# print(df_trr_refresh.shape)
-merged_df = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
-print(merged_df.shape)
-#print(merged_df.columns)
+
+# Merge both tables
+merged_df_refresh = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
+merged_df_status = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
+
+match_rate_refresh = (merged_df_refresh['id_y'].sum() - merged_df_refresh['id_y'].isna().sum())/merged_df_refresh['id_y'].sum()
+match_rate_status = (merged_df_status['id'].sum() - merged_df_status['id'].isna().sum())/merged_df_status['id'].sum()
+
+print(match_rate_refresh, " Refresh match rate")
+print(match_rate_status, " Status match rate")
+
+# Change name of the column for officer ID
+#merged_df.rename(columns={"id_y": "officer_id"})
+#print(merged_df['officer_id'])
+
+# Try to find values for NULLS cells
+
+# Save the new merged table in a CSV
+merged_df_refresh.to_csv('Integration_trr_refresh_result.csv', header=True, index= False, sep=',')
+merged_df_status.to_csv('Integration_trr_status_result.csv', header=True, index= False, sep=',')
+
+# print(merged_df.columns)
 # print(merged_df['officer_last_name'])
 # print(merged_df['last_name'])
 
@@ -108,13 +123,13 @@ print(merged_df.shape)
 # print(merged_df['id_y'])
 
 # Cleaning: first name, last name, gender, race, appointed_date, unit
-merged_df = merged_df.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
+#merged_df = merged_df.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
 #trr_drop = df_trr_trr.drop_duplicates(['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date'], keep='last')
 
-print(merged_df.shape)
-print(df_data_officer.shape)
-print(df_trr_refresh.shape)
-print(trr_drop.shape, "This is trr")
-merged_df.to_csv('Integration_result.csv', header=True, index= False, sep=',')
+
+
+
+"************** LINK POLICE UNITS ID **************"
+
 
 conn.close()
