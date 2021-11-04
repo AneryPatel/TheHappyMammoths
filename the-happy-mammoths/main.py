@@ -188,43 +188,6 @@ reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=Tr
 #print(match_rate_refresh, " Refresh match initial rate")
 #print(match_rate_status, " Status match initial rate")
 
-'''
-# Make a subset with the officer_id = NULL and not NULL
-subset_merged_remaining = merged_df_refresh[merged_df_refresh['id_y'].isna()]
-subset_merged_matched = merged_df_refresh[merged_df_refresh['id_y'].notna()]
-
-
-# We remove the birth year and middle initial
-left_2 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
-right_2 = ['first_name','last_name', 'gender', 'race', 'appointed_date']
-
-# Merge again trying to match 5 fields
-merged_df_refresh_2 = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left_2, right_on = right_2)
-match_rate_refresh_2 = (len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum())/len(merged_df_refresh_2)
-
-merged_df_status_2 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left_2, right_on = right_2)
-match_rate_status_2 = (len(merged_df_status_2) - merged_df_status_2['id'].isna().sum())/len(merged_df_status_2)
-
-print(match_rate_refresh_2, " Refresh match rate v2")
-print((len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum()))
-
-print(match_rate_status_2, " Status match rate v2")
-print((len(merged_df_status_2) - merged_df_status_2['id'].isna().sum()))
-'''
-# We combine the first and the second tables with the matches
-'''
-for i, row in merged_df_refresh.iterrows():
-    value_id_x = row['id_x']
-    value_id_y = row['id_y']
-    if value_id_y != None:
-        merged_df_refresh_2.iloc[i] = merged_df_refresh.iloc[i]
-
-for i, row in merged_df_status.iterrows():
-    value_id_y = row['id']
-
-    if value_id_y != None:
-        merged_df_status_2.iloc[i] = merged_df_status.iloc[i]
-'''
 
 
 "************** LINK POLICE UNITS ID **************"
