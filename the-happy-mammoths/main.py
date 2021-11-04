@@ -164,6 +164,17 @@ list_merged_status = [merged_df_status_1, merged_df_status_2, merged_df_status_3
 huge_merged_refresh = pd.concat(list_merged_refresh)
 huge_merged_status = pd.concat(list_merged_status)
 
+# We save just the matched on dataframe
+subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
+# Then, we remove the duplicates from this matched dataframe
+reduced_merged_refresh_matched = subset_merged_refresh_matched.astype(str).drop_duplicates()
+
+#reduced_merged_refresh = huge_merged_refresh.astype(str).drop_duplicates()
+#reduced_merged_status = huge_merged_status.astype(str).drop_duplicates()
+
+reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=True, index= False, sep=',')
+reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
+
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
 #match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
 

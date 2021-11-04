@@ -32,7 +32,7 @@ def add_suffix_column(dataframe, table):
         else:
             suffix_list.append('')
 
-    dataframe[table] = suffix_list
+    dataframe['officer_suffix_name'] = suffix_list
 
-    return(dataframe[table])
+    return(dataframe['officer_suffix_name'])
 
