@@ -11,9 +11,9 @@ conn = psycopg2.connect(
 
 df_trr_refresh = pd.read_sql_query("select * from trr_trr_refresh", con=conn)
 
-def add_suffix_column():
+def add_suffix_column(dataframe, table):
     suffix_list = []
-    for i in df_trr_refresh['officer_last_name']:
+    for i in dataframe[table]:
 
         if 'III' in i[-3:]:
             suffix_list.append('III')
@@ -32,10 +32,7 @@ def add_suffix_column():
         else:
             suffix_list.append('')
 
-    df_trr_refresh['officer_suffix_name'] = suffix_list
+    dataframe[table] = suffix_list
 
-    return(df_trr_refresh['officer_suffix_name'])
+    return(dataframe[table])
 
-#add_suffix_column()
-
-#print(df_trr_refresh['officer_suffix_name'])
