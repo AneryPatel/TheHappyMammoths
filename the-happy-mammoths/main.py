@@ -144,7 +144,17 @@ for i, row in merged_df_status.iterrows():
 '''
 
 # Delete rows: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
-merged_df_refresh_2 = merged_df_refresh_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
+merged_df_refresh_2 = merged_df_refresh_2.rename(columns = {"id_y": "officer_id", "id_x": "id"})
+rows_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
+                          'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
+                          'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
+                          'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
+                          'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
+                          'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
+                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at']
+
+
+merged_df_refresh_2 = merged_df_refresh_2.drop(rows_to_delete_refresh, axis=1)
 merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 # Save the final merged table in a CSV
