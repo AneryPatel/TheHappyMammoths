@@ -127,22 +127,25 @@ match_rate_status_2 = (len(merged_df_status_2) - merged_df_status_2['id'].isna()
 
 print(match_rate_refresh_2, " Refresh match rate v2")
 print(match_rate_status_2, " Status match rate v2")
-print((len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum()))
 
 # We combine the first and the second tables with the matches
-for i, row in merged_df_refresh_2.iterrows():
-    value_id_x = row["id_x"]
-    value_id_y = row["id_y"]
-    if merged_df_refresh["id_y"][i] != None:
+'''
+for i, row in merged_df_refresh.iterrows():
+    value_id_x = row['id_x']
+    value_id_y = row['id_y']
+    if value_id_y != None:
         merged_df_refresh_2.iloc[i] = merged_df_refresh.iloc[i]
 
-for i, row in merged_df_status_2.iterrows():
-    if merged_df_status_2["id"][i] != None:
+for i, row in merged_df_status.iterrows():
+    value_id_y = row['id']
+
+    if value_id_y != None:
         merged_df_status_2.iloc[i] = merged_df_status.iloc[i]
+'''
 
 # Delete rows: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
-merged_df_refresh_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'])
-merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'])
+merged_df_refresh_2 = merged_df_refresh_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
+merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 # Save the final merged table in a CSV
 merged_df_refresh_2.to_csv('Integration_trr_refresh.csv', header=True, index= False, sep=',')
