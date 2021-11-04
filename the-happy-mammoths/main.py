@@ -164,16 +164,19 @@ list_merged_status = [merged_df_status_1, merged_df_status_2, merged_df_status_3
 huge_merged_refresh = pd.concat(list_merged_refresh)
 huge_merged_status = pd.concat(list_merged_status)
 
-# We save just the matched on dataframe
+# We save just the matched on dataframe (id_y != None)
 subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
+
 # Then, we remove the duplicates from this matched dataframe
 reduced_merged_refresh_matched = subset_merged_refresh_matched.astype(str).drop_duplicates()
 
+#reduced_merged_refresh_matched = pd.subset_merged_refresh_matched(np.unique(subset_merged_refresh_matched), columns=subset_merged_refresh_matched.columns)
+#df.iloc[ind_list]
 #reduced_merged_refresh = huge_merged_refresh.astype(str).drop_duplicates()
 #reduced_merged_status = huge_merged_status.astype(str).drop_duplicates()
 
 reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=True, index= False, sep=',')
-reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
+#reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
 
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
 #match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
@@ -221,6 +224,7 @@ for i, row in merged_df_status.iterrows():
 
 
 "************** LINK POLICE UNITS ID **************"
+# **** WHEN WE FINISH WITH THE MERGING, CHANGE THE DATAFRAME FOR 'officer_unit_name' BE THE FINAL ONE
 # Transform the unit_name.data_policeunit to numbers
 df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('int64')
 merged_df_refresh_2['officer_unit_name'] = merged_df_refresh_2['officer_unit_name'].astype('int64')
