@@ -15,12 +15,16 @@ df_trr_weapondischarge_refresh = pd.read_sql_query('select * from trr_weapondisc
 df_trr_trrstatus_refresh = pd.read_sql_query('select * from trr_trrstatus_refresh', con=conn)
 df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 df_data_officer = pd.read_sql_query("select * from data_officer", con=conn)
+df_data_policeunit = pd.read_sql_query("select * from data_policeunit", con=conn)
 
 # Replace 'Redacted' values to None
 df_trr_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 df_trr_weapondischarge_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_weapondischarge_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 df_trr_trr.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_trrstatus_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
+df_trr_trrstatus_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 
 # List with columns by type
 trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 'subject_armed','subject_injured', 'subject_alleged_injury',
@@ -126,7 +130,10 @@ merged_df_status_2 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 match_rate_status_2 = (len(merged_df_status_2) - merged_df_status_2['id'].isna().sum())/len(merged_df_status_2)
 
 print(match_rate_refresh_2, " Refresh match rate v2")
+print((len(merged_df_refresh_2) - merged_df_refresh_2['id_y'].isna().sum()))
+
 print(match_rate_status_2, " Status match rate v2")
+print((len(merged_df_status_2) - merged_df_status_2['id'].isna().sum()))
 
 # We combine the first and the second tables with the matches
 '''
@@ -143,26 +150,38 @@ for i, row in merged_df_status.iterrows():
         merged_df_status_2.iloc[i] = merged_df_status.iloc[i]
 '''
 
-# Delete rows: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
+
+"************** LINK POLICE UNITS ID **************"
+# Transform the unit_name.data_policeunit to numbers
+df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('int64')
+merged_df_refresh_2['officer_unit_name'] = merged_df_refresh_2['officer_unit_name'].astype('int64')
+
+# Merge the tables: trr_trr_refresh and data_policeunit by unit_name
+merged_df_refresh_3 = pd.merge(merged_df_refresh_2, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_name', right_on = 'unit_name')
+
+# Set the new foreignkey: officer_unit_id = id.data_policeunit and officer_unit_detail_id = ???
+
+
+#
+
+'''
+# Delete columns: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
 merged_df_refresh_2 = merged_df_refresh_2.rename(columns = {"id_y": "officer_id", "id_x": "id"})
-rows_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
+columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
                           'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
                           'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
                           'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
                           'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
                           'unsustained_count', 'has_unique_name', 'created_at', 'updated_at']
-
-
-merged_df_refresh_2 = merged_df_refresh_2.drop(rows_to_delete_refresh, axis=1)
+merged_df_refresh_2 = merged_df_refresh_2.drop(columns_to_delete_refresh, axis=1)
 merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
+'''
+
 
 # Save the final merged table in a CSV
 merged_df_refresh_2.to_csv('Integration_trr_refresh.csv', header=True, index= False, sep=',')
+merged_df_refresh_3.to_csv('Integration_trr_refresh_3.csv', header=True, index= False, sep=',')
 merged_df_status_2.to_csv('Integration_trr_status.csv', header=True, index= False, sep=',')
-
-
-"************** LINK POLICE UNITS ID **************"
-
 
 conn.close()
