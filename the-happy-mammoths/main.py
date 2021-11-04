@@ -168,12 +168,16 @@ huge_merged_status = pd.concat(list_merged_status)
 subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
 
 # Then, we remove the duplicates from this matched dataframe
-reduced_merged_refresh_matched = subset_merged_refresh_matched.astype(str).drop_duplicates()
+index_to_keep = subset_merged_refresh_matched.astype(str).drop_duplicates().index
+print(index_to_keep)
+print(len(subset_merged_refresh_matched))
 
-#reduced_merged_refresh_matched = pd.subset_merged_refresh_matched(np.unique(subset_merged_refresh_matched), columns=subset_merged_refresh_matched.columns)
-#df.iloc[ind_list]
-#reduced_merged_refresh = huge_merged_refresh.astype(str).drop_duplicates()
-#reduced_merged_status = huge_merged_status.astype(str).drop_duplicates()
+# Filter by the index to keep
+reduced_merged_refresh_matched = subset_merged_refresh_matched.loc[index_to_keep]
+print(len(subset_merged_refresh_matched.loc[index_to_keep]))
+print(reduced_merged_refresh_matched)
+
+
 
 reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=True, index= False, sep=',')
 #reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
