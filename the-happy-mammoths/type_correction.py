@@ -36,7 +36,9 @@ def convert_integer(dataframe, table):
 
 def convert_timestamp(dataframe, table):
     dataframe[table] = pd.to_datetime(dataframe[table], utc=True)
-    dataframe[table] = dataframe[table].dt.strftime('%Y-%m-%d %I:%M:%S %p')
+    #dataframe[table] = dataframe[table].dt.strftime('%Y-%m-%d %I:%M:%S %p')
+    #dataframe[table] = datetime.datetime(dataframe[table].year, dataframe[table].month,dataframe[table].day,
+    #                                     dataframe[table].hour, dataframe[table].minute, dataframe[table].second)
 
     return(dataframe[table])
 

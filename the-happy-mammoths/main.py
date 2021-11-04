@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import type_correction as tc
 import reconcilation as rec
+import add_suffix as add_suffix
 
 conn = psycopg2.connect(
     host="codd01.research.northwestern.edu",
@@ -33,6 +34,12 @@ trr_boolean_weapon_tables =['firearm_reloaded','sight_used']
 trr_integer_tables =['officer_age', 'beat', 'subject_birth_year', 'subject_age', 'officer_birth_year']
 
 "************** TYPE CORRECTION **************"
+# Add suffix column
+df_trr_refresh['officer_suffix_name'] = add_suffix.add_suffix_column()
+
+print(df_trr_refresh['officer_suffix_name'])
+print(df_trr_refresh['officer_last_name'])
+
 #Convert booleans
 for table in trr_boolean_tables:
     tc.convert_boolean(df_trr_refresh,table)
@@ -44,7 +51,7 @@ for table in trr_boolean_weapon_tables:
 for table in trr_integer_tables:
     tc.convert_integer(df_trr_refresh,table)
 
-#Convert timestamp (STILL STRING OUTPUT)
+#Convert timestamp
 timestamp_created = tc.convert_timestamp(df_trr_refresh,'trr_created')
 timestamp_datetime = tc.convert_timestamp(df_trr_refresh,'trr_datetime')
 timestamp_status = tc.convert_timestamp(df_trr_trrstatus_refresh,'status_datetime')
@@ -92,19 +99,40 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 
 # Reconciliation subject weapon [No change]
 
-#print(df_trr_refresh['officer_birth_year'])
-#print(df_data_officer['birth_year'])
-#print(df_trr_refresh['officer_birth_year'].isna().sum(), " Number of nulls")
-#print(df_trr_refresh['officer_birth_year'].count()," Total columns of refresh birthday")
-#print(df_data_officer['birth_year'].count(), " Total columns of officer birthday")
+
 
 "************** LINK OFFICER ID **************"
 
 # Define the columns we want to match from each table
-left = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year']
-right = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year']
+left_0 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_0 = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
 
-# Merge both tables trying to match de 8 fields
+# Removing suffix_name
+left_1 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_1 = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year']
+# Removing birth_year
+left_2 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial', 'officer_suffix_name']
+right_2 = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial', 'suffix_name']
+# Removing middle_initial
+left_3 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date','officer_birth_year', 'officer_suffix_name']
+right_3 = ['first_name','last_name', 'gender', 'race', 'appointed_date','birth_year', 'suffix_name']
+# Removing appointed_date
+left_4 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_4 =['first_name','last_name', 'gender', 'race', 'middle_initial','birth_year', 'suffix_name']
+# Removing race
+left_5 = ['officer_first_name','officer_last_name', 'officer_gender','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_5 = ['first_name','last_name', 'gender', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
+# Removing gender
+left_6 = ['officer_first_name','officer_last_name', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_6 = ['first_name','last_name', 'race', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
+# Removing last_name
+left_7 = ['officer_first_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_7 =['first_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
+# Removing first_name
+left_8 = ['officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
+right_8 = ['last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
+
+# Iteration to merge both tables trying to match 7 fields
 merged_df_refresh = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 merged_df_status = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left, right_on = right)
 
@@ -162,7 +190,6 @@ merged_df_refresh_3 = pd.merge(merged_df_refresh_2, df_data_policeunit[['unit_na
 # Set the new foreignkey: officer_unit_id = id.data_policeunit and officer_unit_detail_id = ???
 
 
-#
 
 '''
 # Delete columns: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
