@@ -194,11 +194,11 @@ remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
 # Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
 join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
-join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
+#join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
 
-print(len(remaining_2))
-print(len(reduced_merged_status_matched))
-print(join_match_status)
+#print(len(remaining_2))
+#print(len(reduced_merged_status_matched))
+#print(join_match_status)
 
 
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
@@ -239,7 +239,7 @@ merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_ref
 
 # Save the final merged table in a CSV
 merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
-join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
-merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
+#join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
+#merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
 
 conn.close()
