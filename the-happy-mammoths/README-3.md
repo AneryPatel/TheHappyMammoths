@@ -5,18 +5,23 @@ For this project we updated a Tactical Response Reports in CPDB. In this assignm
 
 
 ## Setup
-In this assignment, we used Python 3.9. The libraries that we used in order to clean and integrate our data was pandas, numpy, psycopg2, and type_correction. Our database depends on the postgres database.
-The psycopg2 and postgre databse were installed hand-in-hand. This was the way we were able to use sql queries in a a Python script. We used a PostgreSQL database cluster in our code. The psycopg2 adapter for PostgreSQL makes it easy to get connected to a database with just a few lines of code
+In this assignment, we used Python 3.9. The libraries that we used in order to clean and integrate our data was ```pandas``` and ```psycopg2```. Our database depends on the postgres database.
+The psycopg2 and postgre database were installed hand-in-hand. This was the way we were able to use sql queries in a a Python script. We used a ```PostgreSQL``` database cluster in our code. The psycopg2 adapter for PostgreSQL makes it easy to get connected to a database with just a few lines of code
 
 
 ## Data Cleaning
-Type-corecting
+Type-correction
 
 For our Data Cleaning of our database we first cleaned the data to line it up with already exsisting records. We first started with the process of type correcting our data. We started to type correct by importing datetime, psycopg2, and pandas libraries in order to type-correct our data. We corrected our datatypes from trr. We want to make the Yes or No values into boolean values that of 0 or 1. We convert the integers, timestamps and the dates in order for them to match the data in the original tables
 
+You can find this code in ```type_correction.py```, that will be automatically run by the ```main.py```
+
 Reconciliation
 
-We reconcile each of the data sections that include the subject's race, officer's race, gender, birth year, first name, last name, locations, and streets. For each of these sections we reconciled each of these topics from the following tables of df_trr_trr_refresh,df_trr_weapondischarge_refresh,df_trr_trrstatus_refresh,df_trr_trr,df_data_officer and converting them to dataframe in order to ultimately reconcile the data.
+We reconcile each of the data sections that include the subject's race, officer's race, gender, birth year, first name, last name, locations, and streets. For each of these sections we reconciled each of these topics from the following tables of ```df_trr_trr_refresh```, ```df_trr_weapondischarge_refresh```, ```df_trr_trrstatus_refresh```, ```df_trr_trr```, ```df_data_officer``` and converting them to dataframe in order to ultimately reconcile the data.
+
+You can find this code in ```reconciliation.py```, that will be automatically run by the ```main.py```
+
 
 ## Data Integration
 
