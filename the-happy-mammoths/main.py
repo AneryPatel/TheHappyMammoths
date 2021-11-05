@@ -210,7 +210,7 @@ join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
 
 
 "************** LINK POLICE UNITS ID **************"
-# **** WHEN WE FINISH WITH THE MERGING, CHANGE THE DATAFRAME FOR 'officer_unit_name' BY THE FINAL ONE
+
 # Transform the unit_name.data_policeunit to numbers
 df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('float64')
 join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('float64')
@@ -228,8 +228,7 @@ merged_refresh_and_police = pd.merge(merged_refresh_and_police, df_data_policeun
 # Rename some columns again
 merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id"})
 
-
-# Delete columns: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
+# Delete columns not relevant for trr
 columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
                           'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
@@ -241,7 +240,6 @@ columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix
 merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_refresh, axis=1)
 
 #merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
-
 
 # Save the final merged table in a CSV
 merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
