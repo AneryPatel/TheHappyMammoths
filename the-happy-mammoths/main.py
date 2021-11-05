@@ -5,6 +5,8 @@ import type_correction as tc
 import reconcilation as rec
 import add_suffix as add_suffix
 
+print("***** Connecting to CDDPB Postgres database  *****")
+
 # ----- Connect to the PostgreSQL Database -------
 conn = psycopg2.connect(
     host="codd01.research.northwestern.edu",
@@ -30,6 +32,7 @@ df_trr_trrstatus_refresh.replace(to_replace = 'Redacted', value = None, inplace 
 df_trr_trrstatus_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 
 "************** TYPE CORRECTION **************"
+print("***** Beginning type correction  *****")
 
 # ----- Store the columns we need to typecast -----
 trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 'subject_armed','subject_injured', 'subject_alleged_injury',
@@ -63,10 +66,11 @@ timestamp_status = tc.convert_timestamp(df_trr_trrstatus_refresh,'status_datetim
 # ----- Typecast dates -----
 date_trr_app_date = tc.convert_date(df_trr_refresh,'officer_appointed_date')
 date_trr_status_app_date = tc.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
-
+print("***** Type correction finished *****")
 
 "************** RECONCILIATION **************"
 
+print("***** Beginning reconciliation *****")
 # Reconciliation race
 rec.reconcile_subject_race(df_trr_refresh,'subject_race')
 rec.reconcile_officer_race(df_trr_refresh,'officer_race')
@@ -102,9 +106,11 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 # Reconciliation party_fired_first [No change]
 
 # Reconciliation subject weapon [No change]
-
+print("***** Reconciliation finished *****")
 
 "************** LINK OFFICER ID **************"
+
+print("***** Beginning integration with Officer_id *****")
 
 # Define the columns we want to match from each table
 left_0 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
@@ -198,7 +204,7 @@ remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
 # ----- Join the matches from 7 rotations, matches from 5 column fields and the remaining unmatched rows ----
 join_match_refresh = pd.concat([subset_merged_refresh_matched, remaining], ignore_index=True)
-join_match_status = pd.concat([subset_merged_status_matched, remaining_2], ignore_index=True)
+join_match_status = pd.concat([subset_merged_status_matched, merged_df_status_9], ignore_index=True)
 
 # ----- Remove duplicates after merge and concat -----
 join_match_refresh = join_match_refresh.loc[join_match_refresh.astype(str).drop_duplicates().index]
@@ -214,13 +220,11 @@ join_match_status = join_match_status.loc[index_to_keep_3]
 #
 # print(match_rate_refresh, " Refresh match initial rate")
 # print(match_rate_status, " Status match initial rate")
-
+print("***** Integration with Officer_id finished *****")
 
 "************** LINK POLICE UNITS ID **************"
+print("***** Beginning integration with Officer_unit_id and Officer_unit_detail_id *****")
 # Transform the unit_name.data_policeunit to numbers
-print(df_data_policeunit.dtypes)
-print(join_match_refresh['officer_unit_name'].dtypes)
-print(join_match_refresh['officer_unit_detail'].dtypes)
 df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('float64')
 join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('float64')
 join_match_refresh['officer_unit_detail'] = join_match_refresh['officer_unit_detail'].astype('float64')
@@ -239,10 +243,11 @@ merged_refresh_and_police['officer_id'] = merged_refresh_and_police['officer_id'
 merged_refresh_and_police = merged_refresh_and_police.rename(columns={"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id", "cr_number": "crid", "event_number": "event_id","notify_oemc": "notify_OEMC","notify_op_command": "notify_OP_command","notify_det_division": "notify_DET_division"})
 keep_columns = ["id", "crid", "event_id", "beat", "block", "direction", "street", "location", "trr_datetime", "indoor_or_outdoor", "lighting_condition", "weather_condition", "notify_OEMC", "notify_district_sergeant", "notify_OP_command", "notify_DET_division", "party_fired_first", "officer_assigned_beat", "officer_on_duty", "officer_in_uniform", "officer_injured", "officer_rank", "subject_armed", "subject_injured", "subject_alleged_injury", "subject_age", "subject_birth_year", "subject_gender", "subject_race", "officer_id", "officer_unit_id", "officer_unit_detail_id", "point"]
 trr = merged_refresh_and_police[keep_columns]
-print(trr.columns)
 
+print("***** Integration with Officer_unit_id and Officer_unit_detail_id finished *****")
 
 "************** CLEANING FORMAT **************"
+print("***** Final format cleaning *****")
 # Cleaning trr_refresh
 merged_refresh_and_police = merged_refresh_and_police.rename(columns={"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id", "cr_number": "crid", "event_number": "event_id","notify_oemc": "notify_OEMC","notify_op_command": "notify_OP_command","notify_det_division": "notify_DET_division"})
 keep_columns = ["id", "crid", "event_id", "beat", "block", "direction", "street", "location", "trr_datetime", "indoor_or_outdoor", "lighting_condition", "weather_condition", "notify_OEMC", "notify_district_sergeant", "notify_OP_command", "notify_DET_division", "party_fired_first", "officer_assigned_beat", "officer_on_duty", "officer_in_uniform", "officer_injured", "officer_rank", "subject_armed", "subject_injured", "subject_alleged_injury", "subject_age", "subject_birth_year", "subject_gender", "subject_race", "officer_id", "officer_unit_id", "officer_unit_detail_id", "point"]
@@ -253,8 +258,8 @@ keep_columns_2 =["officer_rank", "star", "status", "status_datetime", "officer_i
 join_match_status = join_match_status.rename(columns={"officer_star":"star", "id":"officer_id", "trr_report_id":"trr_id" })
 trr_status = join_match_status[keep_columns_2]
 trr_status = trr_status.rename(columns={"officer_rank":"rank"})
-print(trr_status.columns)
 
+print("***** Verifying foreign keys *****")
 "************** VERIFY FOREIGN KEYS **************"
 df_actionresponse_refresh = pd.read_sql_query("select * from trr_actionresponse_refresh", con=conn)
 df_subjectweapon_refresh = pd.read_sql_query("select * from trr_subjectweapon_refresh", con=conn)
@@ -263,16 +268,9 @@ df_charge_refresh = pd.read_sql_query("select * from trr_charge_refresh", con=co
 # df_trr_trrstatus_refresh
 
 
-
 def verify_foreign_key(dataframe, table):
     dataframe = dataframe[dataframe[table].isin(trr['id'])]
     return(dataframe)
-
-print(len(df_trr_trrstatus_refresh))
-print(len(df_actionresponse_refresh))
-print(len(df_subjectweapon_refresh))
-print(len(df_charge_refresh))
-print(len(df_trr_weapondischarge_refresh))
 
 verified_actionresponse = verify_foreign_key(df_actionresponse_refresh, 'trr_report_id')
 verified_subjectweapon = verify_foreign_key(df_subjectweapon_refresh, 'trr_report_id')
@@ -280,14 +278,17 @@ verified_charge = verify_foreign_key(df_charge_refresh, 'trr_report_id')
 verified_weapondischarge = verify_foreign_key(df_trr_weapondischarge_refresh, 'trr_report_id')
 verified_status = verify_foreign_key(df_trr_trrstatus_refresh, 'trr_report_id')
 
-print(len(verified_status))
-print(len(verified_actionresponse))
-print(len(verified_subjectweapon))
-print(len(verified_charge))
-print(len(verified_weapondischarge))
+print(trr.columns)
+print(verified_actionresponse.columns)
+print(verified_charge.columns)
+print(verified_weapondischarge.columns)
+print(verified_status.columns)
+print(verified_subjectweapon.columns)
 
 
 "************** SAVE ALL THE FILES **************"
+
+print("***** Downloading output into CSV files *****")
 
 trr.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
 verified_charge.to_csv('./output/trr-charge.csv', header=True, index= False, sep=',')
@@ -297,3 +298,5 @@ verified_actionresponse.to_csv('./output/trr-actionresponse.csv', header=True, i
 verified_subjectweapon.to_csv('./output/trr-subjectweapon.csv', header=True, index= False, sep=',')
 
 conn.close()
+
+print("***** Code ran successfully! *****")
