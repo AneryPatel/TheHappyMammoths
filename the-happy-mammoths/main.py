@@ -212,25 +212,31 @@ join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
 "************** LINK POLICE UNITS ID **************"
 # **** WHEN WE FINISH WITH THE MERGING, CHANGE THE DATAFRAME FOR 'officer_unit_name' BY THE FINAL ONE
 # Transform the unit_name.data_policeunit to numbers
-df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('int64')
-join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('int64')
+df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('float64')
+join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('float64')
+join_match_refresh['officer_unit_detail'] = join_match_refresh['officer_unit_detail'].astype('float64')
+
+# Rename some columns to avoid conflict
+join_match_refresh = join_match_refresh.rename(columns = {"id_y": "officer_id", "id_x": "id_main"})
 
 # Merge the tables: trr_trr_refresh and data_policeunit by unit_name
 merged_refresh_and_police = pd.merge(join_match_refresh, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_name', right_on = 'unit_name')
 
 # Add office_unit_detail_id
-######################################################
+merged_refresh_and_police = pd.merge(merged_refresh_and_police, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_detail', right_on = 'unit_name')
+
+# Rename some columns again
+merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id"})
 
 
 # Delete columns: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
-merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_y": "officer_id", "id_x": "id", "id": "officer_unit_id"})
 columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
                           'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
                           'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
                           'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
                           'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
-                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at', 'unit_name', 'officer_suffix_name']
+                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at', 'unit_name_x','unit_name_y', 'officer_suffix_name']
 
 merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_refresh, axis=1)
 
