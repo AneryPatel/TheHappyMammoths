@@ -12,7 +12,7 @@ The psycopg2 and postgre database were installed hand-in-hand. This was the way 
 ## Data Cleaning
 ### Type-correction
 
-For our Data Cleaning of our database we first cleaned the data to line it up with already exsisting records. We first started with the process of type correcting our data. We started to type correct by importing datetime, psycopg2, and pandas libraries in order to type-correct our data. We corrected our datatypes from trr. We want to make the Yes or No values into boolean values that of 0 or 1. We convert the integers, timestamps and the dates in order for them to match the data in the original tables
+For our Data Cleaning of our database we first cleaned the data to line it up with already exsisting records. We first started with the process of type correcting our data. We started to type correct by importing ```psycopg2``` and ```pandas``` libraries in order to type-correct our data. We corrected our datatypes from trr. We want to make the Yes or No values into boolean values that of 0 or 1. We convert the integers, timestamps and the dates in order for them to match the data in the original tables
 
 You can find this code in ```type_correction.py```, that will be automatically run by the ```main.py```
 
@@ -25,17 +25,18 @@ You can find this code in ```reconciliation.py```, that will be automatically ru
 
 ## Data Integration
 
-Linking the Officer Ids
+### Linking the Officer Ids
 
-We needed to match the officers filing the TRRs (data in trr_trr_refresh) and the ones updating the status of a TRR (in trr_trrstatus_refresh) with their IDs in data_officer. In order to achieve this measure, we first defined the columns that we want to match so the program will know which table to link for the specifc id. We then want to remove the suffix names from left to right for each table column. We then iterated both tables trying to match the 7 fields. We then merge the results from all 8 rotations, drop the duplicates from the dataframe containing results from the merge. We then filter out the matched rows and unmatched rows. After we have performed matches in 7 rotations, we try using five fields to match the remaining unmatched rows and then filter out the matched rows from the 7 rotations. We then join the matches from 7 rotations, the matches from the 5 columns and the remaning unmatched rows. We then need to remove duplicates after the merge and concatination. At last we calculate the match rate for both the tables to finsh the linking of the officer Ids.
+We needed to match the officers filing the TRRs (data in ```trr_trr_refresh```) and the ones updating the status of a TRR (in ```trr_trrstatus_refresh```) with their IDs in data_officer. In order to achieve this measure, we first defined the columns that we want to match so the program will know which table to link for the specifc id. We then want to remove the suffix names from left to right for each table column. We then iterated both tables trying to match the 7 fields. We then merge the results from all 8 rotations, drop the duplicates from the dataframe containing results from the merge. We then filter out the matched rows and unmatched rows. After we have performed matches in 7 rotations, we try using five fields to match the remaining unmatched rows and then filter out the matched rows from the 7 rotations. We then join the matches from 7 rotations, the matches from the 5 columns and the remaning unmatched rows. We then need to remove duplicates after the merge and concatination. At last we calculate the match rate for both the tables to finsh the linking of the officer Ids.
 
-Linking Police Units ID
+### Linking Police Units ID
 
-We first start by transforming the unit_name.data_policeunit to numbers by joining the matched officer unit detail data and then merge the tables of trr_trr_refresh and data_policeunit by unit_name. This will then makeup our newly merged offficer unit detail id.
+We first start by transforming the ```unit_name.data_policeunit``` to numbers by joining the matched officer unit detail data and then merge the tables of ```trr_trr_refresh``` and ```data_policeunit``` by ```unit_name```. This will then makeup our newly merged officer unit detail id.
 
-Cleaning Format
+### Cleaning Format
 
 From our previous steps we are allowed to clean our trr_refresh and trr_status tables.
+
 ## Foreign key verification
 
 For our Foreign Key Verification specifically in python we looked to pare our trr_trr_refresh table with our ID column. We then called the pairing IDs and then checked if all the values in the tables exisisted in IDs and deleted the rows that did not exisit.
