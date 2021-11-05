@@ -20,8 +20,6 @@ df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 df_data_officer = pd.read_sql_query("select * from data_officer", con=conn)
 df_data_policeunit = pd.read_sql_query("select * from data_policeunit", con=conn)
 
-
-
 # ------Replace 'Redacted' values to None -------
 df_trr_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
@@ -198,12 +196,9 @@ merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 id_x_matched = subset_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
-# id_x_matched_2 = subset_merged_status_matched['id']
-# remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
-
 # ----- Join the matches from 7 rotations, matches from 5 column fields and the remaining unmatched rows ----
 join_match_refresh = pd.concat([subset_merged_refresh_matched, remaining], ignore_index=True)
-join_match_status = pd.concat([subset_merged_status_matched,merged_df_status_9], ignore_index=True)
+join_match_status = pd.concat([subset_merged_status_matched, remaining_2], ignore_index=True)
 
 # ----- Remove duplicates after merge and concat -----
 join_match_refresh = join_match_refresh.loc[join_match_refresh.astype(str).drop_duplicates().index]
@@ -248,7 +243,17 @@ print(trr.columns)
 
 
 "************** CLEANING FORMAT **************"
+# Cleaning trr_refresh
+merged_refresh_and_police = merged_refresh_and_police.rename(columns={"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id", "cr_number": "crid", "event_number": "event_id","notify_oemc": "notify_OEMC","notify_op_command": "notify_OP_command","notify_det_division": "notify_DET_division"})
+keep_columns = ["id", "crid", "event_id", "beat", "block", "direction", "street", "location", "trr_datetime", "indoor_or_outdoor", "lighting_condition", "weather_condition", "notify_OEMC", "notify_district_sergeant", "notify_OP_command", "notify_DET_division", "party_fired_first", "officer_assigned_beat", "officer_on_duty", "officer_in_uniform", "officer_injured", "officer_rank", "subject_armed", "subject_injured", "subject_alleged_injury", "subject_age", "subject_birth_year", "subject_gender", "subject_race", "officer_id", "officer_unit_id", "officer_unit_detail_id", "point"]
+trr = merged_refresh_and_police[keep_columns]
 
+# Cleaning trr_status
+keep_columns_2 =["officer_rank", "star", "status", "status_datetime", "officer_id", "trr_id"]
+join_match_status = join_match_status.rename(columns={"officer_star":"star", "id":"officer_id", "trr_report_id":"trr_id" })
+trr_status = join_match_status[keep_columns_2]
+trr_status = trr_status.rename(columns={"officer_rank":"rank"})
+print(trr_status.columns)
 
 "************** VERIFY FOREIGN KEYS **************"
 df_actionresponse_refresh = pd.read_sql_query("select * from trr_actionresponse_refresh", con=conn)
@@ -256,6 +261,7 @@ df_subjectweapon_refresh = pd.read_sql_query("select * from trr_subjectweapon_re
 df_charge_refresh = pd.read_sql_query("select * from trr_charge_refresh", con=conn)
 # df_trr_weapondischarge_refresh
 # df_trr_trrstatus_refresh
+
 
 
 def verify_foreign_key(dataframe, table):
