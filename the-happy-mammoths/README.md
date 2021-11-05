@@ -17,7 +17,7 @@ For our Data Cleaning of our database we first cleaned the data to line it up wi
 
 Reconciliation
 
-We reconcile each of the data sections that include the subject's race, officer's race, gender, birth year, first name, last name, locations, and streets. For each of these sections we reconciled each of these topics from the following tables of df_trr_trr_refresh,df_trr_weapondischarge_refresh,df_trr_trrstatus_refresh,df_trr_trr,df_data_officer and converting them to dataframe in order to ultimately reconcile the data.
+We reconcile each of the data sections that include the subject's race, officer's race, gender, birth year, first name, last name, locations, and streets. For each of these sections we reconciled each of these topics from the following tables of ```df_trr_trr_refresh```, df_trr_weapondischarge_refresh,df_trr_trrstatus_refresh,df_trr_trr,df_data_officer and converting them to dataframe in order to ultimately reconcile the data.
 
 ## Data Integration
 
