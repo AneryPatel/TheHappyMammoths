@@ -58,5 +58,3 @@ def convert_date(dataframe, table):
             dataframe.at[i, table] = datetime.date(value.year,value.month, value.day)
 
     return(dataframe[table])
-
-#print(convert_date(df_trr_refresh,'officer_appointed_date'))

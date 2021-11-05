@@ -150,12 +150,4 @@ def reconcile_in_outdoor(dataframe, table):
     dataframe[table].replace(to_replace = 'INDOOR', value = 'Indoor', inplace = True)
     return (dataframe[table])
 
-#reconcile_last_name(df_trr_trrstatus_refresh,'officer_last_name')
-
-#set_original = set(df_data_officer['last_name'])
-#set_difference = set(df_trr_trrstatus_refresh['officer_last_name'])-set(df_data_officer['last_name'])
-
-#print(set(df_trr_refresh['officer_appointed_date']))
-#print(set_difference)
-#print(set_original)
 
