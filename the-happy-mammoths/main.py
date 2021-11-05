@@ -163,14 +163,17 @@ huge_merged_status = pd.concat(list_merged_status)
 
 # We save just the matched on dataframe (id_y != None)
 subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
+subset_merged_status_matched = huge_merged_status[huge_merged_status['id'].notna()]
 
 # Then, we remove the duplicates from this matched dataframe
 index_to_keep = subset_merged_refresh_matched.astype(str).drop_duplicates().index
+index_to_keep_2 = subset_merged_status_matched.astype(str).drop_duplicates().index
 #print(index_to_keep)
 #print(len(subset_merged_refresh_matched))
 
 # Filter by the index to keep
 reduced_merged_refresh_matched = subset_merged_refresh_matched.loc[index_to_keep]
+reduced_merged_status_matched = subset_merged_status_matched.loc[index_to_keep_2]
 #print(len(subset_merged_refresh_matched.loc[index_to_keep]))
 #print(reduced_merged_refresh_matched)
 
@@ -185,14 +188,17 @@ merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 id_x_matched = reduced_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
-# Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
-join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining] )
-print(len(remaining))
-print(len(reduced_merged_refresh_matched))
-print(join_match_refresh)
+id_x_matched_2 = reduced_merged_status_matched['trr_report_id']
+remaining_2 = merged_df_status_9[~merged_df_status_9['trr_report_id'].isin(id_x_matched_2)]
 
-join_match_refresh.to_csv('Integration_trr_refresh_final.csv', header=True, index= False, sep=',')
-#reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
+# Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
+join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
+join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
+
+print(len(remaining_2))
+print(len(reduced_merged_status_matched))
+print(join_match_status)
+
 
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
 #match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
@@ -211,27 +217,26 @@ join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'
 # Merge the tables: trr_trr_refresh and data_policeunit by unit_name
 merged_refresh_and_police = pd.merge(join_match_refresh, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_name', right_on = 'unit_name')
 
-# Set the new foreignkey: officer_unit_id = id.data_policeunit and officer_unit_detail_id = ???
+# Add office_unit_detail_id
+######################################################
 
 
-
-'''
 # Delete columns: first_name, middle_initial, last_name, suffix_name, gender, race, appointed_date, birth year
-merged_df_refresh_2 = merged_df_refresh_2.rename(columns = {"id_y": "officer_id", "id_x": "id"})
+merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_y": "officer_id", "id_x": "id", "id": "officer_unit_id"})
 columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
                           'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
                           'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
                           'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
                           'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
-                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at']
-merged_df_refresh_2 = merged_df_refresh_2.drop(columns_to_delete_refresh, axis=1)
-merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
-'''
+                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at', 'unit_name', 'officer_suffix_name']
+merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_refresh, axis=1)
+
+#merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 
 # Save the final merged table in a CSV
 merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
-
+join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
 
 conn.close()
