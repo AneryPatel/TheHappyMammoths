@@ -248,26 +248,10 @@ trr_status = join_match_status[keep_columns_2]
 trr_status = trr_status.rename(columns={"officer_rank":"rank"})
 print(trr_status.columns)
 
-# Delete columns not relevant for trr
-# columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
-#                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
-#                           'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
-#                           'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
-#                           'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
-#                           'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
-#                           'unsustained_count', 'has_unique_name', 'created_at', 'updated_at', 'unit_name_x','unit_name_y', 'officer_suffix_name']
-
 
 # Save the final merged table in a CSV
-trr.to_csv('trr-trr.csv', header=True, index= False, sep=',')
-trr_status.to_csv('trr_status.csv', header=True, index= False, sep=',')
-
-#join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
-#merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
-
-
-# join_match_refresh.to_csv('./output/trr-trr.csv', header = True, index = False)
-# join_match_status.to_csv('./output/trr-trrstatus.csv', header = True, index = False)
+trr.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
+trr_status.to_csv('./output/trr-trrstatus.csv', header=True, index= False, sep=',')
 
 
 "************** VERFIY FOREIGN KEYS **************"
