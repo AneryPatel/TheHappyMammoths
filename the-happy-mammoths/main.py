@@ -228,6 +228,8 @@ merged_refresh_and_police = pd.merge(merged_refresh_and_police, df_data_policeun
 # Rename some columns again
 merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id"})
 
+
+"************** CLEANING FORMAT **************"
 # Delete columns not relevant for trr
 columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
