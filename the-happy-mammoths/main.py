@@ -159,7 +159,10 @@ list_merged_status = [merged_df_status_1, merged_df_status_2, merged_df_status_3
                       merged_df_status_6, merged_df_status_7, merged_df_status_8]
 
 huge_merged_refresh = pd.concat(list_merged_refresh)
+huge_merged_refresh = huge_merged_refresh.reset_index(drop=True)
+
 huge_merged_status = pd.concat(list_merged_status)
+huge_merged_status = huge_merged_status.reset_index(drop=True)
 
 # We save just the matched on dataframe (id_y != None)
 subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
@@ -168,14 +171,10 @@ subset_merged_status_matched = huge_merged_status[huge_merged_status['id'].notna
 # Then, we remove the duplicates from this matched dataframe
 index_to_keep = subset_merged_refresh_matched.astype(str).drop_duplicates().index
 index_to_keep_2 = subset_merged_status_matched.astype(str).drop_duplicates().index
-print(index_to_keep_2)
-print(len(subset_merged_status_matched))
 
-# Filter by the index to keep (NOT DOING ANYTHING)
+# Filter by the index to keep
 reduced_merged_refresh_matched = subset_merged_refresh_matched.loc[index_to_keep]
 reduced_merged_status_matched = subset_merged_status_matched.loc[index_to_keep_2]
-print(len(subset_merged_status_matched.loc[index_to_keep_2]))
-#print(reduced_merged_refresh_matched)
 
 # After having the match using 7 rotating fields, we also want to apply the matching using the 5 main fields
 left_9 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
@@ -188,17 +187,13 @@ merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 id_x_matched = reduced_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
-# VERIFICAR INDEX THE ID NOT NULL
-#id_x_matched_2 = reduced_merged_status_matched['id']
-#remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
-
 # Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
 join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
-#join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
-
-#print(len(remaining_2))
-#print(len(reduced_merged_status_matched))
-#print(join_match_status)
+join_match_status = pd.concat([reduced_merged_status_matched,merged_df_status_9])
+join_match_status = join_match_status.reset_index(drop=True)
+join_match_status = join_match_status.replace({'None': '', 'nan': ''}, regex=True)
+index_to_keep_3 = join_match_status.astype(str).drop_duplicates().index
+join_match_status = join_match_status.loc[index_to_keep_3]
 
 
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
@@ -244,8 +239,7 @@ merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_ref
 #merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 # Save the final merged table in a CSV
-merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
-#join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
-#merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
+merged_refresh_and_police.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
+join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
 
 conn.close()
