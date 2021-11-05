@@ -1,5 +1,3 @@
-import pandas as pd
-
 def add_suffix_column(dataframe, table):
     suffix_list = []
     for i in dataframe[table]:

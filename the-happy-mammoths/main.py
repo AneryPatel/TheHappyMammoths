@@ -20,6 +20,8 @@ df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 df_data_officer = pd.read_sql_query("select * from data_officer", con=conn)
 df_data_policeunit = pd.read_sql_query("select * from data_policeunit", con=conn)
 
+
+
 # ------Replace 'Redacted' values to None -------
 df_trr_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
@@ -44,13 +46,16 @@ df_trr_trrstatus_refresh['officer_suffix_name'] = add_suffix.add_suffix_column(d
 # ----- Typecast boolean columns -----
 for table in trr_boolean_tables:
     tc.convert_boolean(df_trr_refresh,table)
+    df_trr_refresh[table] = df_trr_refresh[table].astype('bool')
 
 for table in trr_boolean_weapon_tables:
     tc.convert_boolean(df_trr_weapondischarge_refresh,table)
+    df_trr_weapondischarge_refresh[table] = df_trr_weapondischarge_refresh[table].astype('bool')
 
 # ----- Typecast integers -----
 for table in trr_integer_tables:
     tc.convert_integer(df_trr_refresh,table)
+    # df_trr_refresh[table] = df_trr_refresh[table].astype('Int64')
 
 # ----- Typecast timestamp -----
 timestamp_created = tc.convert_timestamp(df_trr_refresh,'trr_created')
@@ -193,16 +198,20 @@ merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 id_x_matched = subset_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
-id_x_matched_2 = subset_merged_status_matched['id']
-remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
+# id_x_matched_2 = subset_merged_status_matched['id']
+# remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
 
 # ----- Join the matches from 7 rotations, matches from 5 column fields and the remaining unmatched rows ----
 join_match_refresh = pd.concat([subset_merged_refresh_matched, remaining], ignore_index=True)
-join_match_status = pd.concat([subset_merged_status_matched, remaining_2], ignore_index=True)
+join_match_status = pd.concat([subset_merged_status_matched,merged_df_status_9], ignore_index=True)
 
 # ----- Remove duplicates after merge and concat -----
 join_match_refresh = join_match_refresh.loc[join_match_refresh.astype(str).drop_duplicates().index]
-join_match_status = join_match_status.loc[join_match_status.astype(str).drop_duplicates().index]
+
+join_match_status = join_match_status.reset_index(drop=True)
+join_match_status = join_match_status.replace({'None': '', 'nan': ''}, regex=True)
+index_to_keep_3 = join_match_status.astype(str).drop_duplicates().index
+join_match_status = join_match_status.loc[index_to_keep_3]
 
 # ---- Calculate match rate for both the tables -----
 # match_rate_refresh = (len(join_match_refresh) - join_match_refresh['id_y'].isna().sum())/len(join_match_refresh)
@@ -214,6 +223,9 @@ join_match_status = join_match_status.loc[join_match_status.astype(str).drop_dup
 
 "************** LINK POLICE UNITS ID **************"
 # Transform the unit_name.data_policeunit to numbers
+print(df_data_policeunit.dtypes)
+print(join_match_refresh['officer_unit_name'].dtypes)
+print(join_match_refresh['officer_unit_detail'].dtypes)
 df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('float64')
 join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('float64')
 join_match_refresh['officer_unit_detail'] = join_match_refresh['officer_unit_detail'].astype('float64')
@@ -226,32 +238,56 @@ merged_refresh_and_police = pd.merge(join_match_refresh, df_data_policeunit[['un
 
 # Add office_unit_detail_id
 merged_refresh_and_police = pd.merge(merged_refresh_and_police, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_detail', right_on = 'unit_name')
+merged_refresh_and_police['officer_unit_name'] = merged_refresh_and_police['officer_unit_name'].astype('Int64')
+merged_refresh_and_police['officer_id'] = merged_refresh_and_police['officer_id'].astype('Int64')
 
-# Rename some columns again
-merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id"})
+merged_refresh_and_police = merged_refresh_and_police.rename(columns={"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id", "cr_number": "crid", "event_number": "event_id","notify_oemc": "notify_OEMC","notify_op_command": "notify_OP_command","notify_det_division": "notify_DET_division"})
+keep_columns = ["id", "crid", "event_id", "beat", "block", "direction", "street", "location", "trr_datetime", "indoor_or_outdoor", "lighting_condition", "weather_condition", "notify_OEMC", "notify_district_sergeant", "notify_OP_command", "notify_DET_division", "party_fired_first", "officer_assigned_beat", "officer_on_duty", "officer_in_uniform", "officer_injured", "officer_rank", "subject_armed", "subject_injured", "subject_alleged_injury", "subject_age", "subject_birth_year", "subject_gender", "subject_race", "officer_id", "officer_unit_id", "officer_unit_detail_id", "point"]
+trr = merged_refresh_and_police[keep_columns]
+print(trr.columns)
 
 
 "************** CLEANING FORMAT **************"
-# Delete columns not relevant for trr
-columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
-                          'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
-                          'officer_appointed_date','officer_birth_year','officer_unit_name', 'officer_unit_detail', 'trr_created','latitude',
-                          'longitude', 'rank','active','tags', 'resignation_date', 'complaint_percentile', 'middle_initial2', 'civilian_allegation_percentile',
-                          'honorable_mention_percentile','internal_allegation_percentile','trr_percentile','allegation_count', 'sustained_count', 'civilian_compliment_count',
-                          'current_badge','current_salary', 'discipline_count', 'honorable_mention_count', 'last_unit_id', 'major_award_count', 'trr_count',
-                          'unsustained_count', 'has_unique_name', 'created_at', 'updated_at', 'unit_name_x','unit_name_y', 'officer_suffix_name']
-
-merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_refresh, axis=1)
-
-#merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
-
-# Save the final merged table in a CSV
-merged_refresh_and_police.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
-#join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
-#merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
 
 
-# join_match_refresh.to_csv('./output/trr-trr.csv', header = True, index = False)
-# join_match_status.to_csv('./output/trr-trrstatus.csv', header = True, index = False)
+"************** VERIFY FOREIGN KEYS **************"
+df_actionresponse_refresh = pd.read_sql_query("select * from trr_actionresponse_refresh", con=conn)
+df_subjectweapon_refresh = pd.read_sql_query("select * from trr_subjectweapon_refresh", con=conn)
+df_charge_refresh = pd.read_sql_query("select * from trr_charge_refresh", con=conn)
+# df_trr_weapondischarge_refresh
+# df_trr_trrstatus_refresh
+
+
+def verify_foreign_key(dataframe, table):
+    dataframe = dataframe[dataframe[table].isin(trr['id'])]
+    return(dataframe)
+
+print(len(df_trr_trrstatus_refresh))
+print(len(df_actionresponse_refresh))
+print(len(df_subjectweapon_refresh))
+print(len(df_charge_refresh))
+print(len(df_trr_weapondischarge_refresh))
+
+verified_actionresponse = verify_foreign_key(df_actionresponse_refresh, 'trr_report_id')
+verified_subjectweapon = verify_foreign_key(df_subjectweapon_refresh, 'trr_report_id')
+verified_charge = verify_foreign_key(df_charge_refresh, 'trr_report_id')
+verified_weapondischarge = verify_foreign_key(df_trr_weapondischarge_refresh, 'trr_report_id')
+verified_status = verify_foreign_key(df_trr_trrstatus_refresh, 'trr_report_id')
+
+print(len(verified_status))
+print(len(verified_actionresponse))
+print(len(verified_subjectweapon))
+print(len(verified_charge))
+print(len(verified_weapondischarge))
+
+
+"************** SAVE ALL THE FILES **************"
+
+trr.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
+verified_charge.to_csv('./output/trr-charge.csv', header=True, index= False, sep=',')
+verified_weapondischarge.to_csv('./output/trr-weapondischarge.csv', header=True, index= False, sep=',')
+verified_status.to_csv('./output/trr-trrstatus.csv', header=True, index= False, sep=',')
+verified_actionresponse.to_csv('./output/trr-actionresponse.csv', header=True, index= False, sep=',')
+verified_subjectweapon.to_csv('./output/trr-subjectweapon.csv', header=True, index= False, sep=',')
 
 conn.close()

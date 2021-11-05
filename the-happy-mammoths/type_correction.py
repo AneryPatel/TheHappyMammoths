@@ -24,10 +24,11 @@ def convert_boolean(dataframe, table):
             dataframe.at[i, table] = False
         elif value == 'N':
             dataframe.at[i, table] = False
-
+        # dataframe.at[i, table] = bool(dataframe.at[i,table])
     return(dataframe[table])
 
 def convert_integer(dataframe, table):
+    # dataframe[table] = dataframe[table].astype(int)
     for i, row in dataframe.iterrows():
         value = row[table]
         if value != None:

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="592b300d-3f53-4c39-9ecc-5f5f1643771d" name="Changes" comment="">
+    <list default="true" id="592b300d-3f53-4c39-9ecc-5f5f1643771d" name="Changes" comment="Updated trr_refresh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-happy-mammoths/add_suffix.py" beforeDir="false" afterPath="$PROJECT_DIR$/the-happy-mammoths/add_suffix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-happy-mammoths/data_integration.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/the-happy-mammoths/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/the-happy-mammoths/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/the-happy-mammoths/reconcilation.py" beforeDir="false" afterPath="$PROJECT_DIR$/the-happy-mammoths/reconcilation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/the-happy-mammoths/type_correction.py" beforeDir="false" afterPath="$PROJECT_DIR$/the-happy-mammoths/type_correction.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
       <recent name="$PROJECT_DIR$/the-happy-mammoths/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.main">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="TheHappyMammoths" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,6 +80,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the-happy-mammoths/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_ana" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TheHappyMammoths" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/the-happy-mammoths" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/the-happy-mammoths/main_ana.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,11 +159,13 @@
       <item itemvalue="Python.check" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.main_ana" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main_ana" />
         <item itemvalue="Python.check" />
         <item itemvalue="Python.reconciliation_Anery" />
       </list>
@@ -154,8 +181,16 @@
       <updated>1635902186829</updated>
       <workItem from="1635902188681" duration="3277000" />
       <workItem from="1635961418288" duration="1638000" />
-      <workItem from="1636058799382" duration="13866000" />
+      <workItem from="1636058799382" duration="25757000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated trr_refresh">
+      <created>1636129341707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636129341707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,10 +208,15 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated trr_refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated trr_refresh" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TheHappyMammoths$check.coverage" NAME="check Coverage Results" MODIFIED="1635962150428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths" />
-    <SUITE FILE_PATH="coverage/TheHappyMammoths$main.coverage" NAME="main Coverage Results" MODIFIED="1636129117528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths" />
+    <SUITE FILE_PATH="coverage/TheHappyMammoths$main_ana.coverage" NAME="main_ana Coverage Results" MODIFIED="1636141396661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths" />
+    <SUITE FILE_PATH="coverage/TheHappyMammoths$main.coverage" NAME="main Coverage Results" MODIFIED="1636142058961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths" />
     <SUITE FILE_PATH="coverage/TheHappyMammoths$reconciliation_Anery.coverage" NAME="reconciliation_Anery Coverage Results" MODIFIED="1635903127245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths" />
-    <SUITE FILE_PATH="coverage/TheHappyMammoths$test.coverage" NAME="test Coverage Results" MODIFIED="1636129248494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths/src" />
+    <SUITE FILE_PATH="coverage/TheHappyMammoths$test.coverage" NAME="test Coverage Results" MODIFIED="1636144861024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/the-happy-mammoths/src" />
   </component>
 </project>
