@@ -98,13 +98,10 @@ rec.reconcile_in_outdoor(df_trr_refresh, 'indoor_or_outdoor')
 # Reconciliation subject weapon [No change]
 
 
-
 "************** LINK OFFICER ID **************"
 
 # Define the columns we want to match from each table
-left_0 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year', 'officer_suffix_name']
-right_0 = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year', 'suffix_name']
-
+# MATCH USING 7 ROTATING FIELDS
 # Removing suffix_name
 left_1 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date', 'officer_middle_initial','officer_birth_year']
 right_1 = ['first_name','last_name', 'gender', 'race', 'appointed_date', 'middle_initial','birth_year']
@@ -169,17 +166,32 @@ subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].
 
 # Then, we remove the duplicates from this matched dataframe
 index_to_keep = subset_merged_refresh_matched.astype(str).drop_duplicates().index
-print(index_to_keep)
-print(len(subset_merged_refresh_matched))
+#print(index_to_keep)
+#print(len(subset_merged_refresh_matched))
 
 # Filter by the index to keep
 reduced_merged_refresh_matched = subset_merged_refresh_matched.loc[index_to_keep]
-print(len(subset_merged_refresh_matched.loc[index_to_keep]))
-print(reduced_merged_refresh_matched)
+#print(len(subset_merged_refresh_matched.loc[index_to_keep]))
+#print(reduced_merged_refresh_matched)
 
+# After having the match using 7 rotating fields, we also want to apply the matching using the 5 main fields
+left_9 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
+right_9 = ['first_name','last_name', 'gender', 'race', 'appointed_date']
 
+merged_df_refresh_9 = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left_9, right_on = right_9)
+merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left_9, right_on = right_9)
 
-reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=True, index= False, sep=',')
+# We remove the rows that are repeated in the merge of 7 fields (already matched)
+id_x_matched = reduced_merged_refresh_matched['id_x']
+remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
+
+# Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
+join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining] )
+print(len(remaining))
+print(len(reduced_merged_refresh_matched))
+print(join_match_refresh)
+
+join_match_refresh.to_csv('Integration_trr_refresh_final.csv', header=True, index= False, sep=',')
 #reduced_merged_status.to_csv('Integration_trr_status_9.csv', header=True, index= False, sep=',')
 
 #match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
@@ -191,13 +203,13 @@ reduced_merged_refresh_matched.to_csv('Integration_trr_refresh_9.csv', header=Tr
 
 
 "************** LINK POLICE UNITS ID **************"
-# **** WHEN WE FINISH WITH THE MERGING, CHANGE THE DATAFRAME FOR 'officer_unit_name' BE THE FINAL ONE
+# **** WHEN WE FINISH WITH THE MERGING, CHANGE THE DATAFRAME FOR 'officer_unit_name' BY THE FINAL ONE
 # Transform the unit_name.data_policeunit to numbers
 df_data_policeunit['unit_name'] = df_data_policeunit['unit_name'].astype('int64')
-merged_df_refresh_2['officer_unit_name'] = merged_df_refresh_2['officer_unit_name'].astype('int64')
+join_match_refresh['officer_unit_name'] = join_match_refresh['officer_unit_name'].astype('int64')
 
 # Merge the tables: trr_trr_refresh and data_policeunit by unit_name
-merged_df_refresh_3 = pd.merge(merged_df_refresh_2, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_name', right_on = 'unit_name')
+merged_refresh_and_police = pd.merge(join_match_refresh, df_data_policeunit[['unit_name','id']], how = 'left', left_on = 'officer_unit_name', right_on = 'unit_name')
 
 # Set the new foreignkey: officer_unit_id = id.data_policeunit and officer_unit_detail_id = ???
 
@@ -219,8 +231,7 @@ merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'l
 
 
 # Save the final merged table in a CSV
-merged_df_refresh_2.to_csv('Integration_trr_refresh.csv', header=True, index= False, sep=',')
-merged_df_refresh_3.to_csv('Integration_trr_refresh_3.csv', header=True, index= False, sep=',')
-merged_df_status_2.to_csv('Integration_trr_status.csv', header=True, index= False, sep=',')
+merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
+
 
 conn.close()
