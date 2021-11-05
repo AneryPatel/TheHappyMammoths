@@ -5,12 +5,14 @@ import type_correction as tc
 import reconcilation as rec
 import add_suffix as add_suffix
 
+# ----- Connect to the PostgreSQL Database -------
 conn = psycopg2.connect(
     host="codd01.research.northwestern.edu",
     database="postgres",
     user="cpdbstudent",
     password="DataSci4AI")
 
+# ------ Import tables into dataframes --------
 df_trr_refresh = pd.read_sql_query("select * from trr_trr_refresh", con=conn)
 df_trr_weapondischarge_refresh = pd.read_sql_query('select * from trr_weapondischarge_refresh', con=conn)
 df_trr_trrstatus_refresh = pd.read_sql_query('select * from trr_trrstatus_refresh', con=conn)
@@ -18,7 +20,7 @@ df_trr_trr = pd.read_sql_query("select * from trr_trr", con=conn)
 df_data_officer = pd.read_sql_query("select * from data_officer", con=conn)
 df_data_policeunit = pd.read_sql_query("select * from data_policeunit", con=conn)
 
-# Replace 'Redacted' values to None
+# ------Replace 'Redacted' values to None -------
 df_trr_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 df_trr_weapondischarge_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
@@ -27,34 +29,36 @@ df_trr_trr.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_trrstatus_refresh.replace(to_replace = 'Redacted', value = None, inplace = True)
 df_trr_trrstatus_refresh.replace(to_replace = 'REDACTED', value = None, inplace = True)
 
-# List with columns by type
+"************** TYPE CORRECTION **************"
+
+# ----- Store the columns we need to typecast -----
+
 trr_boolean_tables = ['officer_on_duty','officer_injured','officer_in_uniform', 'subject_armed','subject_injured', 'subject_alleged_injury',
                       'notify_oemc','notify_district_sergeant', 'notify_op_command','notify_det_division']
 trr_boolean_weapon_tables =['firearm_reloaded','sight_used']
 trr_integer_tables =['officer_age', 'beat', 'subject_birth_year', 'subject_age', 'officer_birth_year']
 
-"************** TYPE CORRECTION **************"
-# Add suffix column
+# ----- Add suffix column -----
 df_trr_refresh['officer_suffix_name'] = add_suffix.add_suffix_column(df_trr_refresh,'officer_last_name')
 df_trr_trrstatus_refresh['officer_suffix_name'] = add_suffix.add_suffix_column(df_trr_trrstatus_refresh,'officer_last_name')
 
-# Convert booleans
+# ----- Typecast boolean columns -----
 for table in trr_boolean_tables:
     tc.convert_boolean(df_trr_refresh,table)
 
 for table in trr_boolean_weapon_tables:
     tc.convert_boolean(df_trr_weapondischarge_refresh,table)
 
-# Convert integers
+# ----- Typecast integers -----
 for table in trr_integer_tables:
     tc.convert_integer(df_trr_refresh,table)
 
-# Convert timestamp
+# ----- Typecast timestamp -----
 timestamp_created = tc.convert_timestamp(df_trr_refresh,'trr_created')
 timestamp_datetime = tc.convert_timestamp(df_trr_refresh,'trr_datetime')
 timestamp_status = tc.convert_timestamp(df_trr_trrstatus_refresh,'status_datetime')
 
-# Convert dates
+# ----- Typecast dates -----
 date_trr_app_date = tc.convert_date(df_trr_refresh,'officer_appointed_date')
 date_trr_status_app_date = tc.convert_date(df_trr_trrstatus_refresh,'officer_appointed_date')
 
@@ -158,41 +162,54 @@ list_merged_refresh = [merged_df_refresh_1, merged_df_refresh_2, merged_df_refre
 list_merged_status = [merged_df_status_1, merged_df_status_2, merged_df_status_3, merged_df_status_4, merged_df_status_5,
                       merged_df_status_6, merged_df_status_7, merged_df_status_8]
 
-huge_merged_refresh = pd.concat(list_merged_refresh)
-huge_merged_status = pd.concat(list_merged_status)
+# ---- Merging results from all 8 rotations ----
+huge_merged_refresh = pd.concat(list_merged_refresh, ignore_index=True)
+huge_merged_status = pd.concat(list_merged_status, ignore_index=True)
 
-# We save just the matched on dataframe (id_y != None)
+# --- Drop duplicates from the dataframe containing results from merge -----
+index_to_keep = huge_merged_refresh.astype(str).drop_duplicates().index
+huge_merged_refresh = huge_merged_refresh.loc[index_to_keep]
+
+index_to_keep = huge_merged_status.astype(str).drop_duplicates().index
+huge_merged_status = huge_merged_status.loc[index_to_keep]
+
+# ----- Filter out the matched rows -----
 subset_merged_refresh_matched = huge_merged_refresh[huge_merged_refresh['id_y'].notna()]
 subset_merged_status_matched = huge_merged_status[huge_merged_status['id'].notna()]
 
-# Then, we remove the duplicates from this matched dataframe
-index_to_keep = subset_merged_refresh_matched.astype(str).drop_duplicates().index
-index_to_keep_2 = subset_merged_status_matched.astype(str).drop_duplicates().index
-print(index_to_keep_2)
-print(len(subset_merged_status_matched))
+# ----- Filter out the unmatched rows -----
+subset_merged_refresh_unmatched = huge_merged_refresh[~huge_merged_refresh['id_y'].notna()]
+subset_merged_status_unmatched = huge_merged_status[~huge_merged_status['id'].notna()]
 
-# Filter by the index to keep (NOT DOING ANYTHING)
-reduced_merged_refresh_matched = subset_merged_refresh_matched.loc[index_to_keep]
-reduced_merged_status_matched = subset_merged_status_matched.loc[index_to_keep_2]
-print(len(subset_merged_status_matched.loc[index_to_keep_2]))
-#print(reduced_merged_refresh_matched)
-
-# After having the match using 7 rotating fields, we also want to apply the matching using the 5 main fields
+# ----- After performing matches in 7 rotations, we try using 5 fields to match the remaining unmatched rows -----
 left_9 = ['officer_first_name','officer_last_name', 'officer_gender', 'officer_race','officer_appointed_date']
 right_9 = ['first_name','last_name', 'gender', 'race', 'appointed_date']
 
 merged_df_refresh_9 = pd.merge(df_trr_refresh, df_data_officer, how = 'left', left_on = left_9, right_on = right_9)
 merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = 'left', left_on = left_9, right_on = right_9)
 
-# We remove the rows that are repeated in the merge of 7 fields (already matched)
-id_x_matched = reduced_merged_refresh_matched['id_x']
+
+# ----- Filter out the matched rows resulted from 7 rotations -----
+id_x_matched = subset_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
+id_x_matched_2 = subset_merged_status_matched['id']
+remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
 
-# Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
-join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
-#join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
+# ----- Join the matches from 7 rotations, matches from 5 column fields and the remaining unmatched rows ----
+join_match_refresh = pd.concat([subset_merged_refresh_matched, remaining], ignore_index=True)
+join_match_status = pd.concat([subset_merged_status_matched, remaining_2], ignore_index=True)
 
+# ----- Remove duplicates after merge and concat -----
+join_match_refresh = join_match_refresh.loc[join_match_refresh.astype(str).drop_duplicates().index]
+join_match_status = join_match_status.loc[join_match_status.astype(str).drop_duplicates().index]
+
+# ---- Calculate match rate for both the tables -----
+# match_rate_refresh = (len(join_match_refresh) - join_match_refresh['id_y'].isna().sum())/len(join_match_refresh)
+# match_rate_status = (len(join_match_status) - join_match_status['id'].isna().sum())/len(join_match_status)
+#
+# print(match_rate_refresh, " Refresh match initial rate")
+# print(match_rate_status, " Status match initial rate")
 
 
 "************** LINK POLICE UNITS ID **************"
@@ -230,8 +247,13 @@ merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_ref
 #merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 # Save the final merged table in a CSV
-merged_refresh_and_police.to_csv('Integration_trr_refresh_and_police.csv', header=True, index= False, sep=',')
+merged_refresh_and_police.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
 #join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
 #merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
+
+
+# join_match_refresh.to_csv('./output/trr-trr.csv', header = True, index = False)
+# join_match_status.to_csv('./output/trr-trrstatus.csv', header = True, index = False)
+
 
 conn.close()
