@@ -188,24 +188,10 @@ merged_df_status_9 = pd.merge(df_trr_trrstatus_refresh, df_data_officer, how = '
 id_x_matched = reduced_merged_refresh_matched['id_x']
 remaining = merged_df_refresh_9[~merged_df_refresh_9['id_x'].isin(id_x_matched)]
 
-# VERIFICAR INDEX THE ID NOT NULL
-#id_x_matched_2 = reduced_merged_status_matched['id']
-#remaining_2 = merged_df_status_9[~merged_df_status_9['id'].isin(id_x_matched_2)]
 
 # Now we join the output of the matches using 7 rotating fields and the remaining using 5 fields
 join_match_refresh = pd.concat([reduced_merged_refresh_matched,remaining])
 #join_match_status = pd.concat([reduced_merged_status_matched,remaining_2])
-
-#print(len(remaining_2))
-#print(len(reduced_merged_status_matched))
-#print(join_match_status)
-
-
-#match_rate_refresh = (len(merged_df_refresh) - merged_df_refresh['id_y'].isna().sum())/len(merged_df_refresh)
-#match_rate_status = (len(merged_df_status) - merged_df_status['id'].isna().sum())/len(merged_df_status)
-
-#print(match_rate_refresh, " Refresh match initial rate")
-#print(match_rate_status, " Status match initial rate")
 
 
 
