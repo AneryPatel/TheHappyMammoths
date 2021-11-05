@@ -233,16 +233,21 @@ merged_refresh_and_police = pd.merge(merged_refresh_and_police, df_data_policeun
 merged_refresh_and_police['officer_unit_name'] = merged_refresh_and_police['officer_unit_name'].astype('Int64')
 merged_refresh_and_police['officer_id'] = merged_refresh_and_police['officer_id'].astype('Int64')
 
+
+"************** CLEANING FORMAT **************"
+
+# Cleaning trr_refresh
 merged_refresh_and_police = merged_refresh_and_police.rename(columns={"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id", "cr_number": "crid", "event_number": "event_id","notify_oemc": "notify_OEMC","notify_op_command": "notify_OP_command","notify_det_division": "notify_DET_division"})
 keep_columns = ["id", "crid", "event_id", "beat", "block", "direction", "street", "location", "trr_datetime", "indoor_or_outdoor", "lighting_condition", "weather_condition", "notify_OEMC", "notify_district_sergeant", "notify_OP_command", "notify_DET_division", "party_fired_first", "officer_assigned_beat", "officer_on_duty", "officer_in_uniform", "officer_injured", "officer_rank", "subject_armed", "subject_injured", "subject_alleged_injury", "subject_age", "subject_birth_year", "subject_gender", "subject_race", "officer_id", "officer_unit_id", "officer_unit_detail_id", "point"]
 trr = merged_refresh_and_police[keep_columns]
-print(trr.columns)
 
-# Rename some columns again
-# merged_refresh_and_police = merged_refresh_and_police.rename(columns = {"id_main": "id", "id_x": "officer_unit_id", "id_y": "officer_unit_detail_id"})
+# Cleaning trr_status
+keep_columns_2 =["officer_rank", "star", "status", "status_datetime", "officer_id", "trr_id"]
+join_match_status = join_match_status.rename(columns={"officer_star":"star", "id":"officer_id", "trr_report_id":"trr_id" })
+trr_status = join_match_status[keep_columns_2]
+trr_status = trr_status.rename(columns={"officer_rank":"rank"})
+print(trr_status.columns)
 
-
-"************** CLEANING FORMAT **************"
 # Delete columns not relevant for trr
 # columns_to_delete_refresh = ['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year',
 #                           'officer_last_name', 'officer_first_name','officer_middle_initial','officer_gender','officer_race','officer_age',
@@ -255,7 +260,7 @@ print(trr.columns)
 
 # Save the final merged table in a CSV
 trr.to_csv('trr-trr.csv', header=True, index= False, sep=',')
-join_match_status.to_csv('trr_status_final.csv', header=True, index= False, sep=',')
+trr_status.to_csv('trr_status.csv', header=True, index= False, sep=',')
 
 #join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
 #merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
