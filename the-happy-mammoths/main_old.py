@@ -247,13 +247,12 @@ merged_refresh_and_police = merged_refresh_and_police.drop(columns_to_delete_ref
 #merged_df_status_2 = merged_df_status_2.drop(['first_name', 'middle_initial', 'last_name','suffix_name', 'gender', 'race', 'appointed_date', 'birth_year'], axis=1)
 
 # Save the final merged table in a CSV
-merged_refresh_and_police.to_csv('./output/trr-trr.csv', header=True, index= False, sep=',')
-#join_match_status.to_csv('Integration_trr_status_final.csv', header=True, index= False, sep=',')
+merged_refresh_and_police.to_csv('trr-trr.csv', header=True, index= False, sep=',')
+join_match_status.to_csv('trr_status_final.csv', header=True, index= False, sep=',')
 #merged_df_status_9.to_csv('Integration_trr_status_5fields.csv', header=True, index= False, sep=',')
 
 
 # join_match_refresh.to_csv('./output/trr-trr.csv', header = True, index = False)
 # join_match_status.to_csv('./output/trr-trrstatus.csv', header = True, index = False)
-
 
 conn.close()
