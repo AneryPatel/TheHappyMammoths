@@ -111,7 +111,6 @@ def reconcile_location(dataframe, table):
     dataframe[table].replace(to_replace='Commercial/Business Office', value='Commercial / Business Office',inplace=True)
     return dataframe[table]
 
-
 # Reconciliation streets
 def reconcile_street(dataframe,table):
     dataframe[table] = dataframe[table].str.lower()
