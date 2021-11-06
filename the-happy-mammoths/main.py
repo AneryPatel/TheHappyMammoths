@@ -5,7 +5,7 @@ import type_correction as tc
 import reconcilation as rec
 import add_suffix as add_suffix
 
-print("***** Connecting to CDDPB Postgres database  *****")
+print("***** Connecting to CPDB Postgres database  *****")
 
 # ----- Connect to the PostgreSQL Database -------
 conn = psycopg2.connect(
@@ -272,18 +272,24 @@ def verify_foreign_key(dataframe, table):
     dataframe = dataframe[dataframe[table].isin(trr['id'])]
     return(dataframe)
 
+
 verified_actionresponse = verify_foreign_key(df_actionresponse_refresh, 'trr_report_id')
 verified_subjectweapon = verify_foreign_key(df_subjectweapon_refresh, 'trr_report_id')
 verified_charge = verify_foreign_key(df_charge_refresh, 'trr_report_id')
 verified_weapondischarge = verify_foreign_key(df_trr_weapondischarge_refresh, 'trr_report_id')
-verified_status = verify_foreign_key(df_trr_trrstatus_refresh, 'trr_report_id')
+verified_status = verify_foreign_key(trr_status, 'trr_id')
 
-print(trr.columns)
-print(verified_actionresponse.columns)
-print(verified_charge.columns)
-print(verified_weapondischarge.columns)
-print(verified_status.columns)
-print(verified_subjectweapon.columns)
+# Update some labels
+verified_actionresponse = verified_actionresponse.rename(columns={"trr_report_id":"trr_id"})
+verified_subjectweapon = verified_subjectweapon.rename(columns={"trr_report_id":"trr_id"})
+verified_subjectweapon = verified_subjectweapon[['weapon_type', 'firearm_caliber', 'weapon_description', 'trr_id']]
+verified_charge = verified_charge.rename(columns={"trr_report_id":"trr_id"})
+verified_charge = verified_charge[['statute', 'description', 'subject_no', 'trr_id']]
+verified_weapondischarge = verified_weapondischarge.rename(columns={"trr_report_id":"trr_id"})
+verified_weapondischarge = verified_weapondischarge[['weapon_type','weapon_type_description','firearm_make','firearm_model',
+'firearm_barrel_length','firearm_caliber','total_number_of_shots','firearm_reloaded','number_of_cartridge_reloaded','handgun_worn_type',
+'handgun_drawn_type','method_used_to_reload','sight_used','protective_cover_used','discharge_distance','object_struck_of_discharge',
+'discharge_position','trr_id']]
 
 
 "************** SAVE ALL THE FILES **************"
