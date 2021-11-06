@@ -25,6 +25,8 @@ You can find this code in ```reconciliation.py```, that will be automatically ru
 
 ## Data Integration
 
+Data integration is coded in ```main.py```, it will be executed after ```type_correction.py``` and ```reconciliation.py```.
+
 ### Linking the Officer Ids
 
 We needed to match the officers filing the TRRs (data in ```trr_trr_refresh```) and the ones updating the status of a TRR (in ```trr_trrstatus_refresh```) with their IDs in data_officer. In order to achieve this measure, we first defined the columns that we want to match so the program will know which table to link for the specifc id. We then want to remove the suffix names from left to right for each table column. We then iterated both tables trying to match the 7 fields. We then merge the results from all 8 rotations, drop the duplicates from the dataframe containing results from the merge. We then filter out the matched rows and unmatched rows. After we have performed matches in 7 rotations, we try using five fields to match the remaining unmatched rows and then filter out the matched rows from the 7 rotations. We then join the matches from 7 rotations, the matches from the 5 columns and the remaning unmatched rows. We then need to remove duplicates after the merge and concatination. At last we calculate the match rate for both the tables to finsh the linking of the officer Ids.
@@ -35,8 +37,13 @@ We first start by transforming the ```unit_name.data_policeunit``` to numbers by
 
 ### Cleaning Format
 
-From our previous steps we are allowed to clean our trr_refresh and trr_status tables.
+From our previous steps we are allowed to clean our ```trr_trr_refresh``` and ```trr_trrstatus``` tables.
 
 ## Foreign key verification
 
-For our Foreign Key Verification specifically in python we looked to pare our trr_trr_refresh table with our ID column. We then called the pairing IDs and then checked if all the values in the tables exisisted in IDs and deleted the rows that did not exisit.
+For our Foreign Key Verification we looked to pare the tables: ```trr_trrstatus```, ```trr_actionresponse```, ```trr_weapondischarge```, ```trr_charge```, and ```trr_subjectweapon``` with our ```trr_id``` column. We then called the pairing IDs and then checked if all the values in the tables exisisted in IDs and deleted the rows that did not exisit.
+
+Finally, the code will output 5 CSV files in the ```output``` folder
+
+
+
