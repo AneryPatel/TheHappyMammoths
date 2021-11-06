@@ -7,7 +7,7 @@ For this project we updated a Tactical Response Reports in CPDB. In this assignm
 ## Setup
 In this assignment, we used Python 3.9. The libraries that we used in order to clean and integrate our data was ```pandas``` (version 0.24.0 or greater) and ```psycopg2```. Our database depends on the postgres database.
 
-In order to install the packages, you use pip to download it from PyPI:
+In order to install the packages, you can use pip to download it from PyPI:
 ```$ pip install pandas```
 ```$ pip install psycopg2```
 
