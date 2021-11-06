@@ -5,7 +5,7 @@ For this project we updated a Tactical Response Reports in CPDB. In this assignm
 
 
 ## Setup
-In this assignment, we used Python 3.9. The libraries that we used in order to clean and integrate our data was ```pandas``` and ```psycopg2```. Our database depends on the postgres database.
+In this assignment, we used Python 3.9. The libraries that we used in order to clean and integrate our data was ```pandas``` (version 0.24.0 or greater) and ```psycopg2```. Our database depends on the postgres database.
 The psycopg2 and postgre database were installed hand-in-hand. This was the way we were able to use sql queries in a a Python script. We used a ```PostgreSQL``` database cluster in our code. The psycopg2 adapter for PostgreSQL makes it easy to get connected to a database with just a few lines of code
 
 
