@@ -1,4 +1,5 @@
 
+
 # Data Cleaning and Integration
 
 For this project we updated a Tactical Response Reports in CPDB. In this assignment we will be adding reports through the mid 2020s in this assignment. The several types of cleaning and integration that we needed for this assignment. It includes type correction, typos, capitalization errors, linking entities to IDs, lining up values with their domains for foreign key relationships. The goal here is to be able to insert the output of your homework into the TRR table as a seamless addition to our existing data on this topic.
@@ -57,5 +58,3 @@ the-happy-mammoths/output/trr-weapondischarge.csv
 the-happy-mammoths/output/trr-charge.csv
 the-happy-mammoths/output/trr-subjectweapon.csv
 ```
-
-

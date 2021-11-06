@@ -1,5 +1,4 @@
 import psycopg2
-import numpy as np
 import pandas as pd
 import type_correction as tc
 import reconcilation as rec

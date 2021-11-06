@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import psycopg2
 import type_correction as tc
 
