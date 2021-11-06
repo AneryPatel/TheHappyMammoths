@@ -3,6 +3,7 @@ import pandas as pd
 import type_correction as tc
 import reconcilation as rec
 import add_suffix as add_suffix
+import datetime
 
 print("***** Connecting to CPDB Postgres database  *****")
 
