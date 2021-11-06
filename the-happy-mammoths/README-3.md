@@ -48,7 +48,14 @@ From our previous steps we are allowed to clean our ```trr_trr_refresh``` and ``
 
 For our Foreign Key Verification we looked to pare the tables: ```trr_trrstatus```, ```trr_actionresponse```, ```trr_weapondischarge```, ```trr_charge```, and ```trr_subjectweapon``` with our ```trr_id``` column. We then called the pairing IDs and then checked if all the values in the tables exisisted in IDs and deleted the rows that did not exisit.
 
-Finally, the code will output 5 CSV files in the ```output``` folder
-
+Finally, the code will output 5 CSV files in the ```output``` folder:
+```
+the-happy-mammoths/output/trr-trr.csv
+the-happy-mammoths/output/trr-actionresponse.csv
+the-happy-mammoths/output/trr-trrstatus.csv
+the-happy-mammoths/output/trr-weapondischarge.csv
+the-happy-mammoths/output/trr-charge.csv
+the-happy-mammoths/output/trr-subjectweapon.csv
+```
 
 
