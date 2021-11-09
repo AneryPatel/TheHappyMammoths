@@ -8,7 +8,7 @@ Additionally, intermediate steps and data files can be found in the `src/` folde
 
 ### 1. Bubble Chart
 
-We did a Bubble Chart to view the evolution of unsustained allegations by area overt time. The query for the table used for this chart can be found in ```src/sql``` folder as ```data_area_query.sql``` and also the JSON in ```src/json```that was uploaded in ObservableHQ as ```data_area.json```. You can find the visualization in the following link:
+We did a Bubble Chart to view the evolution of unsustained allegations by area over time. The query for the table used for this chart can be found in ```src/sql``` folder as ```data_area_query.sql``` and also the JSON in ```src/json```that was uploaded in ObservableHQ as ```data_area.json```. You can find the visualization in the following link:
 
 https://observablehq.com/@526cd8138e9d4464/evolution-unsustained-allegations-by-area-over-time
 
