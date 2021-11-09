@@ -14,7 +14,7 @@ https://observablehq.com/@526cd8138e9d4464/evolution-unsustained-allegations-by-
 
 ### 2. Pie Chart
 
-We did a Pie Chart with multiple filters to see how much the value of certain variables weighs in the declaration of unsustained allegation. The query for the tables used for this chart can be found in ```src/sql``` and ```src/json```. You can find the visualization in the following link:
+We did a Pie Chart with multiple filters to see how much the value of certain variables weighs in the declaration of unsustained allegation. The query for the tables used for this chart can be found in ```src/sql``` and the JSONs in ```src/json```. You can find the visualization in the following link:
 
 https://observablehq.com/@526cd8138e9d4464/pie-charts
 
