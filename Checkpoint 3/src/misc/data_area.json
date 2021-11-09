@@ -1,0 +1,9308 @@
+[
+  {
+    "name": "IMMACULATE CONCEPTION?",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1996
+  },
+  {
+    "name": "Lara Acad",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2002
+  },
+  {
+    "name": "Juarez H S",
+    "area_type": "school-grounds",
+    "sum": 21,
+    "date_part": 1999
+  },
+  {
+    "name": "Little Italy, UIC",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "1653",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "McCormick",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2009
+  },
+  {
+    "name": "Riverdale",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Burnside",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 2005
+  },
+  {
+    "name": "Archer Heights",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Bowen",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Queen of the Universe",
+    "area_type": "school-grounds",
+    "sum": 17,
+    "date_part": 1972
+  },
+  {
+    "name": "9th",
+    "area_type": "police-districts",
+    "sum": 9,
+    "date_part": 1987
+  },
+  {
+    "name": "West Englewood",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Oakdale Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "Armour Square",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 1987
+  },
+  {
+    "name": "Beidler",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "0532",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "JOSEPH STOCKTON C - P CENTER",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Lowell",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1989
+  },
+  {
+    "name": "LaSalle Language Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2006
+  },
+  {
+    "name": "Goodlow Magnet",
+    "area_type": "school-grounds",
+    "sum": 33,
+    "date_part": 1988
+  },
+  {
+    "name": "0214",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1980
+  },
+  {
+    "name": "South Central Alternative",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1993
+  },
+  {
+    "name": "Sauganash Montessori Sch",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1986
+  },
+  {
+    "name": "St Therese",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Dumas CPC",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2006
+  },
+  {
+    "name": "St Felicitas",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1991
+  },
+  {
+    "name": "Shedd Branch",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1964
+  },
+  {
+    "name": "Brownell",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "0212",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1961
+  },
+  {
+    "name": "37",
+    "area_type": "wards",
+    "sum": 24,
+    "date_part": 1986
+  },
+  {
+    "name": "Chinese Christian Union Church",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1986
+  },
+  {
+    "name": "UNO Charter Octavio Paz Campus",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2000
+  },
+  {
+    "name": "BLACK ROBERT A BR - BLACK MAGNET",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "0731",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "2522",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2000
+  },
+  {
+    "name": "2232",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Andersonville",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "Brown, William",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2013
+  },
+  {
+    "name": "Carter",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1968
+  },
+  {
+    "name": "Santa Maria Addolorata",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "CONSUELLA B. YORK ALTERNATIVE HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Funston",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Our Lady Of Grace School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "HAJIRAH EDUCATION PROGRAM?",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1995
+  },
+  {
+    "name": "St Priscilla",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Ruiz",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Davies",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1985
+  },
+  {
+    "name": "Dulles",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1989
+  },
+  {
+    "name": "1613",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Chicago West Side Christian Sch",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "Harvard School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1985
+  },
+  {
+    "name": "0912",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1991
+  },
+  {
+    "name": "SIZEMORE - SHABAZZ",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Agape Love Academy",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "May Community Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Liberty Temple Acad",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1987
+  },
+  {
+    "name": "Beverly",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Manierre",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Carver HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1994
+  },
+  {
+    "name": "Carpenter",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1994
+  },
+  {
+    "name": "Cregier Multiplex",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "2512",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Visitation",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1988
+  },
+  {
+    "name": "Cullen",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1986
+  },
+  {
+    "name": "3100",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2005
+  },
+  {
+    "name": "Goethe",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2000
+  },
+  {
+    "name": "2023",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Ray",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1988
+  },
+  {
+    "name": "Galileo Scholastic",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Sexton AO",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1969
+  },
+  {
+    "name": "Auburn Gresham",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2012
+  },
+  {
+    "name": "Jones HS",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "0132",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Bass",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 2000
+  },
+  {
+    "name": "0511",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "Chopin",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "1022",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1997
+  },
+  {
+    "name": "23",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "St Edward",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1997
+  },
+  {
+    "name": "0823",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Andersen Commercial",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "HUNTER-BOLDEN ACADEMY?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Al Raby",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "North Park",
+    "area_type": "neighborhoods",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "1233",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "Simeon",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1967
+  },
+  {
+    "name": "1115",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1959
+  },
+  {
+    "name": "1631",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "Fuller Park",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "17th",
+    "area_type": "police-districts",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "Piccolo",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1996
+  },
+  {
+    "name": "48",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1976
+  },
+  {
+    "name": "Sawyer",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Carnagie",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Mays Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "HAMLINE BRANCH II",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "St Thomas the Apostle",
+    "area_type": "school-grounds",
+    "sum": 20,
+    "date_part": 1992
+  },
+  {
+    "name": "Hunter-Bolden Academy",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "12",
+    "area_type": "wards",
+    "sum": 14,
+    "date_part": 1990
+  },
+  {
+    "name": "Rogers",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1981
+  },
+  {
+    "name": "2534",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Riverdale",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Irving",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Dunning",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Locke",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Dunne",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "2223",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2007
+  },
+  {
+    "name": "Lincoln Square",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "Epiphany",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1983
+  },
+  {
+    "name": "Armstrong Louis",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Key",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1991
+  },
+  {
+    "name": "Stockton",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "0726",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "1432",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1991
+  },
+  {
+    "name": "Drake",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Albany Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Yeshivas Tiferes Tzvi",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1958
+  },
+  {
+    "name": "Hitch",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2008
+  },
+  {
+    "name": "39",
+    "area_type": "wards",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Humboldt Comunity Christian School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1986
+  },
+  {
+    "name": "Ariel",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "1423",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "Cooper",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "2031",
+    "area_type": "beat",
+    "sum": 20,
+    "date_part": 1982
+  },
+  {
+    "name": "0324",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1994
+  },
+  {
+    "name": "St Margaret Of Scotland Sch",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "King",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "Carver Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Penn",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1997
+  },
+  {
+    "name": "Park Vernon Acad",
+    "area_type": "school-grounds",
+    "sum": 51,
+    "date_part": 1976
+  },
+  {
+    "name": "1621",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "1431",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Tilton",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1982
+  },
+  {
+    "name": "0522",
+    "area_type": "beat",
+    "sum": 10,
+    "date_part": 2003
+  },
+  {
+    "name": "Austin",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Nguzo Saba Moorish Science Academ",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1964
+  },
+  {
+    "name": "Prescott",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Mckinley School East",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "St John De La Salle",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "St Ferdinand School",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "0332",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "0223",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1970
+  },
+  {
+    "name": "St Camillus",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1973
+  },
+  {
+    "name": "Salazar Bilingual Education Ctr",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1999
+  },
+  {
+    "name": "Clemente Community HS",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1973
+  },
+  {
+    "name": "LYDIA URBAN ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1973
+  },
+  {
+    "name": "Sauganash,Forest Glen",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "ALBANY PARK MULTICULTURAL ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2005
+  },
+  {
+    "name": "1034",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1992
+  },
+  {
+    "name": "Hedges Branch",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1989
+  },
+  {
+    "name": "Turner Drew Lang",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2011
+  },
+  {
+    "name": "St Ethelreda",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "Bateman",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "NEW HORIZON CENTER FOR THE DD?",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2007
+  },
+  {
+    "name": "Albany Park Acad",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1982
+  },
+  {
+    "name": "Chase",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1951
+  },
+  {
+    "name": "Graham Training Center",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 2004
+  },
+  {
+    "name": "Guggenheim",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1986
+  },
+  {
+    "name": "2523",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Gale Commercial Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Portage Park",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "Marva Collins Prep School",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 2003
+  },
+  {
+    "name": "St Gabriel",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1976
+  },
+  {
+    "name": "Mitchell",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1952
+  },
+  {
+    "name": "1135",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1980
+  },
+  {
+    "name": "Cosmopolitan Preparatory",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1948
+  },
+  {
+    "name": "Carc/Sol School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "St Tracissus",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2002
+  },
+  {
+    "name": "Chicago Vocational HS",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1994
+  },
+  {
+    "name": "Bricktown Montessori",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "St Constance",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1997
+  },
+  {
+    "name": "Acad of Comm & Technology",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "HAUGAN MIDDLE - ASPIRA",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1993
+  },
+  {
+    "name": "Pope",
+    "area_type": "school-grounds",
+    "sum": 28,
+    "date_part": 1990
+  },
+  {
+    "name": "Mason",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1986
+  },
+  {
+    "name": "Portage Park Day Nursery",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "San Miguel School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "0612",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1996
+  },
+  {
+    "name": "1512",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2010
+  },
+  {
+    "name": "Southside Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "West Town",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "32",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1959
+  },
+  {
+    "name": "Hendricks Commercial Acad",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1969
+  },
+  {
+    "name": "Westside Alternative High School",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1998
+  },
+  {
+    "name": "Blair",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "The Luthern Day Nursy Of Chgo",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1995
+  },
+  {
+    "name": "Hegewisch",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 2000
+  },
+  {
+    "name": "1814",
+    "area_type": "beat",
+    "sum": 26,
+    "date_part": 1982
+  },
+  {
+    "name": "0215",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1999
+  },
+  {
+    "name": "Hampton",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1976
+  },
+  {
+    "name": "Tanner",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1969
+  },
+  {
+    "name": "Hanson Park",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Austin",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "0715",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Edison Park",
+    "area_type": "community",
+    "sum": 5,
+    "date_part": 1985
+  },
+  {
+    "name": "1023",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2010
+  },
+  {
+    "name": "1622",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1995
+  },
+  {
+    "name": "Lavizzo Elm",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1981
+  },
+  {
+    "name": "2511",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "L H Day Lower School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Perspectives Charter",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1999
+  },
+  {
+    "name": "Salem Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1980
+  },
+  {
+    "name": "DuBois",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "0621",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1952
+  },
+  {
+    "name": "Falconer",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1947
+  },
+  {
+    "name": "Lathrop",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1967
+  },
+  {
+    "name": "St Mary Star of the Sea",
+    "area_type": "school-grounds",
+    "sum": 13,
+    "date_part": 1986
+  },
+  {
+    "name": "Holmes",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1986
+  },
+  {
+    "name": "McCorkle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "Lee",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1996
+  },
+  {
+    "name": "1411",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1986
+  },
+  {
+    "name": "Banneker",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1982
+  },
+  {
+    "name": "1225",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "1121",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2003
+  },
+  {
+    "name": "Maria HS",
+    "area_type": "school-grounds",
+    "sum": 15,
+    "date_part": 1986
+  },
+  {
+    "name": "1933",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "St Rita HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1959
+  },
+  {
+    "name": "1513",
+    "area_type": "beat",
+    "sum": 13,
+    "date_part": 1998
+  },
+  {
+    "name": "Bethel Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "Harte",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "Fernwood",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1976
+  },
+  {
+    "name": "Morgan",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Fuller Park",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 2001
+  },
+  {
+    "name": "Cheder Lubavitch Hebrew Day Sc",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "Madison",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Immaculate Conception 2",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Bunche",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1987
+  },
+  {
+    "name": "0531",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1986
+  },
+  {
+    "name": "Douglas Comm Acad",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Dett",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "0914",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1985
+  },
+  {
+    "name": "Mt Carmel Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "2524",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Bogan Tech HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1999
+  },
+  {
+    "name": "0414",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "1632",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1970
+  },
+  {
+    "name": "HUGGIE BEAR CHRISITAN ACADEMY?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "JOHN H HAMLINE BR - HAMLINE",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Williams",
+    "area_type": "school-grounds",
+    "sum": 18,
+    "date_part": 1976
+  },
+  {
+    "name": "Wells HS",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1998
+  },
+  {
+    "name": "White",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2000
+  },
+  {
+    "name": "0915",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "1113",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "1823",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 2002
+  },
+  {
+    "name": "Providence St Mel",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1971
+  },
+  {
+    "name": "Galewood",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "2022",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "TARKINGTON",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Hancock",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1980
+  },
+  {
+    "name": "Lewis",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1982
+  },
+  {
+    "name": "Graham",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1998
+  },
+  {
+    "name": "0234",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "1624",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Queen of Angels",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1968
+  },
+  {
+    "name": "Notre Dame HS",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1992
+  },
+  {
+    "name": "1122",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1998
+  },
+  {
+    "name": "Copernicus",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1999
+  },
+  {
+    "name": "L.E.A.R.N. Charter School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1972
+  },
+  {
+    "name": "Woodlawn",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "St Jerome",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1982
+  },
+  {
+    "name": "Nobel",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1964
+  },
+  {
+    "name": "Henson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "Dunbar Vocational HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2009
+  },
+  {
+    "name": "Telpochalli",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1996
+  },
+  {
+    "name": "Magnificent Mile",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1996
+  },
+  {
+    "name": "Reilly",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1992
+  },
+  {
+    "name": "St Thomas of Canterbury",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Hegewisch",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "Professional Play House",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Armour Br",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1985
+  },
+  {
+    "name": "3",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Keller Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Dr Pedro Albizu Campos Hs",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "Chatham",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "2513",
+    "area_type": "beat",
+    "sum": 20,
+    "date_part": 1986
+  },
+  {
+    "name": "Bouchet Alexander Annex",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1972
+  },
+  {
+    "name": "Bridgeport",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "U of C CHARTER - DONOGHUE",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Everett",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1985
+  },
+  {
+    "name": "20",
+    "area_type": "wards",
+    "sum": 16,
+    "date_part": 1989
+  },
+  {
+    "name": "Locke Charter School",
+    "area_type": "school-grounds",
+    "sum": 20,
+    "date_part": 1988
+  },
+  {
+    "name": "Hefferan",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1961
+  },
+  {
+    "name": "Gallistel Languge Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "Randolph Magnet",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Kanoon Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Maranatha Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1995
+  },
+  {
+    "name": "Norwood Park",
+    "area_type": "neighborhoods",
+    "sum": 7,
+    "date_part": 1991
+  },
+  {
+    "name": "Hermosa",
+    "area_type": "community",
+    "sum": 4,
+    "date_part": 1976
+  },
+  {
+    "name": "PACTT LEARNING CENTER?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1978
+  },
+  {
+    "name": "1213",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1999
+  },
+  {
+    "name": "Near North Side",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Hibbard",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1981
+  },
+  {
+    "name": "Schneider",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "0613",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1991
+  },
+  {
+    "name": "Caldwell",
+    "area_type": "school-grounds",
+    "sum": 35,
+    "date_part": 1997
+  },
+  {
+    "name": "33",
+    "area_type": "wards",
+    "sum": 9,
+    "date_part": 1993
+  },
+  {
+    "name": "0624",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "1935",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2003
+  },
+  {
+    "name": "St Christina",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Howland",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1968
+  },
+  {
+    "name": "Peabody",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Murray Language Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "2432",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "Rogers Park Montessori",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Brighton Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "2413",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1998
+  },
+  {
+    "name": "Ezzard Charles School",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1973
+  },
+  {
+    "name": "Smith",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "South Lawndale",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "Hope Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1985
+  },
+  {
+    "name": "Metropolitan Primary Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Timothy Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Daystar School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1969
+  },
+  {
+    "name": "St Ladislaus",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1973
+  },
+  {
+    "name": "Dvorak Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Jensen School Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1977
+  },
+  {
+    "name": "13",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "St Bartholomew School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Holy Family Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1981
+  },
+  {
+    "name": "Sullivan House School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1993
+  },
+  {
+    "name": "Heroes Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "HAZEL YOUNG ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "0512",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "St James Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "Noble Street Charter",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1972
+  },
+  {
+    "name": "Marquette West",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1974
+  },
+  {
+    "name": "Acad of Scholastic",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Josephinum HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Gage Park",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "CICS - ELLISON",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1990
+  },
+  {
+    "name": "Logan Square",
+    "area_type": "community",
+    "sum": 7,
+    "date_part": 2003
+  },
+  {
+    "name": "24",
+    "area_type": "wards",
+    "sum": 27,
+    "date_part": 1982
+  },
+  {
+    "name": "Faraday",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1991
+  },
+  {
+    "name": "FRANCIS XAVIER WARDE SCHOOL?",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1976
+  },
+  {
+    "name": "West Elsdon",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1980
+  },
+  {
+    "name": "Old St Marys School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1972
+  },
+  {
+    "name": "North Lawndale",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Rogers Park Montessori School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1987
+  },
+  {
+    "name": "Evangelical Christian School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Ellington",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1977
+  },
+  {
+    "name": "SCIENCE ACADEMY OF CHICAGO",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1988
+  },
+  {
+    "name": "2212",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2008
+  },
+  {
+    "name": "St John Berchmans 1",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1968
+  },
+  {
+    "name": "Ogden",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "St Scholastica HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1976
+  },
+  {
+    "name": "Comm Christian Alt Acad",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1971
+  },
+  {
+    "name": "Lindblom Tech HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Sauganash",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1990
+  },
+  {
+    "name": "Fellowship Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Durkin Park",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2001
+  },
+  {
+    "name": "St Andrew Lutheran",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "LITTLE HANDS LEARNING CENTER",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1973
+  },
+  {
+    "name": "0713",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "1722",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1976
+  },
+  {
+    "name": "Village Leadership Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Hyde Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Julian HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Sheridan Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "Burroughs",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "0224",
+    "area_type": "beat",
+    "sum": 10,
+    "date_part": 1990
+  },
+  {
+    "name": "1923",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1987
+  },
+  {
+    "name": "Abbot",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Learning Network",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2000
+  },
+  {
+    "name": "Our Lady of Guadalupe",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1963
+  },
+  {
+    "name": "2012",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "1223",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "1834",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Montessori Dela Citta",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1989
+  },
+  {
+    "name": "Solomon",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "0821",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "0235",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1989
+  },
+  {
+    "name": "St Cornelius",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1970
+  },
+  {
+    "name": "CORNERSTONE ACADEMY?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "1125",
+    "area_type": "beat",
+    "sum": 20,
+    "date_part": 1986
+  },
+  {
+    "name": "0422",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1971
+  },
+  {
+    "name": "2531",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "CHICACO MONTESSORI?",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1991
+  },
+  {
+    "name": "South Central Community Services",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Sumner",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1996
+  },
+  {
+    "name": "1211",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Franklin Magnet",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "Belmont Christian School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1976
+  },
+  {
+    "name": "UHLICH ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1970
+  },
+  {
+    "name": "Farnsworth",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1973
+  },
+  {
+    "name": "Logan Square",
+    "area_type": "neighborhoods",
+    "sum": 6,
+    "date_part": 1991
+  },
+  {
+    "name": "Ashburn",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Senn Metro Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "36",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Bucktown",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1991
+  },
+  {
+    "name": "Avalon Park",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 1980
+  },
+  {
+    "name": "0123",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Faulkner School",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1991
+  },
+  {
+    "name": "St Ann",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "3100",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1982
+  },
+  {
+    "name": "Crown Commercial Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "1531",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1996
+  },
+  {
+    "name": "Irving Park Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Douglas",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1987
+  },
+  {
+    "name": "Gladstone",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Steinmetz HS",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1972
+  },
+  {
+    "name": "25",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "0832",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1991
+  },
+  {
+    "name": "0711",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "St William",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1987
+  },
+  {
+    "name": "North Shore S D A Jr Acdmy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Moos",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "1231",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1977
+  },
+  {
+    "name": "0813",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1981
+  },
+  {
+    "name": "Lycee Francais de Chicago",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "Hammond",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1998
+  },
+  {
+    "name": "43",
+    "area_type": "wards",
+    "sum": 12,
+    "date_part": 1986
+  },
+  {
+    "name": "Earle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1988
+  },
+  {
+    "name": "Chicago Children's Choir Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "Chicago SDA Acad",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1996
+  },
+  {
+    "name": "14",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1993
+  },
+  {
+    "name": "0931",
+    "area_type": "beat",
+    "sum": 12,
+    "date_part": 1990
+  },
+  {
+    "name": "1915",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1969
+  },
+  {
+    "name": "St Paul Our Lady Of Vilna",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1990
+  },
+  {
+    "name": "0131",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1987
+  },
+  {
+    "name": "25th",
+    "area_type": "police-districts",
+    "sum": 6,
+    "date_part": 1994
+  },
+  {
+    "name": "Kozminski Com Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2013
+  },
+  {
+    "name": "1612",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "Chicago Jesuit Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "GLS and Omega Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "1812",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "De La Cruz",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "McKay",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1959
+  },
+  {
+    "name": "0433",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 2001
+  },
+  {
+    "name": "Kipp Ascend Academy",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1975
+  },
+  {
+    "name": "Goldsmith Elementary",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1978
+  },
+  {
+    "name": "0213",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "2411",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1976
+  },
+  {
+    "name": "0933",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1985
+  },
+  {
+    "name": "0925",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2000
+  },
+  {
+    "name": "Pasteur",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1996
+  },
+  {
+    "name": "Catherine Cook School",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2000
+  },
+  {
+    "name": "Lincoln Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Small Stride Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Hawthorne Acad",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1999
+  },
+  {
+    "name": "Chicago International-Prairie",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1991
+  },
+  {
+    "name": "Owens Acad",
+    "area_type": "school-grounds",
+    "sum": 15,
+    "date_part": 1994
+  },
+  {
+    "name": "Sullivan House",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Taft HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "Lawrence Hall Youth Services",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2003
+  },
+  {
+    "name": "Ericson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "Kellman Corp",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1999
+  },
+  {
+    "name": "Farragut HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1975
+  },
+  {
+    "name": "Tonti",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1949
+  },
+  {
+    "name": "BRONZEVILLE LIGHTHOUSE CHARTER SCH",
+    "area_type": "school-grounds",
+    "sum": 24,
+    "date_part": 1999
+  },
+  {
+    "name": "ST MARGARET MARY SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "Manley HS",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1997
+  },
+  {
+    "name": "Blaine",
+    "area_type": "school-grounds",
+    "sum": 22,
+    "date_part": 1994
+  },
+  {
+    "name": "Belmont Craigin",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Care a Lot",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1995
+  },
+  {
+    "name": "Sherman",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1994
+  },
+  {
+    "name": "1634",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "Hanna Sacks Bais",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "Doolittle West",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1978
+  },
+  {
+    "name": "Luther HS North",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1999
+  },
+  {
+    "name": "Melody",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "St Paul Lutheran 3",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "1623",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Pullman",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 1997
+  },
+  {
+    "name": "Ruggles",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1970
+  },
+  {
+    "name": "C A L A - NORTH",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Volta",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Rush & Division",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1996
+  },
+  {
+    "name": "0323",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Haugan",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1981
+  },
+  {
+    "name": "Greater Grand Crossing",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "West Loop",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "ESLUP RAPID LEARNING CENTER?",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "0911",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "St Pius V",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "2234",
+    "area_type": "beat",
+    "sum": 9,
+    "date_part": 1991
+  },
+  {
+    "name": "St Viator",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "SECOND CHANCE ALTERNATIVE HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Lenart",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1972
+  },
+  {
+    "name": "St Florian",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1971
+  },
+  {
+    "name": "Cardenas Modular",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2004
+  },
+  {
+    "name": "Emmet",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1976
+  },
+  {
+    "name": "1821",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1990
+  },
+  {
+    "name": "CHICAGO CHILD CARE SOCIETY?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "BURNHAM/ANTHONY INCLUSIVE ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Henry",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "Barton",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Hoyne",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1973
+  },
+  {
+    "name": "2412",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Stagg",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1997
+  },
+  {
+    "name": "0413",
+    "area_type": "beat",
+    "sum": 18,
+    "date_part": 1998
+  },
+  {
+    "name": "Gregory",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1988
+  },
+  {
+    "name": "Pershing Magnet",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1991
+  },
+  {
+    "name": "Grant",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1989
+  },
+  {
+    "name": "Care A Lot",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "Hirsch Metro HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "St Daniel the Prophet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "SAN MIGUEL SCH-GARY COMER CAMPUS?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Washington Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2011
+  },
+  {
+    "name": "1024",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1996
+  },
+  {
+    "name": "Cheder Lubavitch Hebrew Day Sch",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "St Turbius",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1998
+  },
+  {
+    "name": "Plamondon",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "St Eugene",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "24th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Swift",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "Clay",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1985
+  },
+  {
+    "name": "Woodlawn",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1952
+  },
+  {
+    "name": "Montclare",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Oakland",
+    "area_type": "neighborhoods",
+    "sum": 8,
+    "date_part": 1982
+  },
+  {
+    "name": "Dixon",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Ravenswood",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Altgeld",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "Messiah Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1991
+  },
+  {
+    "name": "Sullivan",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "Shields",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1970
+  },
+  {
+    "name": "0814",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1981
+  },
+  {
+    "name": "1833",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1970
+  },
+  {
+    "name": "0122",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Grand Boulevard",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1977
+  },
+  {
+    "name": "Englewood",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "South Chicago",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "Emmanuel Christian School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1967
+  },
+  {
+    "name": "St Andrew",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "St Genevieve",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "Schubert",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "AHADI EARLY LEARNING CENTER?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Dunning",
+    "area_type": "community",
+    "sum": 3,
+    "date_part": 2005
+  },
+  {
+    "name": "CHGO. INT. CHARTER - RALPH ELLISON",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Schiller",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "St Ignatius Prep HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "North Park",
+    "area_type": "community",
+    "sum": 7,
+    "date_part": 1998
+  },
+  {
+    "name": "Stowe HB",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1988
+  },
+  {
+    "name": "CHICAGO VIRTUAL",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Englewood HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Prosser Vocational HS",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 2002
+  },
+  {
+    "name": "Annunciata",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 2001
+  },
+  {
+    "name": "Medill Primary",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "Edgebrook",
+    "area_type": "school-grounds",
+    "sum": 17,
+    "date_part": 1994
+  },
+  {
+    "name": "0732",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2009
+  },
+  {
+    "name": "Woodson North",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Grace English Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "St Gregory High School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Marshall Metro HS",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1973
+  },
+  {
+    "name": "DuSable HS",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1994
+  },
+  {
+    "name": "1654",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1973
+  },
+  {
+    "name": "Sandoval School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "O'Hare",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1992
+  },
+  {
+    "name": "Peck",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1993
+  },
+  {
+    "name": "2535",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "0632",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2016
+  },
+  {
+    "name": "Joplin",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1999
+  },
+  {
+    "name": "Casals Pablo",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1969
+  },
+  {
+    "name": "Washington Harold",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Evergreen",
+    "area_type": "school-grounds",
+    "sum": 17,
+    "date_part": 1967
+  },
+  {
+    "name": "Edwards",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2000
+  },
+  {
+    "name": "17",
+    "area_type": "wards",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Christ the King Lutheran",
+    "area_type": "school-grounds",
+    "sum": 18,
+    "date_part": 1985
+  },
+  {
+    "name": "0835",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1990
+  },
+  {
+    "name": "ST SAVA SCHOOL?",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1990
+  },
+  {
+    "name": "Haley",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Loop",
+    "area_type": "community",
+    "sum": 6,
+    "date_part": 1973
+  },
+  {
+    "name": "Near South Side",
+    "area_type": "neighborhoods",
+    "sum": 7,
+    "date_part": 1990
+  },
+  {
+    "name": "Hales Franciscan HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "1922",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2012
+  },
+  {
+    "name": "Gordon Tech HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "0313",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1990
+  },
+  {
+    "name": "Gunsaulus Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1980
+  },
+  {
+    "name": "0614",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1982
+  },
+  {
+    "name": "Okeeffe",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1947
+  },
+  {
+    "name": "0524",
+    "area_type": "beat",
+    "sum": 9,
+    "date_part": 1980
+  },
+  {
+    "name": "Robeson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Childrens Center Outreach",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "1011",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Sonia Sahnkman Orthogenic Scho",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Edison Park",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "New City",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1982
+  },
+  {
+    "name": "Green Wendell",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Kiddie Academy",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "Hayt",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1990
+  },
+  {
+    "name": "HERZL CHILD-PARENT-CENTER BR -HERZL",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2011
+  },
+  {
+    "name": "Archer Heights",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Jefferson Park",
+    "area_type": "community",
+    "sum": 6,
+    "date_part": 1989
+  },
+  {
+    "name": "0722",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1983
+  },
+  {
+    "name": "Harvard",
+    "area_type": "school-grounds",
+    "sum": 28,
+    "date_part": 1987
+  },
+  {
+    "name": "Walter Payton",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1977
+  },
+  {
+    "name": "St Matthias",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1980
+  },
+  {
+    "name": "A-Karrasel",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "Jordan",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1988
+  },
+  {
+    "name": "16th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Pilsen Community Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Forest Glen",
+    "area_type": "community",
+    "sum": 5,
+    "date_part": 1971
+  },
+  {
+    "name": "School Of Entrepeneurship",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1986
+  },
+  {
+    "name": "Taylor",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "0423",
+    "area_type": "beat",
+    "sum": 9,
+    "date_part": 1995
+  },
+  {
+    "name": "Loop Lab School",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1997
+  },
+  {
+    "name": "1732",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1999
+  },
+  {
+    "name": "1532",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1963
+  },
+  {
+    "name": "Norwood Park Christian School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1965
+  },
+  {
+    "name": "True Believers Chr Acad Presch",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2004
+  },
+  {
+    "name": "45",
+    "area_type": "wards",
+    "sum": 21,
+    "date_part": 1985
+  },
+  {
+    "name": "Pulaski Commercial Acad",
+    "area_type": "school-grounds",
+    "sum": 26,
+    "date_part": 1991
+  },
+  {
+    "name": "LITTLE VILLAGE CAMPUS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1996
+  },
+  {
+    "name": "Luther HS South",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "Ebinger",
+    "area_type": "school-grounds",
+    "sum": 29,
+    "date_part": 1997
+  },
+  {
+    "name": "Byron Center",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Amundsen HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Scammon",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1969
+  },
+  {
+    "name": "Grimes",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "2233",
+    "area_type": "beat",
+    "sum": 13,
+    "date_part": 1994
+  },
+  {
+    "name": "0322",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "31st",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "LATINO YOUTH ALTERNATIVE H S",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1997
+  },
+  {
+    "name": "Lake View",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Sullivan HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2011
+  },
+  {
+    "name": "Chicago Hope Academy",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1993
+  },
+  {
+    "name": "Brighton Park",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2017
+  },
+  {
+    "name": "ZAPATA BRANCH",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1972
+  },
+  {
+    "name": "Chalmers",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "De Duprey",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1986
+  },
+  {
+    "name": "Chicago Acad For The Arts",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1982
+  },
+  {
+    "name": "Nash",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "2024",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1999
+  },
+  {
+    "name": "Anderson Community Acad",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1980
+  },
+  {
+    "name": "Gary",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Gompers",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1990
+  },
+  {
+    "name": "Crane Tech HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "Beethoven",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Westinghouse HS",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "River North",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1973
+  },
+  {
+    "name": "Austin HS",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1988
+  },
+  {
+    "name": "Coleman Johnnie",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Drummond",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1986
+  },
+  {
+    "name": "Chicago Military Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "McAuliffe",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "Newberry Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1945
+  },
+  {
+    "name": "26",
+    "area_type": "wards",
+    "sum": 6,
+    "date_part": 1990
+  },
+  {
+    "name": "CHICAGO JESUIT ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "Leo HS",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1989
+  },
+  {
+    "name": "Castellanos School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1986
+  },
+  {
+    "name": "Edgewater",
+    "area_type": "community",
+    "sum": 4,
+    "date_part": 1978
+  },
+  {
+    "name": "Chicago Christian Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "0233",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "Esmond",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Fort Dearborn",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "1633",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1985
+  },
+  {
+    "name": "Whittier",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "St Josaphat",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Sayre Lang Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "Ashburn",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Haines",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1990
+  },
+  {
+    "name": "WOODLAWN",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "Zapata Acad",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "Step Inc School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "Mount Greenwood",
+    "area_type": "community",
+    "sum": 14,
+    "date_part": 1986
+  },
+  {
+    "name": "Cardenas",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "1822",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1978
+  },
+  {
+    "name": "Zion Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1996
+  },
+  {
+    "name": "Wicker Park",
+    "area_type": "neighborhoods",
+    "sum": 17,
+    "date_part": 1991
+  },
+  {
+    "name": "Chicago International-Bucktwn",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1986
+  },
+  {
+    "name": "Garfield Ridge",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1956
+  },
+  {
+    "name": "Hermosa",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "2213",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "0611",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2000
+  },
+  {
+    "name": "Mars Hill School",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1996
+  },
+  {
+    "name": "New City",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2010
+  },
+  {
+    "name": "National Teachers Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "40",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "1032",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "2422",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "6th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "Paderewski",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Yeshivas Meor Hatorah",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Carroll",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1986
+  },
+  {
+    "name": "Grace Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "1132",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1981
+  },
+  {
+    "name": "Ward Laura",
+    "area_type": "school-grounds",
+    "sum": 33,
+    "date_part": 1994
+  },
+  {
+    "name": "27",
+    "area_type": "wards",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "Latin School of Chicago Lower",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "St Angela",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Fulton",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "MAU-GLO DAY CARE/RETARDED CHILD?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Carver Primary",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1989
+  },
+  {
+    "name": "Reed",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "Avalon Park",
+    "area_type": "neighborhoods",
+    "sum": 9,
+    "date_part": 1998
+  },
+  {
+    "name": "St Stanislaus Kostka",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1987
+  },
+  {
+    "name": "Streeterville",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "De Diego Commercial Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1949
+  },
+  {
+    "name": "Yates",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "Victor C. Neumann Association",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "McPherson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "Lower West Side",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Jewish Children Bureau",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1991
+  },
+  {
+    "name": "South Loop",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1998
+  },
+  {
+    "name": "Hyde Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "12th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Holy Spirit Academy",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1972
+  },
+  {
+    "name": "7th",
+    "area_type": "police-districts",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "Westcott",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "St Elizabeth",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Higgins Acad",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1987
+  },
+  {
+    "name": "North Shore School",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 2001
+  },
+  {
+    "name": "RANGE DAY SCHOOL INC",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "42",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Mother McAuley HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "LINC ALT HIGH SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1978
+  },
+  {
+    "name": "Francis Parker",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1998
+  },
+  {
+    "name": "Hearst",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Garfield Alternative High Scho",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1978
+  },
+  {
+    "name": "Kenwood",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "1713",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "New Way Learning Center",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1986
+  },
+  {
+    "name": "0714",
+    "area_type": "beat",
+    "sum": 18,
+    "date_part": 1992
+  },
+  {
+    "name": "Near South Side",
+    "area_type": "community",
+    "sum": 6,
+    "date_part": 1968
+  },
+  {
+    "name": "1021",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "0231",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1995
+  },
+  {
+    "name": "Brunson",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1987
+  },
+  {
+    "name": "Masters Academy",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1982
+  },
+  {
+    "name": "Neil",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1967
+  },
+  {
+    "name": "Oriole Park",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1990
+  },
+  {
+    "name": "1911",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "North Center",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 1975
+  },
+  {
+    "name": "New Birth Training Institute",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1997
+  },
+  {
+    "name": "Our Lady Gate of Heaven",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Earhart",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1972
+  },
+  {
+    "name": "Christ the King",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1996
+  },
+  {
+    "name": "Lubavitch Girls HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Beaubien",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Salem Christian School West",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "19",
+    "area_type": "wards",
+    "sum": 18,
+    "date_part": 1973
+  },
+  {
+    "name": "0523",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "1413",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Hay Community Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1966
+  },
+  {
+    "name": "LINC ALT HIGH SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1963
+  },
+  {
+    "name": "Wrigleyville",
+    "area_type": "neighborhoods",
+    "sum": 7,
+    "date_part": 2006
+  },
+  {
+    "name": "1932",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Mount Carmel HS",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1966
+  },
+  {
+    "name": "Our Lady of Lourdes",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1980
+  },
+  {
+    "name": "Morgan Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Poe Classical",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Park View Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Ace Tech Charter",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "Chatham",
+    "area_type": "community",
+    "sum": 7,
+    "date_part": 2000
+  },
+  {
+    "name": "Orozco",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "Burham Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Chappell",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "St Barnabas",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "0412",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1966
+  },
+  {
+    "name": "1831",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2015
+  },
+  {
+    "name": "Parkside Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1985
+  },
+  {
+    "name": "0834",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Dumas",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1986
+  },
+  {
+    "name": "Chicago Lawn",
+    "area_type": "community",
+    "sum": 6,
+    "date_part": 1999
+  },
+  {
+    "name": "1524",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Shoesmith",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Kellogg",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1991
+  },
+  {
+    "name": "1133",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1966
+  },
+  {
+    "name": "Chicago Math/Science Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "Lafayette",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "Warren",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1999
+  },
+  {
+    "name": "Corkery",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "St Monica",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Lower West Side",
+    "area_type": "neighborhoods",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "Northside College Prep",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Reavis",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1970
+  },
+  {
+    "name": "Hamilton",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1990
+  },
+  {
+    "name": "Price",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1965
+  },
+  {
+    "name": "McCutcheon",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "Circle/Rock Prep",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1997
+  },
+  {
+    "name": "Hughes CE",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Kiddie Kollege",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1986
+  },
+  {
+    "name": "JEWISH CHILDREN BUREAU SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1978
+  },
+  {
+    "name": "0831",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1989
+  },
+  {
+    "name": "King HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1974
+  },
+  {
+    "name": "Antonia Pantoja High School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Whitney Young HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "Lincoln Park HS",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1988
+  },
+  {
+    "name": "0725",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1975
+  },
+  {
+    "name": "Marshall Middle",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "Norwood Park",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1986
+  },
+  {
+    "name": "Fenger HS",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1982
+  },
+  {
+    "name": "1421",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1986
+  },
+  {
+    "name": "1123",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "Westown Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1993
+  },
+  {
+    "name": "Kelly HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1989
+  },
+  {
+    "name": "0815",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1988
+  },
+  {
+    "name": "Chicago International-Longwood",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2007
+  },
+  {
+    "name": "2431",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "St Francis Borgia",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1991
+  },
+  {
+    "name": "Von Humboldt",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Mount Greenwood",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "Bais Yaakov Hebrew",
+    "area_type": "school-grounds",
+    "sum": 27,
+    "date_part": 1987
+  },
+  {
+    "name": "St Thomas Moore",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "46",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Cook",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1966
+  },
+  {
+    "name": "Finkl",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Sun Shine School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Simpson HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Youth Connections Charter School",
+    "area_type": "school-grounds",
+    "sum": 24,
+    "date_part": 1992
+  },
+  {
+    "name": "Ravenswood Baptist School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "St Sylvester",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "West Englewood Christian Community",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Gage Park",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1970
+  },
+  {
+    "name": "Sheffield & DePaul",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1947
+  },
+  {
+    "name": "Council Oak Montessori",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1962
+  },
+  {
+    "name": "Walsh",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Vick Center",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "United Center",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Holy Trinity Shool",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "31",
+    "area_type": "wards",
+    "sum": 2,
+    "date_part": 1996
+  },
+  {
+    "name": "Collins HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1977
+  },
+  {
+    "name": "JAMES WELDON JOHNSON SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 32,
+    "date_part": 1990
+  },
+  {
+    "name": "McCosh",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1994
+  },
+  {
+    "name": "Las Casas",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1991
+  },
+  {
+    "name": "Columbia Explorers",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "Holy Trinity HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Audubon",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1973
+  },
+  {
+    "name": "St John Fisher Elem School",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1973
+  },
+  {
+    "name": "Jackson Mahalia",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1951
+  },
+  {
+    "name": "Garfield Ridge",
+    "area_type": "community",
+    "sum": 15,
+    "date_part": 1991
+  },
+  {
+    "name": "0825",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Humboldt Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "West Lawn",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "1232",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1994
+  },
+  {
+    "name": "Grand Crossing",
+    "area_type": "neighborhoods",
+    "sum": 5,
+    "date_part": 1996
+  },
+  {
+    "name": "1st",
+    "area_type": "police-districts",
+    "sum": 4,
+    "date_part": 1967
+  },
+  {
+    "name": "3rd",
+    "area_type": "police-districts",
+    "sum": 9,
+    "date_part": 1998
+  },
+  {
+    "name": "SKINNER",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Near West Side",
+    "area_type": "community",
+    "sum": 4,
+    "date_part": 1962
+  },
+  {
+    "name": "5",
+    "area_type": "wards",
+    "sum": 1,
+    "date_part": 1956
+  },
+  {
+    "name": "Pilgram Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1988
+  },
+  {
+    "name": "Tonti Br",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "Mighty Good Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "Daley Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2000
+  },
+  {
+    "name": "St Hyacinth",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "St Bruno",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 2003
+  },
+  {
+    "name": "Calumet HS",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1993
+  },
+  {
+    "name": "St Philip Neri",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "Kohn",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1985
+  },
+  {
+    "name": "1523",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Beverly Hills SDA School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "VIVIAN E SUMMERS CHILD DEV PREP?",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Sutherland",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "0211",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1995
+  },
+  {
+    "name": "Waters",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Fleming Branch",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1992
+  },
+  {
+    "name": "Museum Campus",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Owen",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 2000
+  },
+  {
+    "name": "Henderson",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1991
+  },
+  {
+    "name": "21",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "ICC Full Time School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Our Lady of Victory",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "Mckinley Park",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1997
+  },
+  {
+    "name": "18th",
+    "area_type": "police-districts",
+    "sum": 2,
+    "date_part": 2008
+  },
+  {
+    "name": "St Ita",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1971
+  },
+  {
+    "name": "Douglas",
+    "area_type": "community",
+    "sum": 4,
+    "date_part": 1997
+  },
+  {
+    "name": "Disney Magnet",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 2000
+  },
+  {
+    "name": "Nativity BVM",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "1033",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "East Side",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1991
+  },
+  {
+    "name": "0924",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "Carc/Helen - Harris School",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "Alcott",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "1813",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1999
+  },
+  {
+    "name": "Sacred Heart School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Budlong",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1981
+  },
+  {
+    "name": "Parker",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "WOODSON SOUTH C - P CENTER BR",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "Pirie",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "Esperanza Community Services",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "Roseland",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Irving Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Chicago Agricultural HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "Eberhart",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "1711",
+    "area_type": "beat",
+    "sum": 17,
+    "date_part": 1986
+  },
+  {
+    "name": "2nd",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1965
+  },
+  {
+    "name": "Portage Park",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1959
+  },
+  {
+    "name": "Anixter School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "0421",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "0121",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "0734",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1996
+  },
+  {
+    "name": "LIBERTY SCHOOL OF CHRISTRIAN EDUC",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 2005
+  },
+  {
+    "name": "Bell",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1973
+  },
+  {
+    "name": "20th",
+    "area_type": "police-districts",
+    "sum": 10,
+    "date_part": 1986
+  },
+  {
+    "name": "Canter Middle",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 2000
+  },
+  {
+    "name": "Foreman HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "8",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "1934",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1947
+  },
+  {
+    "name": "Gillespie",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Jenner",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "South Shore HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "North River",
+    "area_type": "school-grounds",
+    "sum": 33,
+    "date_part": 1995
+  },
+  {
+    "name": "BEACON THERAPEUTIC SCHOOL?",
+    "area_type": "school-grounds",
+    "sum": 18,
+    "date_part": 1996
+  },
+  {
+    "name": "O'Toole",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Chicago Lighthouse",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Pullman",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "0225",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1997
+  },
+  {
+    "name": "HACC",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Gage Park HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1957
+  },
+  {
+    "name": "Morton Career Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "1533",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "STEPPING STONES EARLY CHILDHOOD?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "2221",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Brooks College Prep",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Resurrection Catholic Acad",
+    "area_type": "school-grounds",
+    "sum": 13,
+    "date_part": 1992
+  },
+  {
+    "name": "6",
+    "area_type": "wards",
+    "sum": 9,
+    "date_part": 1989
+  },
+  {
+    "name": "0623",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "MISERICORDIA HOME SOUTH",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1975
+  },
+  {
+    "name": "Auburn Gresham",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1975
+  },
+  {
+    "name": "St Philomena School",
+    "area_type": "school-grounds",
+    "sum": 22,
+    "date_part": 1998
+  },
+  {
+    "name": "West Pullman",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1962
+  },
+  {
+    "name": "St Agnes Of Bohemia School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Burke",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Little House Montessori",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Schmid",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1968
+  },
+  {
+    "name": "Solace Acad",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1973
+  },
+  {
+    "name": "Our Lady of Tepeyac",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "Montclare",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1985
+  },
+  {
+    "name": "Onahan",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1985
+  },
+  {
+    "name": "South Chicago",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "De Priest",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1982
+  },
+  {
+    "name": "Washington Heights",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2007
+  },
+  {
+    "name": "Carson",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1990
+  },
+  {
+    "name": "South Deering",
+    "area_type": "neighborhoods",
+    "sum": 8,
+    "date_part": 1990
+  },
+  {
+    "name": "Libby",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1973
+  },
+  {
+    "name": "Dawes",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2003
+  },
+  {
+    "name": "2514",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1986
+  },
+  {
+    "name": "St Paul Lutheran 2",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "West Elsdon",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "2033",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 2009
+  },
+  {
+    "name": "St Pascal",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "0824",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2014
+  },
+  {
+    "name": "2533",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1991
+  },
+  {
+    "name": "0111",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Midwestern Christian Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Seward",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1999
+  },
+  {
+    "name": "Calumet Heights",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "0334",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 2000
+  },
+  {
+    "name": "Beverly",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2003
+  },
+  {
+    "name": "3100",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2000
+  },
+  {
+    "name": "Cather",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "Chicago Mennonite Center",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "EDWARD BEASELY CHILD PARENT CENTER",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Jehovah Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 2004
+  },
+  {
+    "name": "0812",
+    "area_type": "beat",
+    "sum": 12,
+    "date_part": 1973
+  },
+  {
+    "name": "0735",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1968
+  },
+  {
+    "name": "Akiba Schechter Day School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Muhammad University",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1981
+  },
+  {
+    "name": "Burley",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "McCutcheon Br",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Bright Branch",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1981
+  },
+  {
+    "name": "CARDINAL BERNARDIN CENTER",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2007
+  },
+  {
+    "name": "Bridgeport Catholic 3",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "Lubavitch Boy'S High School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Rush Day School",
+    "area_type": "school-grounds",
+    "sum": 17,
+    "date_part": 1991
+  },
+  {
+    "name": "Logandale Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Avondale",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Talcott",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1976
+  },
+  {
+    "name": "Rush Day School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1986
+  },
+  {
+    "name": "Jane Addams High School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1994
+  },
+  {
+    "name": "St Micheal",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Belmont Cragin",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Edison",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1958
+  },
+  {
+    "name": "Wentworth",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Rescue Missionary School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2008
+  },
+  {
+    "name": "George Washington",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "St Gertrude",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Bouchet Alexander",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1950
+  },
+  {
+    "name": "Telshe High School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1999
+  },
+  {
+    "name": "CHILD AND FAMILY DEVELOPMENT CENTER",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "LUBAVITCH GIRLS HIGH SCH",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Santa Lucia",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1978
+  },
+  {
+    "name": "Mollison",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Kenwood Acad HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "2525",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "McClellan",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1969
+  },
+  {
+    "name": "Linne",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "2222",
+    "area_type": "beat",
+    "sum": 19,
+    "date_part": 1985
+  },
+  {
+    "name": "Gresham",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "1124",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1994
+  },
+  {
+    "name": "Christ English Lutheran",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1977
+  },
+  {
+    "name": "Beverly Montessori",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1998
+  },
+  {
+    "name": "Reinberg",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Lincoln Square",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "Little Village Acad",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1995
+  },
+  {
+    "name": "Phillips Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Cuffe",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "Belding",
+    "area_type": "school-grounds",
+    "sum": 29,
+    "date_part": 1985
+  },
+  {
+    "name": "1414",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Dever",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Chicago Intrntl - Washington Pk",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1997
+  },
+  {
+    "name": "Smyser",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Foster Park",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "Spencer Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "PEACE AND EDUCATION COALITION HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "1832",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1987
+  },
+  {
+    "name": "1112",
+    "area_type": "beat",
+    "sum": 17,
+    "date_part": 1997
+  },
+  {
+    "name": "Fuller",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Goudy",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "0222",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Ashburn",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2006
+  },
+  {
+    "name": "1422",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Clark",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "St Francis de Sales HS",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1968
+  },
+  {
+    "name": "Pritzker",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1972
+  },
+  {
+    "name": "Coles",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "South Deering",
+    "area_type": "community",
+    "sum": 16,
+    "date_part": 1971
+  },
+  {
+    "name": "Lozano Bilingual",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "0114",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Sacred Heart School",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1987
+  },
+  {
+    "name": "1114",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1987
+  },
+  {
+    "name": "2433",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "1031",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "1234",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "RIDGE ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Holy Martyrs",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1998
+  },
+  {
+    "name": "Barry",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Lawrence",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2000
+  },
+  {
+    "name": "Bradwell",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "29",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "Greektown",
+    "area_type": "neighborhoods",
+    "sum": 4,
+    "date_part": 1997
+  },
+  {
+    "name": "Overton CPC",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1998
+  },
+  {
+    "name": "Advantage Acad-Devry",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1980
+  },
+  {
+    "name": "IDOC/HEALY BR - N JEFFERSON ALT SCH",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "NEW WAY LEARNING CENTER?",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1992
+  },
+  {
+    "name": "Lake View HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1980
+  },
+  {
+    "name": "Hurley",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1988
+  },
+  {
+    "name": "Resurrection Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "0712",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 2000
+  },
+  {
+    "name": "Our Lady of Tepeyac HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "LHTBM SCHOOL OF THE SAINTS?",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1999
+  },
+  {
+    "name": "1215",
+    "area_type": "beat",
+    "sum": 13,
+    "date_part": 1999
+  },
+  {
+    "name": "1651",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 2003
+  },
+  {
+    "name": "14th",
+    "area_type": "police-districts",
+    "sum": 22,
+    "date_part": 1977
+  },
+  {
+    "name": "0935",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1999
+  },
+  {
+    "name": "Marist HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "Yale",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1968
+  },
+  {
+    "name": "Chavez",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "0331",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "0221",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2014
+  },
+  {
+    "name": "Ryerson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1963
+  },
+  {
+    "name": "0434",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "Morrill",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1969
+  },
+  {
+    "name": "1522",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1991
+  },
+  {
+    "name": "Greeley",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2013
+  },
+  {
+    "name": "Garvey Marcus",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1998
+  },
+  {
+    "name": "Roseland",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Burr",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "2424",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "30",
+    "area_type": "wards",
+    "sum": 1,
+    "date_part": 1981
+  },
+  {
+    "name": "Ramirez Computer Science",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "Mayer",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "1434",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2008
+  },
+  {
+    "name": "Printers Row",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Mather HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "South Chicago Community",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1981
+  },
+  {
+    "name": "41",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1982
+  },
+  {
+    "name": "1235",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2007
+  },
+  {
+    "name": "10",
+    "area_type": "wards",
+    "sum": 24,
+    "date_part": 1999
+  },
+  {
+    "name": "East Village",
+    "area_type": "neighborhoods",
+    "sum": 13,
+    "date_part": 1994
+  },
+  {
+    "name": "Dayspring Christian Academy",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "0622",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "South Shore",
+    "area_type": "community",
+    "sum": 1,
+    "date_part": 2007
+  },
+  {
+    "name": "Stock",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1997
+  },
+  {
+    "name": "Beasley",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "0633",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Irving Park",
+    "area_type": "community",
+    "sum": 12,
+    "date_part": 1977
+  },
+  {
+    "name": "St Cajetan School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1997
+  },
+  {
+    "name": "Robinson",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "St Jane de Chantal",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1976
+  },
+  {
+    "name": "15",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Davies Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "Lawndale Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "1433",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1981
+  },
+  {
+    "name": "Chicago International - West Belden",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Leland",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1993
+  },
+  {
+    "name": "Sabin Magnet",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1999
+  },
+  {
+    "name": "Albany Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1992
+  },
+  {
+    "name": "Ortiz de Dominguez ES",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Calhoun North",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Jackson Park",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1982
+  },
+  {
+    "name": "Ross",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1968
+  },
+  {
+    "name": "St Mark",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2002
+  },
+  {
+    "name": "Christopher",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1964
+  },
+  {
+    "name": "Canty",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "St Hillary",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1962
+  },
+  {
+    "name": "Jefferson Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Lozano Annex",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2013
+  },
+  {
+    "name": "2011",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 2001
+  },
+  {
+    "name": "Hale",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2000
+  },
+  {
+    "name": "KIPP ASCEND CHARTER SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1986
+  },
+  {
+    "name": "Delano",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1964
+  },
+  {
+    "name": "Chicago Waldorf School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1976
+  },
+  {
+    "name": "St Richard",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1987
+  },
+  {
+    "name": "Smyth",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1981
+  },
+  {
+    "name": "Howe",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1992
+  },
+  {
+    "name": "1924",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Corliss HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Byrne",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "Perez",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1990
+  },
+  {
+    "name": "Songhai",
+    "area_type": "school-grounds",
+    "sum": 27,
+    "date_part": 1991
+  },
+  {
+    "name": "Jungman",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1991
+  },
+  {
+    "name": "Harlan HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1985
+  },
+  {
+    "name": "Interbusiness Institute",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 2013
+  },
+  {
+    "name": "Spry",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "1134",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2012
+  },
+  {
+    "name": "North Side Learning Center",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "Powell",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1970
+  },
+  {
+    "name": "Armstrong George",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "0312",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 1968
+  },
+  {
+    "name": "1733",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1989
+  },
+  {
+    "name": "Olive Harvey Middle",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "ITSY BITSY PEOPLE PALACE INC III",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "0631",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1999
+  },
+  {
+    "name": "34",
+    "area_type": "wards",
+    "sum": 11,
+    "date_part": 1995
+  },
+  {
+    "name": "Sanders Academy of Excellence",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2002
+  },
+  {
+    "name": "Monroe",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "West Pullman",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1993
+  },
+  {
+    "name": "0112",
+    "area_type": "beat",
+    "sum": 10,
+    "date_part": 1969
+  },
+  {
+    "name": "Overton",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1971
+  },
+  {
+    "name": "0733",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Garvy John",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1975
+  },
+  {
+    "name": "2423",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Resurrection HS",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1994
+  },
+  {
+    "name": "Bethesda Lutheran",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2012
+  },
+  {
+    "name": "Cameron",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "1412",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Lovett",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "St Philip Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "0634",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1994
+  },
+  {
+    "name": "1724",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1949
+  },
+  {
+    "name": "Marconi",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1969
+  },
+  {
+    "name": "MAYS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Gateway To Learning",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "1712",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Black Magnet",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1970
+  },
+  {
+    "name": "Burnside Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1985
+  },
+  {
+    "name": "2",
+    "area_type": "wards",
+    "sum": 3,
+    "date_part": 1989
+  },
+  {
+    "name": "Carc Mary Alyce Remedial Cente",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Cristo Rey Jesuit High School",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1976
+  },
+  {
+    "name": "1111",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1976
+  },
+  {
+    "name": "Washington Park",
+    "area_type": "neighborhoods",
+    "sum": 4,
+    "date_part": 2001
+  },
+  {
+    "name": "Holden",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "Otis",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "0432",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 2001
+  },
+  {
+    "name": "0913",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Our Savior",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1998
+  },
+  {
+    "name": "Wadsworth CPC",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2007
+  },
+  {
+    "name": "Grissom Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "0811",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Bais Yaakov HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Gold Coast",
+    "area_type": "neighborhoods",
+    "sum": 7,
+    "date_part": 1968
+  },
+  {
+    "name": "0724",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1971
+  },
+  {
+    "name": "1811",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1994
+  },
+  {
+    "name": "2521",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "1221",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1966
+  },
+  {
+    "name": "Trumbull",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1971
+  },
+  {
+    "name": "0932",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "Yeshiva Shearis Yisroel",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 2006
+  },
+  {
+    "name": "West Pullman",
+    "area_type": "community",
+    "sum": 5,
+    "date_part": 1998
+  },
+  {
+    "name": "Greene Branch",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Oglesby",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1977
+  },
+  {
+    "name": "Park Manor",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1961
+  },
+  {
+    "name": "Curtis",
+    "area_type": "school-grounds",
+    "sum": 26,
+    "date_part": 1986
+  },
+  {
+    "name": "Hyde Park H S",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "Ashe",
+    "area_type": "school-grounds",
+    "sum": 30,
+    "date_part": 1986
+  },
+  {
+    "name": "Wheatley CPC",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1992
+  },
+  {
+    "name": "Wonder Montessoui School",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1985
+  },
+  {
+    "name": "ICCI Academy",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1981
+  },
+  {
+    "name": "Hubbard HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "Young",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "0311",
+    "area_type": "beat",
+    "sum": 9,
+    "date_part": 1991
+  },
+  {
+    "name": "Bond",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1991
+  },
+  {
+    "name": "35",
+    "area_type": "wards",
+    "sum": 16,
+    "date_part": 1991
+  },
+  {
+    "name": "Jahn",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1974
+  },
+  {
+    "name": "0934",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Gray",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "2032",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "St Benedict the African 2",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1995
+  },
+  {
+    "name": "Lake View",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Clearing",
+    "area_type": "neighborhoods",
+    "sum": 7,
+    "date_part": 1991
+  },
+  {
+    "name": "Lyon",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "31st",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "31st",
+    "area_type": "police-districts",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "Orr HS",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1986
+  },
+  {
+    "name": "Mt Vernon",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "5th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Loop",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Whitney",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "19th",
+    "area_type": "police-districts",
+    "sum": 50,
+    "date_part": 1987
+  },
+  {
+    "name": "Attucks",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Sherwood",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1991
+  },
+  {
+    "name": "Suder",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1964
+  },
+  {
+    "name": "South Shore",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "1222",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Peirce",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Bridgeport",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "JANE ADDAMS RESOURCE CORP",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1997
+  },
+  {
+    "name": "Cleveland",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1991
+  },
+  {
+    "name": "St Walter",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Ames School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1991
+  },
+  {
+    "name": "Bennett",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Lloyd",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 2002
+  },
+  {
+    "name": "Washington Heights",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Norwood Park",
+    "area_type": "community",
+    "sum": 9,
+    "date_part": 1992
+  },
+  {
+    "name": "St Symphorosa",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "Stevenson",
+    "area_type": "school-grounds",
+    "sum": 14,
+    "date_part": 1986
+  },
+  {
+    "name": "Brighton Park",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1995
+  },
+  {
+    "name": "Lake View Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "North Center",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "2532",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2001
+  },
+  {
+    "name": "Day School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1985
+  },
+  {
+    "name": "Jackson Acad",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1989
+  },
+  {
+    "name": "0321",
+    "area_type": "beat",
+    "sum": 12,
+    "date_part": 1986
+  },
+  {
+    "name": "Barnard",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Stewart",
+    "area_type": "school-grounds",
+    "sum": 34,
+    "date_part": 1989
+  },
+  {
+    "name": "Hedges",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "1921",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 2008
+  },
+  {
+    "name": "Our Lady of the Gardens",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1965
+  },
+  {
+    "name": "Deneen",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1988
+  },
+  {
+    "name": "Boystown",
+    "area_type": "neighborhoods",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "St John EV Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 15,
+    "date_part": 1985
+  },
+  {
+    "name": "Daystar School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1996
+  },
+  {
+    "name": "West Lawn",
+    "area_type": "community",
+    "sum": 8,
+    "date_part": 1998
+  },
+  {
+    "name": "West Park Acad",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1994
+  },
+  {
+    "name": "4th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1999
+  },
+  {
+    "name": "St Ailbe Elementary School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "1511",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "Kilmer",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1994
+  },
+  {
+    "name": "IDOC/HEALY SOUTH",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1982
+  },
+  {
+    "name": "AUSTIN CAREER EDUCATION CENTER",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2005
+  },
+  {
+    "name": "Clearing",
+    "area_type": "community",
+    "sum": 3,
+    "date_part": 2006
+  },
+  {
+    "name": "Hughes L",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1980
+  },
+  {
+    "name": "Belmont Cragin",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 1976
+  },
+  {
+    "name": "Revere",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1966
+  },
+  {
+    "name": "0723",
+    "area_type": "beat",
+    "sum": 8,
+    "date_part": 1981
+  },
+  {
+    "name": "Coonley",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1991
+  },
+  {
+    "name": "Pickard",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2004
+  },
+  {
+    "name": "Armour",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1968
+  },
+  {
+    "name": "St Agatha 1",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "East Garfield Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Misericordia Mcauley Residence",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1969
+  },
+  {
+    "name": "9",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Harper HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "St Alphonsus",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "The Rosenwald School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1975
+  },
+  {
+    "name": "Morgan Park HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2007
+  },
+  {
+    "name": "COVENANT CHRTN ACAD OF CHICAGO?",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "SAUGANASH MONTESSORI SCH?",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Davies Development Center",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Doolittle Inter",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1968
+  },
+  {
+    "name": "8th",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "NORTHWEST INST FOR CONTEMP ACAD",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1985
+  },
+  {
+    "name": "St Bede The Venerable School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "St Luke Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "Dore",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "Chicago International Northtown",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1973
+  },
+  {
+    "name": "0431",
+    "area_type": "beat",
+    "sum": 4,
+    "date_part": 1976
+  },
+  {
+    "name": "Schurz HS",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "Roosevelt HS",
+    "area_type": "school-grounds",
+    "sum": 22,
+    "date_part": 1997
+  },
+  {
+    "name": "St Juliana",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1977
+  },
+  {
+    "name": "0424",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "St Helen",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1968
+  },
+  {
+    "name": "49",
+    "area_type": "wards",
+    "sum": 5,
+    "date_part": 1968
+  },
+  {
+    "name": "NOBLE - ROWE-CLARK MATH & SCI ACAD",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1982
+  },
+  {
+    "name": "Morgan Park Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2010
+  },
+  {
+    "name": "Nightingale",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1977
+  },
+  {
+    "name": "1914",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Chicago Lawn",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Cockrell CPC",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2007
+  },
+  {
+    "name": "Rudolph Learning Center",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1973
+  },
+  {
+    "name": "McKinley Park",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Nicholson Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1966
+  },
+  {
+    "name": "Vanderpoel Magnet",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1992
+  },
+  {
+    "name": "Johnson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Octavio Paz Charter",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1990
+  },
+  {
+    "name": "Thorp JN",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "0113",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 2002
+  },
+  {
+    "name": "1424",
+    "area_type": "beat",
+    "sum": 13,
+    "date_part": 1980
+  },
+  {
+    "name": "Cassell",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1985
+  },
+  {
+    "name": "Fermi",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "2515",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2000
+  },
+  {
+    "name": "St Mary of the Lake",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "Wacker",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Young Womens Leadership",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1971
+  },
+  {
+    "name": "Jamieson",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1958
+  },
+  {
+    "name": "West Ridge",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Bethlehem Lutheran",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1971
+  },
+  {
+    "name": "St Nicholas Ukrainian",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Douglas Middle Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Hamline",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "1212",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2009
+  },
+  {
+    "name": "North Center For Handicapped C",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "St Sabina",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1971
+  },
+  {
+    "name": "Itsy Bitsy People Palace",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1993
+  },
+  {
+    "name": "Thorp Acad",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1977
+  },
+  {
+    "name": "Lemoyne",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Fiske",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1978
+  },
+  {
+    "name": "Near North Montessori",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1996
+  },
+  {
+    "name": "COMM YOUTH DEVELOPMENT INSTITUTE",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1988
+  },
+  {
+    "name": "Montefiore Special",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1986
+  },
+  {
+    "name": "Latino Youth High School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1972
+  },
+  {
+    "name": "Lake Shore Prep School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Englewood",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1987
+  },
+  {
+    "name": "Brisk Academy-Yeshivas Brisk",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2005
+  },
+  {
+    "name": "St Columbanus School",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 2005
+  },
+  {
+    "name": "Tabernacle Christian Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Brown Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Evers",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "1824",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "St Gall Elementary School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1986
+  },
+  {
+    "name": "Frances Xavier Warde School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "North-Grand",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1987
+  },
+  {
+    "name": "Joyner CPC",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Big Picture at Chavez",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 1976
+  },
+  {
+    "name": "11th",
+    "area_type": "police-districts",
+    "sum": 20,
+    "date_part": 1970
+  },
+  {
+    "name": "West Town",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Twain",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "TRANSITIONAL ARTS ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1988
+  },
+  {
+    "name": "St Rene Goupil",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1992
+  },
+  {
+    "name": "Richards HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "0533",
+    "area_type": "beat",
+    "sum": 12,
+    "date_part": 1967
+  },
+  {
+    "name": "Courtenay",
+    "area_type": "school-grounds",
+    "sum": 47,
+    "date_part": 1988
+  },
+  {
+    "name": "TAMAYO CAMPUS",
+    "area_type": "school-grounds",
+    "sum": 10,
+    "date_part": 2001
+  },
+  {
+    "name": "Johns Acad",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1986
+  },
+  {
+    "name": "Kelvyn Park HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Gallistel",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1993
+  },
+  {
+    "name": "Aldridge",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Bontemps",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1988
+  },
+  {
+    "name": "Shabazz Charter",
+    "area_type": "school-grounds",
+    "sum": 21,
+    "date_part": 1981
+  },
+  {
+    "name": "Oakland",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "1931",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Morgan Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "Holy Angels School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "Plaid Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "11",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "Brother Rice HS",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1990
+  },
+  {
+    "name": "St Barbara High School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "FRIEDRICK VON SCHILLER C - P CENTER",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2004
+  },
+  {
+    "name": "Parkman",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Avondale",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1981
+  },
+  {
+    "name": "Childrens House at Harper",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1993
+  },
+  {
+    "name": "McKinley Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Calumet Heights",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Greene",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1978
+  },
+  {
+    "name": "Dewey",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "Maternity BVM",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "FRANCIS W PARKER CHILD-PARENT-CNT",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2000
+  },
+  {
+    "name": "Burnside",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "St Thecla",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2005
+  },
+  {
+    "name": "LITTLE ANGELS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Metcalfe Acad",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Armour Square",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1995
+  },
+  {
+    "name": "STEVENSON BRANCH",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "0923",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 2006
+  },
+  {
+    "name": "1912",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1994
+  },
+  {
+    "name": "Ukrainian Village",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "West Ridge",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Portage Park",
+    "area_type": "community",
+    "sum": 4,
+    "date_part": 1991
+  },
+  {
+    "name": "0314",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1956
+  },
+  {
+    "name": "Ahadi Early Learning Center",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1996
+  },
+  {
+    "name": "Uptown",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "St Robert Bellarmine",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1993
+  },
+  {
+    "name": "Brentano",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1969
+  },
+  {
+    "name": "Darwin",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Lincoln",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "38",
+    "area_type": "wards",
+    "sum": 1,
+    "date_part": 1990
+  },
+  {
+    "name": "Murphy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "22",
+    "area_type": "wards",
+    "sum": 2,
+    "date_part": 2003
+  },
+  {
+    "name": "UNITED EDUCATIONAL CULTURAL ACAD",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1972
+  },
+  {
+    "name": "Ryder",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "CHICAGO ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Orozco",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1999
+  },
+  {
+    "name": "Madero Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Goldblatt",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1999
+  },
+  {
+    "name": "Columbus",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "Our Lady of Lourdes 2",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1995
+  },
+  {
+    "name": "Chicago Urban Day School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1966
+  },
+  {
+    "name": "O'Hare",
+    "area_type": "community",
+    "sum": 2,
+    "date_part": 1986
+  },
+  {
+    "name": "Fairfield Academy",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1975
+  },
+  {
+    "name": "Peterson",
+    "area_type": "school-grounds",
+    "sum": 8,
+    "date_part": 1980
+  },
+  {
+    "name": "Latin School of Chicago",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1998
+  },
+  {
+    "name": "St Nicholas of Tolentine",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "Univ Of Chicago Lab Sch",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1996
+  },
+  {
+    "name": "2013",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Millenium Park",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Dirksen",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1974
+  },
+  {
+    "name": "Vaughn Occupational HS",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1989
+  },
+  {
+    "name": "Pullman",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "Agassiz",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1995
+  },
+  {
+    "name": "Boone",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1990
+  },
+  {
+    "name": "East Side",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2007
+  },
+  {
+    "name": "Chinatown",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1953
+  },
+  {
+    "name": "1614",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1995
+  },
+  {
+    "name": "Adler Schools",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Faulkner School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "Wildwood",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1991
+  },
+  {
+    "name": "2211",
+    "area_type": "beat",
+    "sum": 10,
+    "date_part": 1994
+  },
+  {
+    "name": "Dodge",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "1131",
+    "area_type": "beat",
+    "sum": 1,
+    "date_part": 2002
+  },
+  {
+    "name": "Beard Special Education Center",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1982
+  },
+  {
+    "name": "Herbert",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1966
+  },
+  {
+    "name": "0133",
+    "area_type": "beat",
+    "sum": 18,
+    "date_part": 1993
+  },
+  {
+    "name": "Lincoln Park",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1998
+  },
+  {
+    "name": "The Associated Talmud Torahs",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1961
+  },
+  {
+    "name": "Woods",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Mozart",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1970
+  },
+  {
+    "name": "Stone Acad",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1966
+  },
+  {
+    "name": "Avondale",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "Webster",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1988
+  },
+  {
+    "name": "Socrates School",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1994
+  },
+  {
+    "name": "MARIN PREPARATORY SCHOOL?",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1970
+  },
+  {
+    "name": "Gloria Dei Lutheran",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2005
+  },
+  {
+    "name": "0513",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1993
+  },
+  {
+    "name": "Kipling",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "St Mary of the Angels",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1962
+  },
+  {
+    "name": "0333",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1972
+  },
+  {
+    "name": "Chicago Day School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1973
+  },
+  {
+    "name": "Brennemann",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "Clark Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2011
+  },
+  {
+    "name": "Renaissance Preparatory School",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1970
+  },
+  {
+    "name": "CHICAGO VIRTUAL CHARTER SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1977
+  },
+  {
+    "name": "Rosenwald",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2012
+  },
+  {
+    "name": "Passages Charter",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "Addams",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "NOBLE - ESCALANTE COLLEGE PREP",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1994
+  },
+  {
+    "name": "St Malachy",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Kennedy HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "0232",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1969
+  },
+  {
+    "name": "NANCY B JEFFERSON ALT SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 16,
+    "date_part": 1989
+  },
+  {
+    "name": "15th",
+    "area_type": "police-districts",
+    "sum": 15,
+    "date_part": 1986
+  },
+  {
+    "name": "Prussing",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1962
+  },
+  {
+    "name": "Marsh",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2001
+  },
+  {
+    "name": "CHICAGO CHRISTIAN MONTESSORI ACAD",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1986
+  },
+  {
+    "name": "St Mary of the Woods",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1977
+  },
+  {
+    "name": "Ancona School",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1992
+  },
+  {
+    "name": "1014",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1966
+  },
+  {
+    "name": "Bethune",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "UNO BARTOLOME",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1970
+  },
+  {
+    "name": "Nixon",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1993
+  },
+  {
+    "name": "New Field",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "10th",
+    "area_type": "police-districts",
+    "sum": 5,
+    "date_part": 1999
+  },
+  {
+    "name": "",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1995
+  },
+  {
+    "name": "C A L A - WEST?",
+    "area_type": "school-grounds",
+    "sum": 13,
+    "date_part": 1998
+  },
+  {
+    "name": "Mt Greenwood",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 2002
+  },
+  {
+    "name": "Mireles Acad",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1976
+  },
+  {
+    "name": "Near North Special Education Ctr",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Grand Boulevard",
+    "area_type": "community",
+    "sum": 6,
+    "date_part": 1995
+  },
+  {
+    "name": "Mayo",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Healy",
+    "area_type": "school-grounds",
+    "sum": 12,
+    "date_part": 1997
+  },
+  {
+    "name": "Humboldt Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Kenwood",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1999
+  },
+  {
+    "name": "Clissold",
+    "area_type": "school-grounds",
+    "sum": 5,
+    "date_part": 1978
+  },
+  {
+    "name": "PUERTO RICAN H S - PEDRO A CAMPOS",
+    "area_type": "school-grounds",
+    "sum": 31,
+    "date_part": 1987
+  },
+  {
+    "name": "Buckingham",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1999
+  },
+  {
+    "name": "Bernard Zell Anshe",
+    "area_type": "school-grounds",
+    "sum": 13,
+    "date_part": 1972
+  },
+  {
+    "name": "Bethel LCA Christian",
+    "area_type": "school-grounds",
+    "sum": 19,
+    "date_part": 1991
+  },
+  {
+    "name": "22nd",
+    "area_type": "police-districts",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Old Town",
+    "area_type": "neighborhoods",
+    "sum": 14,
+    "date_part": 1986
+  },
+  {
+    "name": "Nettelhorst",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1967
+  },
+  {
+    "name": "IMMACULATE CONCEPTION",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1968
+  },
+  {
+    "name": "Ward James",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1965
+  },
+  {
+    "name": "St Procopius",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2014
+  },
+  {
+    "name": "16",
+    "area_type": "wards",
+    "sum": 7,
+    "date_part": 1993
+  },
+  {
+    "name": "28",
+    "area_type": "wards",
+    "sum": 1,
+    "date_part": 2001
+  },
+  {
+    "name": "0833",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1985
+  },
+  {
+    "name": "Lake Shore Schools",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "0124",
+    "area_type": "beat",
+    "sum": 7,
+    "date_part": 1991
+  },
+  {
+    "name": "Northwest Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "Immaculate Heart of Mary",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1946
+  },
+  {
+    "name": "Arai Middle",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2017
+  },
+  {
+    "name": "4",
+    "area_type": "wards",
+    "sum": 11,
+    "date_part": 1991
+  },
+  {
+    "name": "MauGlo Day Care Special Ed",
+    "area_type": "school-grounds",
+    "sum": 7,
+    "date_part": 1991
+  },
+  {
+    "name": "0822",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1981
+  },
+  {
+    "name": "Hinton",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Grant Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "0921",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "Rogers Park",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "St Dorothy",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1981
+  },
+  {
+    "name": "Bridge",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1973
+  },
+  {
+    "name": "Talman Community",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Rogers Park",
+    "area_type": "community",
+    "sum": 3,
+    "date_part": 2002
+  },
+  {
+    "name": "St Clement",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2004
+  },
+  {
+    "name": "Shoop",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1986
+  },
+  {
+    "name": "Mann",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "7",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 2005
+  },
+  {
+    "name": "St Patrick HS",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1970
+  },
+  {
+    "name": "ALPHA OMEGA MINISTRIES?",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1961
+  },
+  {
+    "name": "Edgewater",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 1988
+  },
+  {
+    "name": "Kinzie School",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Our Lady Of the Snows",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1993
+  },
+  {
+    "name": "Von Humboldt CPC",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 2000
+  },
+  {
+    "name": "Whistler",
+    "area_type": "school-grounds",
+    "sum": 4,
+    "date_part": 1994
+  },
+  {
+    "name": "Tilden HS",
+    "area_type": "school-grounds",
+    "sum": 9,
+    "date_part": 1994
+  },
+  {
+    "name": "47",
+    "area_type": "wards",
+    "sum": 4,
+    "date_part": 1998
+  },
+  {
+    "name": "DE LA SALLE INSTITUTE",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1995
+  },
+  {
+    "name": "Roseland Christian",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2002
+  },
+  {
+    "name": "Palmer",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1955
+  },
+  {
+    "name": "18",
+    "area_type": "wards",
+    "sum": 8,
+    "date_part": 1991
+  },
+  {
+    "name": "Burbank",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2001
+  },
+  {
+    "name": "1723",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1990
+  },
+  {
+    "name": "Developmental Institute",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2006
+  },
+  {
+    "name": "Ashburn Lutheran School",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1970
+  },
+  {
+    "name": "McDowell",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1961
+  },
+  {
+    "name": "1925",
+    "area_type": "beat",
+    "sum": 6,
+    "date_part": 1982
+  },
+  {
+    "name": "St Helena's School",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1977
+  },
+  {
+    "name": "St Benedict the African 1",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1999
+  },
+  {
+    "name": "1655",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "1013",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1959
+  },
+  {
+    "name": "1611",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1986
+  },
+  {
+    "name": "TEACH 21 DAY CARE INC",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1995
+  },
+  {
+    "name": "Curie HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "Chicago WS Christian",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "Lane Tech HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "0411",
+    "area_type": "beat",
+    "sum": 11,
+    "date_part": 1978
+  },
+  {
+    "name": "1224",
+    "area_type": "beat",
+    "sum": 14,
+    "date_part": 1964
+  },
+  {
+    "name": "Avalon Park",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1960
+  },
+  {
+    "name": "North Lawndale",
+    "area_type": "neighborhoods",
+    "sum": 2,
+    "date_part": 1992
+  },
+  {
+    "name": "Clinton",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 1964
+  },
+  {
+    "name": "St Benedict",
+    "area_type": "school-grounds",
+    "sum": 2,
+    "date_part": 2006
+  },
+  {
+    "name": "Garfield Park",
+    "area_type": "neighborhoods",
+    "sum": 1,
+    "date_part": 2003
+  },
+  {
+    "name": "Uptown",
+    "area_type": "neighborhoods",
+    "sum": 3,
+    "date_part": 1977
+  },
+  {
+    "name": "Genesis School Central",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1957
+  },
+  {
+    "name": "Herzl",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 2015
+  },
+  {
+    "name": "44",
+    "area_type": "wards",
+    "sum": 12,
+    "date_part": 1992
+  },
+  {
+    "name": "Field",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1967
+  },
+  {
+    "name": "1",
+    "area_type": "wards",
+    "sum": 0,
+    "date_part": 1968
+  },
+  {
+    "name": "FRAZIER INTERNATIONAL MAGNET SCHOOL",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1990
+  },
+  {
+    "name": "0922",
+    "area_type": "beat",
+    "sum": 2,
+    "date_part": 1982
+  },
+  {
+    "name": "Little Village",
+    "area_type": "neighborhoods",
+    "sum": 0,
+    "date_part": 2016
+  },
+  {
+    "name": "POLARIS CHARTER ACADEMY",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1991
+  },
+  {
+    "name": "Decatur Classical",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1981
+  },
+  {
+    "name": "Wadsworth",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1976
+  },
+  {
+    "name": "Queen of All Saints",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2010
+  },
+  {
+    "name": "1214",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 2015
+  },
+  {
+    "name": "West Garfield Park",
+    "area_type": "community",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "1652",
+    "area_type": "beat",
+    "sum": 0,
+    "date_part": 1980
+  },
+  {
+    "name": "Joan Dachs Bais Yaakov",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2012
+  },
+  {
+    "name": "Washington HS",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2013
+  },
+  {
+    "name": "50",
+    "area_type": "wards",
+    "sum": 1,
+    "date_part": 1976
+  },
+  {
+    "name": "Hope College Prep",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2003
+  },
+  {
+    "name": "ST. KEVIN EARLY CHILDHOOD PROGRAM",
+    "area_type": "school-grounds",
+    "sum": 11,
+    "date_part": 1996
+  },
+  {
+    "name": "",
+    "area_type": "school-grounds",
+    "sum": 6,
+    "date_part": 1996
+  },
+  {
+    "name": "1012",
+    "area_type": "beat",
+    "sum": 5,
+    "date_part": 1990
+  },
+  {
+    "name": "1913",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1954
+  },
+  {
+    "name": "Kershaw",
+    "area_type": "school-grounds",
+    "sum": 1,
+    "date_part": 1964
+  },
+  {
+    "name": "McKinley Highland Center",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 2006
+  },
+  {
+    "name": "McDade Classical",
+    "area_type": "school-grounds",
+    "sum": 0,
+    "date_part": 1954
+  },
+  {
+    "name": "Dyett Middle",
+    "area_type": "school-grounds",
+    "sum": 3,
+    "date_part": 1970
+  },
+  {
+    "name": "1731",
+    "area_type": "beat",
+    "sum": 3,
+    "date_part": 1999
+  }
+]
