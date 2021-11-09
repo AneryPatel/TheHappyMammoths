@@ -8,7 +8,7 @@ Additionally, intermediate steps and data files can be found in the `src/misc/` 
 
 ### 1. Bubble Chart
 
-We did a Bubble Chart to view the evolution of unsistained allegations by area overt time, you can find the visualization in the following link:
+We did a Bubble Chart to view the evolution of unsustained allegations by area overt time, you can find the visualization in the following link:
 
 https://observablehq.com/@526cd8138e9d4464/evolution-unsustained-allegations-by-area-over-time
 
