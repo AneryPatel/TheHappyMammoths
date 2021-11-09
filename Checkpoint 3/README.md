@@ -14,3 +14,5 @@ https://observablehq.com/@526cd8138e9d4464/evolution-unsustained-allegations-by-
 
 https://observablehq.com/@526cd8138e9d4464/pie-charts
 
+Our analysis and conclusions regarding this charts can be found in the ```findings.pdf``` in the root directory.
+
