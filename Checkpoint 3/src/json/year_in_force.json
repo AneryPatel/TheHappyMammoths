@@ -1,0 +1,26 @@
+[
+  {
+    "score_range": "1-10",
+    "allegations": 74.78727
+  },
+  {
+    "score_range": "10-20",
+    "allegations": 74.04433
+  },
+  {
+    "score_range": "40-50",
+    "allegations": 12.545454
+  },
+  {
+    "score_range": "20-30",
+    "allegations": 111.64631
+  },
+  {
+    "score_range": "30-40",
+    "allegations": 104.573166
+  },
+  {
+    "score_range": "50-60",
+    "allegations": 18
+  }
+]
