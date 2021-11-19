@@ -1,6 +1,6 @@
 # Checkpoint 4
 
-In this checkpoint we used ```PySpark```, ```Pandas``` and ```GraphFrames``` modules from Python to do the Graph Analytics.
+In this checkpoint we used ```PySpark```, ```Pandas``` and ```GraphFrames``` modules from Python to do the Graph Analytics. You can find the code in the ```src``` folder and also online in the link below.
 
 ## Prerequisites
 
