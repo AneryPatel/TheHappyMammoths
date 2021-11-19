@@ -7,6 +7,8 @@ In this checkpoint we used ```PySpark```, ```Pandas``` and ```GraphFrames``` mod
 The project runs in Google Colab, that is a Jupyter notebook environment that just requires a google account to access. You can find the code here:
 https://colab.research.google.com/drive/1Z4AiE-lTI8DfBbKh2S2kxpbIxHhkF2C2?authuser=1#scrollTo=lh0VIfBFZBjq
 
+To be able to run the code, you have to download the graphframes jar file from: ```Graphframe jar file``` (inside Colab) and upload it in the Google Colab Files folder. Can be found in the left pane of the main window.
+
 ## Graph analytics questions
 
 1. Network analysis: Is there a connection between investigators and certain officers or districts who are involved in incidents that have unsustained complaints using connected components to test if there is a correlation between the two.
