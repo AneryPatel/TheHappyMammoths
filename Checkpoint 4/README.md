@@ -4,7 +4,8 @@ In this checkpoint we used ```PySpark```, ```Pandas``` and ```GraphFrames``` mod
 
 ## Prerequisites
 
-We did our project in Google Colab, that is a Jupyter notebook environment that just requires a google account to access.
+The project runs in Google Colab, that is a Jupyter notebook environment that just requires a google account to access. You can find the code here:
+https://colab.research.google.com/drive/1Z4AiE-lTI8DfBbKh2S2kxpbIxHhkF2C2?authuser=1#scrollTo=lh0VIfBFZBjq
 
 ## Graph analytics questions
 
