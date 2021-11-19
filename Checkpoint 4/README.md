@@ -9,6 +9,8 @@ https://colab.research.google.com/drive/1Z4AiE-lTI8DfBbKh2S2kxpbIxHhkF2C2?authus
 
 To be able to run the code, you have to download the graphframes jar file from ```Graphframe jar file``` (inside Colab) and upload it in the Google Colab Files folder. Can be found in the left pane of the main window.
 
+To run the code, just go to: Runtime -> Run all. If you have any troubles executing the code, go to: Runtime -> Restart run time, and run it again.
+
 ## Graph analytics questions
 
 1. Network analysis: Is there a connection between investigators and certain officers or districts who are involved in incidents that have unsustained complaints using connected components to test if there is a correlation between the two.
