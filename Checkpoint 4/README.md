@@ -7,7 +7,7 @@ In this checkpoint we used ```PySpark```, ```Pandas``` and ```GraphFrames``` mod
 The project runs in Google Colab, that is a Jupyter notebook environment that just requires a google account to access. You can find the code here:
 https://colab.research.google.com/drive/1Z4AiE-lTI8DfBbKh2S2kxpbIxHhkF2C2?authuser=1#scrollTo=lh0VIfBFZBjq
 
-To be able to run the code, you have to download the graphframes jar file from: ```Graphframe jar file``` (inside Colab) and upload it in the Google Colab Files folder. Can be found in the left pane of the main window.
+To be able to run the code, you have to download the graphframes jar file from ```Graphframe jar file``` (inside Colab) and upload it in the Google Colab Files folder. Can be found in the left pane of the main window.
 
 ## Graph analytics questions
 
