@@ -1,6 +1,6 @@
 # Checkpoint 5
 
-In this checkpoint we used ```NLTK```, ```Sklearn```and ```Pandas``` modules from Python to do the Natural Language Processing. You can find the code in the ```src``` folder and also online in the link below.
+In this checkpoint we used ```NLTK```, ```Sklearn```and ```Pandas``` modules from Python to do Natural Language Processing. You can find the code in the ```src``` folder and also online in the link below.
 
 ## Prerequisites
 
