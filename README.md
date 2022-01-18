@@ -4,19 +4,19 @@ We are aware of the extent to which police misconduct takes place in the city of
 
 We use various data science technologies and report the analysis in each Checkpoint report. 
 
-[Checkpoint 1: Relational Analytics](Checkpoint 1)
+[Checkpoint 1: Relational Analytics](https://github.com/AneryPatel/TheHappyMammoths/tree/main/Checkpoint%201)<br>
 Write SQL queries to answer questions over the CPDB database.
 
-[Checkpoint 2: Data Exploration](Checkpoint 1)
+[Checkpoint 2: Data Exploration](https://github.com/AneryPatel/TheHappyMammoths/tree/main/Checkpoint%202)<br>
 Use Tableau to answer the visualisation questions
 
-[Checkpoint 3: Interactive visualization](Checkpoint 1)
+[Checkpoint 3: Interactive visualization](https://github.com/AneryPatel/TheHappyMammoths/tree/main/Checkpoint%203)<br>
 Use D3.js to build interactive visualizations on our project theme in order to explore the data for relevant patterns and to assist us in developing an intuition about what the data says about our project questions.  
 
-[Checkpoint 4: Graph Analytics](Checkpoint 1)
+[Checkpoint 4: Graph Analytics](https://github.com/AneryPatel/TheHappyMammoths/tree/main/Checkpoint%204)<br>
 Use Spark GraphX to implement graph or network modeling questions.
 
-[Checkpoint 5: Natural Language Processing](Checkpoint 1)
+[Checkpoint 5: Natural Language Processing](https://github.com/AneryPatel/TheHappyMammoths/tree/main/Checkpoint%205)<br>
 Use NLP techniques to analyze the role of complaint report narratives and freeform text in learning about our theme.
 
 
