@@ -1,6 +1,7 @@
 
 
 ## Citizens Police Data Project: In Collaboration with Invisible Institute, Chicago
+### MSAI-339 Data Science Seminar 
 ### Team TheHappyMammoths
 
 We are aware of the extent to which police misconduct takes place in the city of Chicago, however very little is done to curb it. We believe that there is much harm done by ignoring police misconduct that leads to establishing a bad system for the years to come. **Over 93% of the civilian and officer’s complaints are declared unsustained throughout the history of the Chicago Police Department, but why?** We aim to uncover the variables, the relationships and the entities in play that let the officers get away with the allegations. This study aims to highlight the biases and weaknesses that afflict the police system in the city of Chicago.
